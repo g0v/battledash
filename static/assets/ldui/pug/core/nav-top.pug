@@ -1,0 +1,130 @@
+//- module
+mixin nav-top
+  nav#nav-top.navbar.navbar-expand-lg.navbar-light
+    a.navbar-brand(href="/") LOADING.IO
+    button.navbar-toggler(type="button",data-toggle="collapse",data-target="#nav-top-content"): span.navbar-toggler-icon
+    #nav-top-content.collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") Icon
+          .dropdown-menu
+            a.dropdown-item(href="/spinner/") Spinner Gallery
+            a.dropdown-item(href="/icon/") Icon Library
+            a.dropdown-item(href="/icon/set/") Theme Icons
+
+        li.nav-item: a.nav-link(href="/") Text
+
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") Background
+          .dropdown-menu
+            a.dropdown-item(href="/pattern/") Loading Patterns
+            a.dropdown-item(href="/background/") Live Backgrounds
+
+        li.nav-item: a.nav-link(href="/progress/") Progress Bar
+
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") Color
+          .dropdown-menu
+            a.dropdown-item(href="/animation/") Random Palette Generator
+            a.dropdown-item(href="/animation/") Gradient Gallery
+            a.dropdown-item(href="/color/doc") ldColorPicker
+            .dropdown-divider
+            a.dropdown-item(href="/transition/") Browse All Palettes ...
+
+
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") Libraries
+          .dropdown-menu
+            .dropdown-header CSS
+            a.dropdown-item(href="/animation/") Loading.css
+            a.dropdown-item(href="/transition/") Transition.css
+            a.dropdown-item(href="/button/") Loading Buttons
+            .dropdown-divider
+            .dropdown-header JS
+            a.dropdown-item(href="/progress/") Loading Bar
+            a.dropdown-item(href="#") Gradient.js
+            a.dropdown-item(href="#") ldColorPicker
+            .dropdown-divider
+            .dropdown-header Framework
+            a.dropdown-item(href="#") loading UI
+            a.dropdown-item(href="#") ldLoader
+            a.dropdown-item(href="#") ldCover
+            .dropdown-divider
+            a.dropdown-item(href="#") ... More
+
+      ul.navbar-nav.ml-auto
+        li.nav-item: a.nav-link(href="/pricing/") Pricing
+
+        li.nav-item.dropdown
+          a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown"): .avatar
+          .dropdown-menu
+            a.dropdown-item(href="/me/") My Creation
+            .dropdown.divider
+            a.dropdown-item(href="/me/settings/") Settings
+            a.dropdown-item(href="/me/billing/") Billing
+            a.dropdown-item(href="#") Logout
+
+
+  //-
+    #nav-top
+      nav.navbar.navbar-default(role="navigation")
+        .container-fluid
+          .navbar-header
+            button.navbar-toggle.collapsed(data-toggle="collapse",data-target="#nav-collapse")
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand(href="/")
+              | LOADING.IO
+          #nav-collapse.collapse.navbar-collapse
+            ul.nav.navbar-nav
+              //-li#nav-loader: a(href="/") BUILDER
+              li#nav-spinner.dropdown
+                a(data-toggle="dropdown") SPINNER #[span.caret]
+                ul.dropdown-menu
+                  li: a(href="/spinner/",ng-click="track('nav','click-nav','/spinner/')") GALLERY
+                  li: a(href="/animation/icon",ng-click="track('nav','click-nav','/animation/icon/')") UPLOAD
+              li#nav-icon.dropdown
+                a(data-toggle="dropdown") ICON #[span.caret]
+                ul.dropdown-menu
+                  li: a(href="/icon/", ng-click="track('nav','click-nav','/icon/')") ICON
+                  li: a(href="/icon/set/", ng-click="track('nav','click-nav','/icon/set/')") ICON SET
+              li#nav-css.dropdown
+                a(data-toggle="dropdown") CSS #[span.caret]
+                ul.dropdown-menu
+                  li: a(href="/css/",ng-click="track('nav','click-nav','/css/')") PURE CSS LOADER
+                  li: a(href="/animation/",ng-click="track('nav','click-nav','/animation/')") LOADING.CSS
+                  li: a(href="/transition/",ng-click="track('nav','click-nav','/transition/')") TRANSITION.CSS
+                  li: a(href="/easing/",ng-click="track('nav','click-nav','/easing/')") EASING.CSS
+                  li: a(href="/button/",ng-click="track('nav','click-nav','/button/')") LOADING BUTTONS
+              li#nav-progress: a(href="/progress/",ng-click="track('nav','click-nav','/progress/')") PROGRESS BAR
+              li#nav-palette.dropdown
+                a(data-toggle="dropdown") PALETTE #[span.caret]
+                ul.dropdown-menu
+                  li: a(href="/color/random/",ng-click="track('nav','click-nav','/color/random/')") PALETTE GENERATOR
+                  li: a(href="/color/feature/",ng-click="track('nav','click-nav','/color/feature/')") FAMOUS PALETTES
+              li#nav-pattern: a(href="/pattern/",ng-click="track('nav','click-nav','/pattern/')") PATTERN
+              li#nav-text: a(href="/animation/text/",ng-click="track('nav','click-nav','/animation/text/')") TEXT
+            ul.nav.navbar-nav.pull-right(ng-cloak)
+              li#nav-pricing: a(href="/pricing/") PRICING
+              li: a(onclick="alert('site in static mode. you can still use it, but come back later for sign-in!')",
+              ng-show="staticMode", href="#") #[i.fa.fa-wrench] MAINTENANCE
+              li(ng-show="!staticMode && !user.data"): a#nav-login(href="#",
+              ng-click="auth.isSignIn=true;auth.ctrl.toggle()"): span LOGIN
+              li(ng-show="!staticMode && !user.data"): a#nav-signup(href="#",
+              ng-click="auth.isSignIn=false;auth.ctrl.toggle()"): span SIGNUP
+              li#nav-profile.dropdown(ng-show="user.data")
+                .btn(data-toggle="dropdown")
+                  .avatar(ng-attr-style="background-image:url(/s/avatar/{{user.data.key}}.png)")
+                  span.caret
+                ul.dropdown-menu
+                  li: a(href="/me/")
+                    span.inline-block Profile 
+                    .label.label-primary(ng-if="user.data.plan.slug") PRO
+                  li: a(href="/me/settings/") Setting
+                  li: a(href="/me/billing/") Billing
+                  li.divider
+                  li: a(href="#",ng-click="auth.logout()") Logout
+
+  //- add gaps to prevent content from been covered.
+  #nav-top-placeholder
