@@ -3,7 +3,7 @@ mixin nav-top
   if ctrl.navgap
     #nav-top-gap
   nav#nav-top.navbar.navbar-expand-lg.fixed-top(class=cls.nav)
-    a.navbar-brand(href="/") Battle Dash
+    a.navbar-brand(href=vars.root + "#") Battle Dash
     button.navbar-toggler(type="button",data-toggle="collapse",
     data-target="#nav-top-content"): span.navbar-toggler-icon
     #nav-top-content.collapse.navbar-collapse

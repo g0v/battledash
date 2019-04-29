@@ -1,8 +1,10 @@
 extends /base.pug
-block head
-  +css("/css/landing/index.css")
+block vars
+  - vars.root = "";
   - cls.nav = "navbar-dark";
   - ctrl.navgap = false;
+block head
+  +css("/css/landing/index.css")
 block body
   .landing.bg-dark.text-light
     .row.w-75.m-auto.h-100
