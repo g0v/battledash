@@ -16,7 +16,7 @@ block body
           .text-light.mb-4 近期推薦提案
           each i in [1,2,3]
             .mb-4
-              a.title.d-block.text-white(href="/project/",style="text-decoration:none") 新聞大幫手 #[small.text-muted / 提案的簡單描述提案的簡單描述提案的簡單描述]
+              a.title.d-block.text-white(href="project/",style="text-decoration:none") 新聞大幫手 #[small.text-muted / 提案的簡單描述提案的簡單描述提案的簡單描述]
               //-small.text-muted.mr-2 貢獻者
               each j in [1,2,3,4,5]
                 .avatar.mr-2.md
@@ -64,11 +64,11 @@ block body
     each i in [1,2,3,4,5,6,7]
       .card.m-2(style="flex:1 1 auto;width:48%")
         .row.no-gutters
-          a.col-md-4(href="/project/", style="background:#e6e7e8")
+          a.col-md-4(href="project/", style="background:#e6e7e8")
           .col-md-8
             .card-body
               .float-right #[i.i-link.mr-2] #[i.i-heart]
-              h5.card-title: a(href="/project/") 提案名稱
+              h5.card-title: a(href="project/") 提案名稱
               p.card-text 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略...
               each j in [1,2,3,4,5]
                 .avatar.lg.mr-2
