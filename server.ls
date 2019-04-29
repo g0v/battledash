@@ -270,7 +270,7 @@ server = (req, res) ->
 log = (error, stdout, stderr) -> if "#{stdout}\n#{stderr}".trim! => console.log that
 filecache = {}
 update-file = ->
-  if !it or /node_modules|\.swp$/.exec(it)=> return
+  if !it or /_public|node_modules|\.swp$/.exec(it)=> return
   src = if it.0 != \/ => path.join(cwd,it) else it
   src = src.replace path.join(cwd,\/), ""
   [type,cmd,des] = [ftype(src), "",""]
