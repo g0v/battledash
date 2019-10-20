@@ -1,0 +1,42 @@
+extends /base.pug
+block head
+block body
+  .w-1024.mx-auto.rwd.typeset
+    .form
+      .form-group
+        label 提案名稱
+        input.form-control
+
+      .d-flex(style="margin:0 -.5em")
+        .form-group.mx-2
+          label 專案縮圖
+          div: .btn.btn-upload.btn-outline-dark 上傳檔案 #[i.i-upload]
+        .form-group.mx-2
+          label 新參者友善？
+          .w-100: .btn-group.w-100
+            .btn.btn-outline-dark.active 是
+            .btn.btn-outline-dark 否
+        .form-group.mx-2
+          label 專案授權
+          select.form-control
+            option CC-BY
+            option MIT
+            option Others
+        .form-group.flex-grow-1.mx-2
+          label 三個關鍵字
+          input.form-control
+
+      .form-group
+        label 分類
+        select.form-control
+      .form-group
+        label 專案簡介
+        textarea.form-control(rows="5")
+      each name in ["討論連結","目前成果/投影片連結","專案徵人"]
+        .form-group
+          label #{name}
+          input.form-control
+      .form-group
+        .text-right
+          .btn.btn-outline-primary.btn-lg 建立提案
+block script
