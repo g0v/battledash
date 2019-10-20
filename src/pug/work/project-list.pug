@@ -1,0 +1,18 @@
+extends /base.pug
+block body
+  .w-1024.rwd.mx-auto.typeset.heading-contrast
+    h1 進行中提案
+    hr
+    .project-list.m-auto.d-flex.flex-wrap(style="width:1024px")
+      each i in [1,2,3,4,5,6,7]
+        .card.flex-grow-1.mx-2.my-1.border-0(style="width:30%")
+          a.card-img-top.d-block.w-100(href="project/", style="background:#e6e7e8;height:200px")
+          .card-body.px-0
+            h5.card0title: a(href="project/") 提案名稱
+            p.card-text 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略...
+            each j in [1,2,3,4,5]
+              .avatar.lg.mr-2
+            +nbr(2)
+            p.card-text: small.text-muted last updated 3 mins ago
+      each i in [1,2,3]
+        .card.flex-grow-1.mx-2.my-1.border-0(style="width:30%;height:0")

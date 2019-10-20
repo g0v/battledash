@@ -1,0 +1,54 @@
+//- module
+- if(!ctrl.navtop) { ctrl.navtop = {placeholder: true, shown: true}; }
+- if(!ctrl.navtop.className) { ctrl.navtop.className = "navbar-light bg-light" };
+nav#nav-top.navbar.navbar-expand-lg.fixed-top(
+class=ctrl.navtop.className,
+data-transition=ctrl.navtop.transition,
+data-transition-target=ctrl.navtop.transitionTarget)
+  a.navbar-brand(href=vars.root + "#") Battle Dash
+  button.navbar-toggler(type="button",data-toggle="collapse",
+  data-target="#nav-top-content"): span.navbar-toggler-icon
+  #nav-top-content.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+      li.nav-item: a.nav-link(href="/") 我要提案
+
+      li.nav-item: a.nav-link(href="/") 活動辦法
+
+      li.nav-item.dropdown
+        a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") 關於獎助金
+        .dropdown-menu
+          a.dropdown-item(href="#") 獎助金介紹
+          a.dropdown-item(href="#") 常見問題
+          .dropdown-divider
+          a.dropdown-item(href="#") 主辦單位
+          a.dropdown-item(href="#") 合作夥伴
+          a.dropdown-item(href="#") 媒體報導
+
+      li.nav-item.dropdown
+        a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") 成果報告
+        .dropdown-menu
+          a.dropdown-item(href="#") 2018
+          a.dropdown-item(href="#") 2017a
+          a.dropdown-item(href="#") 2017s
+
+      li.nav-item.dropdown
+        a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown") 歷屆提案
+        .dropdown-menu
+          a.dropdown-item(href="#") 2018
+          a.dropdown-item(href="#") 2017a
+          a.dropdown-item(href="#") 2017s
+
+
+
+    ul.navbar-nav.ml-auto
+      li.nav-item: a.nav-link(href="/pricing/") 關於
+
+      li.nav-item.dropdown
+        a.nav-link.dropdown-toggle(href="#",data-toggle="dropdown"): .avatar
+        .dropdown-menu.dropdown-menu-right
+          a.dropdown-item(href="/me/") 個人資料
+          .dropdown.divider
+          a.dropdown-item(href="/me/settings/") 設定
+          a.dropdown-item(href="#") 登出
+if ctrl.navtop.placeholder
+  #nav-top-placeholder

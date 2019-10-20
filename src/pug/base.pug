@@ -1,20 +1,20 @@
 //- module
 doctype html
-include /mixins/generic.pug
-- var cls = {}
-- var ctrl = {}
-- var vars = {root: "/"}
+include /../../static/assets/ldui/pug/ldui.pug
+- var ctrl = {navtop: {placeholder: true}}
+- var vars = {root: ""}
 block vars
 html
   head
     meta(charset="utf-8")
-    +css(vars.root + "assets/bootstrap/4.3.1/css/bootstrap.min.css")
-    +css(vars.root + "assets/ldui/ldui.min.css")
-    +css(vars.root + "css/index.css")
+    +css(`${vars.root}/assets/bootstrap/4.3.1/css/bootstrap.min.css`)
+    +css(`${vars.root}/assets/ldui/ldui.min.css`)
+    +css(`${vars.root}/css/index.css`)
     block head
   body
-    include modules/nav.pug
-    +nav-top
+    include modules/navtop.pug
     block body
-    +script(vars.root + "assets/bootstrap.native.4/2.0.26/bootstrap-native-v4.min.js")
-    +script(vars.root + "assets/ldui/ldui.min.js")
+  block script
+    +script(`${vars.root}/assets/bootstrap.native.4/2.0.26/bootstrap-native-v4.min.js`)
+    +script(`${vars.root}/assets/ldui/ldui.min.js`)
+    +script(`${vars.root}/js/modules/core/navtop.js`)

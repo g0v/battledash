@@ -1,0 +1,38 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = false;
+block head
+  +css("https://cdnjs.cloudflare.com/ajax/libs/handsontable/6.2.2/handsontable.min.css")
+  style(type="text/css"): :stylus
+    .handsontable td, .handsontable th
+      vertical-align: middle
+block body
+  .w-100.h-100.rwd.mx-auto.typeset.heading-contrast.my-0.d-flex(style="flex-direction:column;padding-top:60px")
+    div
+      h3.p-2 hackath36n | 第參拾陸次開放台北市議會黑客松 專案列表 
+    #sample-form.text-center.text-sm.m-0.w-100.flex-grow-1.border(style="font-size:16px;overflow:scroll"): .inner
+block script
+  +script("https://cdn.jsdelivr.net/npm/pikaday@1.5.1/pikaday.min.js")
+  +script("https://cdn.jsdelivr.net/npm/moment@2.20.1/moment.min.js")
+  +script("https://cdn.jsdelivr.net/npm/numbro@2/dist/numbro.min.js")
+  +script("https://cdnjs.cloudflare.com/ajax/libs/handsontable/6.2.2/handsontable.min.js") 
+  +script("https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js")
+  script: :lsc
+    promise = new Promise (res, rej) ->
+      Papa.parse "/assets/data/projects.csv", do
+        download: true, 
+        complete: (results) -> res results.data
+    promise.then (data) ->
+      hot = new Handsontable(document.querySelector('#sample-form .inner'), {
+        data: data,
+        rowHeaders: true,
+        colHeaders: true,
+        filters: true,
+        dropdownMenu: true
+        rowHeights: 35
+        colWidths: 80
+        modifyColWidth: (w, col) ->
+          if col == 5 => return 300
+        stretchH: \all
+      })
+
