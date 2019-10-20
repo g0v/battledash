@@ -1,0 +1,761 @@
+date,term,event name,project,three brief,manpower,guideline,other document,other document 2,other document 3,video link,owner name,facebook ,slack id,slack channel,email,telegram,license code,license data,continue maintain,dummy event type,education project
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,立法院公報分析,,,https://github.com/g0v/dev/wiki/Project-TWLY,,,,,"dryman, kanru",,,,,,,,,大松,No
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,0 時動議 LINK TOPIC,,,,,,,,"clkao, kcwu, hychen",,,,,,,,,大松,No
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,Child Not Found,,,,,,,,"ETBlue, ?",,,,,,,,,大松,No
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,文案配送中心,,,,,,,,Kirsten,,,,,,,,,大松,No
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,政府標案系統分析,,,,,,,,"tka, jeffhung",,,,,,,,,大松,No
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,人口等資訊地圖化,,,,,,,,ronnywang,,,,,,,,,大松,No
+2012/12/1,0,g0v hackath0n | 台灣零時政府第零次動員勘亂黑客松,公眾人物關係圖,,,,,,,,"kirby,ypcat",,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,立法委員投票行為分析,Code for Tomorrow,,http://citypatterns.blogspot.tw/2013/01/blog-post.html,,,,,CK,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,立法院訂閱器,,,,,,,,jimmy,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,政府標案分析,,,https://hackpad.com/g0v.tw-%E6%94%BF%E5%BA%9C%E6%A8%99%E6%A1%88-0M0HW9tSVNQ,,,,,tka,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,聽障者福利分析,Code for Deaf,,,,,,,Blue Chen,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,選票成份分析,候選人、投票品質、市場控制,,http://www.facebook.com/VotesAnalysis?fref=ts,,,,,Bater,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,自學地圖,,,www.alearn.org.tw,,,,,宗浩,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,揭露22K,Code For NextGen,,http://22kopendata.org,,,,,ET Wu,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,404失蹤兒童協尋計畫,,,https://github.com/g0v/dev/wiki/Project-ChildNotFound.tw,http://childnotfound.tw/404 / ,,,,ET Blue,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,GroovIM,,,https://hackpad.com/DBKDLhwKiA4,,,,,Mindos,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,公眾人物關係圖,超強、超帥、鬍子哥,,http://zbryikt.github.com/ppllink/,,,,,tkirby,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,立法院相關,,,,,,,,clkao,,,,,,,,,大松,No
+2013/1/27,1,g0v hackath1n | 台灣零時政府第壹次公地放領黑客松,物種時空分布資料-以蛾為例,"moth, distribution,biodiversity",,http://www.i35.club.tw/tw_moths/,,,,,hsuhong,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,立院專案 update,,,,,,,,clkao,,@clkao,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,選票成份分析update,候選人、投票品質、市場控制,,,,,,,Bater,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,"選區視覺化,ly.g0v.tw website","visualization, web design, livescript",,https://github.com/clkao/TWVoteData/blob/master/mly/8/,,,,,kirby,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,福利搜尋,福利、分析、搜尋,,https://hackpad.com/Listening-%E8%81%BD%E9%9A%9C%E5%B0%88%E6%A1%88-86sC4t4wRxv,,,,,blue,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,法令函文易讀器,性交易、焦慮、略懂,,http://paste.plurk.com/show/998955/,,,,,阿空,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,台北市建築使用執照分析,容積 開放空間 房價,,http://tpebuilding.g0v.ronny.tw/,,,,,Ronny,,@ronnywang,,,,BSD,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,404兒少協尋專案,"Python, Javascript, Google apps script",,https://docs.google.com/document/d/1DmBXSmYh1knJk6U3zP5T_6QAWa6AhNXosVi0ENydzdQ/edit,,,,,ctf,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,運送供需媒合系統,物流媒合、省錢、賺錢,,http://zh.scribd.com/doc/131353017/gn-M424559,,,,,David,,,,,,,,,大松,No
+2013/3/23,2,g0v hackath2n | 台灣零時政府第貳次九大建設黑客松,第五座核能發電廠,核能、視覺化、小遊戲,,https://docs.google.com/folder/d/0B00j8_vTJFGUdmJKT0NsS2lHbHc/edit?docId=1lVyVUdEZz6VFqSpE6fvOzmlayP0nlSpjl88qUvxCmMI,,,,,Muyueh,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,People Watch,民意，民代，行動,,,,,,https://youtu.be/XyRm-lNncKk,snowmantw,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,社會議題追蹤網,Coder，鍵盤抗議，髒資料處理器,,,,,,https://youtu.be/lRbPAKfybp4,chitsaou,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,全民警察廣播電台,民有 民治 民享,,,,,,https://youtu.be/RcHMbavjpQ0,ymow,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,法令易讀器,,,https://g0v.hackpad.com/LawEasyRead-lYxzvhLiUYk,,,,https://youtu.be/FtsMq4P1DMY,kong,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,鄉民關心你,,,http://hack.g0v.tw/g0v-hackath3n/mynkDCEAXgc,,,,https://youtu.be/Bd-D35Dq-Ds,hychen,,@hychen,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,福利請聽,,,http://listening.g0v.tw/,,,,https://youtu.be/ooCtlOLkTz0,peggy,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,立法院立委,,,http://twly.herokuapp.com/,,,,https://youtu.be/AO9CPDq3Fsw,johnny,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,路見不平,,,,,,,https://youtu.be/Qa4XFAzBtyU,monjour,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,g0v基礎建設- 首頁2.0,,,http://hack.g0v.tw/meta/YC0Ig73WEMJ,,,,https://youtu.be/ReKT2GhGdVs,ETblue ipa,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,liquid feedback,,,http://lqfb-test.g0v.tw/pf/,,,,https://youtu.be/ySjGy-tlHGQ,clkao,,@clkao,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,Taiwan Debt Clock,,,http://www.usdebtclock.org/,,,,https://youtu.be/ZJjcXg39LkI,ipa,,,,,,,,,大松,No
+2013/6/8,3,g0v hackath3n | 台灣零時政府第參次客廳工廠黑客松,News Diff 來看看新聞改過了沒?,,,https://github.com/ronnywang/newsdiff,,,,https://youtu.be/ULk6CeFGDQQ,ronnywang,,@ronnywang,,,,BSD,,yes,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,64995公益律師呼叫系統,服貿,網頁設計、前端、後端、文案,,,,,http://youtu.be/OykxYCy-XbI,Isabel,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,協助全球失學兒童就學平台,food education care,,http://www.starnm.com/,,,,http://youtu.be/BxwQSnfBv88,robin,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,Taiwan Online,"LBS, ",網頁設計、前端、後端、文案,https://docs.google.com/file/d/0B_jHHdJNIQKNd1JDSndZOEp3bEU/edit?usp=sharing,https://docs.google.com/document/d/1SphYrGb2AJGNH3jLbbLkOykVOlz18lVkFMfggiSWa9k/edit?usp=sharing,,,http://youtu.be/lzXkyvlb5qU,crys,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,新聞小幫手,"資料, 前端, 後端",網頁設計,"https://docs.google.com/presentation/d/18T94UFDKkqeQpIDzktlRXIG1MDDSwcZzrEZNWFNlw9E/edit#slide=id.gf8adbc68_235
+",https://github.com/g0v/newshelper-backend,,,http://youtu.be/hYEM-RFTWxA,ronny,,@ronnywang,,,,MIT,,no,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,發電成本計算機,核四,網頁設計、前端、後端,https://www.facebook.com/EnergyComputer,,,,http://youtu.be/Ft_4lhc4jWA,Muyueh,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,政誌,"fact, news",文案、網頁設計,"http://fact.g0v.tw
+https://github.com/g0v/twangry#how-to-join-us",,,,http://youtu.be/fJd0bOhHHOM,jimmy,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,eCourt 侏羅紀公園,"法律判決,壓力團體",,,,,,http://youtu.be/jld3ansSvC8,shu,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,立院看門狗,"javascript, 資訊自由, 立法院","node.js, frontend, FB app, OAuth, 美工",https://g0v.hackpad.com/r7bWv19xZYE,,,,http://youtu.be/54BmKFkDkdo,sweslo,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,你被服貿了嗎？,服貿、行業、承諾,程式、文案,http://goo.gl/10WcZx,,,,http://youtu.be/Ok9uhyQzIxM,nchild,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,服務貿易協定受災地圖,服貿、地圖、受災,網頁設計、前端、後端,https://docs.google.com/file/d/0B-qcnEWFQQe3TWNDcnNMb21weUk/edit?usp=sharing,,,,http://youtu.be/uhCJ9QeFWgg,lijung,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,公民百科,"懶人包, 百科",程式、文案、樣板,http://citizen.wiki.g0v.tw/,www.youtube.com/watch?v=SpovzhVCg48,,,http://youtu.be/ztJWdCRaYwI,lanfon,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,鄉民關心你 - 社會議題追蹤分析系統,"pgrest, ubuntu, hack","UI, 願意寫pgrset的人...","hack.g0v.tw/kuansim
+",,,,http://youtu.be/4-zHLqh0w8g,hychen,,@hychen,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,動民主 1.0,台義合作案,LY、pomin、tkirby、ttcat、iamBlue,http://hack.g0v.tw/g0v-hackath4n/k0GhzNzPTyW,,,,http://youtu.be/UF_SdUhcbgU,ETBlue,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,動民主 2.0,需和鄉民關心你串接,,http://hack.g0v.tw/meta/iTXM54EBWVo,,,,http://youtu.be/UF_SdUhcbgU,ETBlue,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,懶人藝術家,,需要PM、文案、插畫、漫畫、平面設計,http://hack.g0v.tw/g0v-hackath4n/aebl3KvR82s,,,,,ETBlue,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,零時通關,,需要PM、新手、文案,http://hack.g0v.tw/g0v-hackath4n/AidRZhn8kzP,,,,http://youtu.be/LxSE8WGO7us,ETBlue,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,萌典,今天不一定要有進度,前後端、設計師、手機測試,http://tinyurl.com/moedict4n,,,,http://youtu.be/Xomk0obcbtI,au,,,,,,,,,大松,Yes
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,寵物需要我,動物不會寫code但是主人會,需要設計、F2E、行銷,https://github.com/jsleetw/petneed.me,,,,http://youtu.be/EcpBnesssec,jslee,,,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,國土管理局報告,行政區 視覺化 給開發者,,https://github.com/g0v/twgeojson,,,,http://youtu.be/MoMOTGUG3dU,mindos,,@mindos,,,,,,,大松,No
+2013/8/10,4,g0v hackath4n | 台灣零時政府第肆次國民大會黑客松,關廠工人地圖,,,,,,,http://youtu.be/eGRZrVNTcC0,ipa,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,立法院 api、公民優先審議法案,立法院、法案、詞窮,"designer, mockup, frontend",http://hack.g0v.tw/g0v-ly/,,,,https://www.youtube.com/watch?v=kOr3BfUkivc&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=2,clkao,,@clkao,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,注音遊戲,,,https://g0v.hackpad.com/8agrA6IIN33,,,,https://www.youtube.com/watch?v=vAOh1_8gkH8&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=3,Sam,,,,,,,,,大松,Yes
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,立法院風雲榜,立委、提案分析、民意評分,"UX/UI designer ,web前端, web後端",http://hack.g0v.tw/g0v-ly-persondep/sVOmEE2o0v0,https://docs.google.com/presentation/d/1U0G2_RFjAMZTLJViom00hRrh0JlIOFSXp6EGmwlMkW4/pub?start=false&loop=false&delayms=3000#slide=id.p,,,https://www.youtube.com/watch?v=RjVFGSz-4Ig&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=4,Lee/Mike,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,動民主家族,線上民主，德國海盜黨，義大利五星運動,"web designer, rails programmer, misc",http://hack.g0v.tw/meta/Ra62eyV02sC,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=5,ETBlue,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,g0v天下部落格供稿庫+人力資源部,"g0v基礎建設、文字、成果
+https://moqups.com/ipa/eLIbxNCC",,http://hack.g0v.tw/cwblog/,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=6,ipa,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,圖博資訊網路平台,即時新聞、資訊整合、媒介平台,防駭客工程師、網頁設計師、上傳新聞編輯者...,很倉促...所以沒連結...希望美麗島松當天可以產生連結,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=7,嬋兒,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,萌典,辭典、筆順、分享,UX 設計師、JS 前端、JS 後端、iOS/Android/firefoxOS 設計、測試、字型達人、中文達人,http://hack.g0v.tw/g0v-hackath5n/tDx3D5FZya5,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=8,au,,,,,,,,,大松,Yes
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,鄉民關心你,"議題分析, 議題追蹤",,hack.g0v.tw/kuansim,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=9,hychen,,@hychen,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,鄉民熱線．提供資料拼圖（暫名）,事件拼圖　改進效率　螞蟻雄兵,規劃師（擬SOP）、文案（管理資料）、網頁設計、行銷（隨時把需求散出去）,https://g0v.hackpad.com/pKTonmfaVVd#計畫書馬馬虎虎，但是欠缺帶專案經驗只怕領導力不夠,https://docs.google.com/file/d/0B6ASgY1GMSOhOExWbXZ0dzZyUUk/,,,https://www.youtube.com/watch?v=P91cuPUNo4I&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv,Michael LI,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,選票成分分析,立委、立場、媒合計算,PHP工程師、前端、設計師,https://www.facebook.com/VotesAnalysis?ref=hl,https://docs.google.com/presentation/d/13Lis9GEnOZGCe27Urc6v7ckuV7pG_7qd5yyr2WxaCEQ/edit#slide=id.g9528ca1f_035,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=11,bater,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,i64885,律師、集會遊行、事件追蹤,facebook 整合,https://github.com/g0v/i64885,https://docs.google.com/file/d/0B86OXa1Nkwf0S2VBZFJ5ZmN2Zms/edit?usp=sharing,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=12,cpyang,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,國會無雙,國會、監督,UX設計師 使用者經驗達人 美宣,,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=13,spicycop,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,政府單位通訊錄,政府機關、電話、E-mail,"畫圖, 連連看達人",https://github.com/g0v/addressbook,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=14,Superbil,,,,,,,,,大松,No
+2013/10/20,5,g0v hackath5n | 台灣零時政府第伍次美麗島黑客松,petneed.me,動物不會寫code但是主人會,,https://github.com/jsleetw/petneed.me,,,,https://www.youtube.com/watch?v=UslR_LLRSKE&list=PLdwQWxpS513CpK0Gs90ITLsnE3pY39GVv&index=15,jslee,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,環境儀表板,環境資源部、資料視覺化,UX/UI 設計師、資料達人、環境議題專家,https://github.com/g0v/moer.g0v.tw,,,,http://www.youtube.com/watch?v=EG6FjLLRlcQ,pm5,,pm5,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,n5c,國科會,探究數字和真相有興趣的人 / 研究經費有了解的人,https://docs.google.com/presentation/d/1ID80bBKPJql0OjJ9FneLrYfz1YmKzUzCqb0qKLT7zyE/edit?usp=sharing,,,,http://www.youtube.com/watch?v=hOQFOqX4d6o,jimmy,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,你被服貿了嗎？（服貿行業對照表）,經濟部、立法院,,https://g0v.hackpad.com/-g0v--SUkMbG4IV6v,http://bit.ly/18YIxKt,,,http://www.youtube.com/watch?v=K1ooVjoWLaU,nchild,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,世界銀行x主計處,地圖、資料、世界,,https://docs.google.com/document/d/13tdMhFaa4AOxPhoxpfmIuCtkybDHaf69bGzuDkX6vBk/edit,,,,http://www.youtube.com/watch?v=hOQFOqX4d6o,ronny,,@ronnywang,,,,CC0,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,公益團體觀察 --- 讓資料說話,公益、捐款、資料分析,前端工程師、資料達人、手動整理人,,,,,http://www.youtube.com/watch?v=7dMXaluTNXc,swc,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,立委投票指南,立法院,,https://github.com/g0v/twly-voter-guide,https://docs.google.com/presentation/d/1tWiPTkzLgGaNQorezdHU0b3IqaFFq4_cHrMF5GjOxsc/edit#slide=id.g25f79e860_036,,,http://www.youtube.com/watch?v=tpwPX4EWB9A,"Johnny
+",,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,選票成分分析,立法院,,https://github.com/g0v-tw-congress-vote-analytics/,,,,http://www.youtube.com/watch?v=0Nuyag8pGqM,bater,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,圖解思路,資料視覺化,,,,,,http://www.youtube.com/watch?v=g79OR61Dp-8,JUMBO,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,圖博資訊網站,,,,,,,http://www.youtube.com/watch?v=_DhzjozKTJ4,嬋兒,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,聯絡人,政府通訊錄,爬資料新手,https://github.com/g0v/addressbook,,,,http://www.youtube.com/watch?v=qWaF0fM5p2k,Superbil,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,新聞糾正,"新聞, 爬蟲",,http://news.1dv.tw,,,,http://www.youtube.com/watch?v=3Fk3aqwfqYc,lulalala,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,服貿開箱聞,文件資料化、資料視覺化、服務貿易協定,會整合的工程師、資料人、手動整理人,https://g0v.hackpad.com/m0WRLUMCtoQ,,,,http://www.youtube.com/watch?v=4N1jtJBDSso,Wayneh,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,海市蜃樓,炒地皮、蚊子館,,https://g0v.hackpad.com/OSA1quw8kC0,,,,http://www.youtube.com/watch?v=Y9EMFH-WtAc,soidid,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,公民團體不推薦,立法院,,,,,,http://www.youtube.com/watch?v=gHZHrZ1ZaEM,soidid,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,林克傳說,"新聞, 臉書","前端工程師, 智慧工人
+",http://link.que.tw/,http://goo.gl/7KmCvL,,,http://www.youtube.com/watch?v=Q5N0Bw0SJnI,gene,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,petneed.me,12夜,新功能idea，實做高手,http://petneed.me/,,,,http://www.youtube.com/watch?v=GzBJjCiTtQI,jslee,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,行政院發言還原,資料、資料比對,,,,,,http://www.youtube.com/watch?v=WhB_jzsVefg,james,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,文化部授權中心,"自動化, CMS",前端工程師,http://hack.g0v.tw/meta/LoscL87LD2a,,,,http://www.youtube.com/watch?v=Hw6kbEbQSFQ,ETBlue,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,開源藝術示範區,"開源音樂, 開源美術, 傳教",插畫、編曲,http://hack.g0v.tw/meta/1qDnOBaoztH,,,,,ETBlue,,,,,,,,,大松,No
+2013/12/21,6,g0v hackath6n | 台灣零時政府第陸次勞動基準黑客松,動民主家族,世界奇觀之共用標籤系統,"各種可以當作 tag 的資料, airesis 架站資源",http://hack.g0v.tw/don-democracy/Ra62eyV02sC,,,,,ETBlue,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,零傳媒,"互動式資訊圖, 公民記者, 開放資料","插畫家, 前端工程師, 資料新聞記者, 斧頭",https://g0v.hackpad.com/-0media-B3tCT7FmOVq,,,,http://www.youtube.com/watch?v=dnmT_FzwdlY&index=4&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,tkirby,,,,,,CC-BY,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,小學校/Leve1up,教學文件、自我挑戰、開放課程,"Designer, Front-end developer, Everyone",http://g0v.tw/join.html,,,,http://www.youtube.com/watch?v=tOuDBDGCO0M&index=5&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,poga,,@poga,,,,CC-BY,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,選票成份分析,投票輔助分析工具,前後(PHP)端工程師,https://github.com/g0v/congress-vote-analytics-beta,http://slid.es/bater/va,,,http://www.youtube.com/watch?v=WsvmC3zMKwA&index=6&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,bater,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,Children Image,"幼兒, 孩子, 教育",Web / APP Developer,https://docs.google.com/document/d/1znrHAtJEdW3mMX3pN2n60nYjbPsDCIuldgDi8FoPWKI/edit,,,,http://www.youtube.com/watch?v=Ub2t3QJvPV4&index=7&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,小天,,,,,,"平台、文字 CC-BY
+(圖片授權由上傳者決定)",,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,超農域,agriculture  Plant diseases Pesticide,"地理資訊, 前端,後端,美術設計, 資訊影像呈現, app開發者(ios、android)",http://hack.g0v.tw/agriculture/8Hlh2hux8xg,,,,http://www.youtube.com/watch?v=K9E27sSTQew&index=8&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,a0kman,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,核電翻譯機,核電廠；運轉；停機,希望找人幫忙寫程式，讓原能會網站運轉中核電廠每日管制資料，變得更容易閱讀及比對出重要資訊(如：連續停機時間；多部機組同時停機時間；停機原因),https://g0v.hackpad.com/8sYMW30othK,http://goo.gl/cxXji2,,,http://www.youtube.com/watch?v=G7acE47eUBg&index=9&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,蔡雅瀅,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,輻射地圖APP,核災、輻射、輻射地圖,"engineer, Everyone app開發者 (ios、android)",https://g0v.hackpad.com/91ZImrFjGvx,http://goo.gl/isCTM2,,,http://www.youtube.com/watch?v=p7DQ1yQrFI4&index=10&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,雞米,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,蚊子館地圖APP,"姚瑞中 , 蚊子館 , 公共建設","後端資料庫工程師 . 網頁前端工程師 , iphone app 工程師 , 資料整理志工",http://wuchangkang.blogspot.tw/2014/01/app.html ,http://www.slideshare.net/littlekang1/g0v7th-app,https://g0v.hackpad.com/OSA1quw8kC0,https://github.com/wuchangkang/Mirage,http://www.youtube.com/watch?v=EQIp9l8xsMU&index=11&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,吳長鋼,,,,,,姚瑞中老師授權 ; 圖，文及程式全部CC開放,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,公務員出國考察追蹤網,"公務員,出國,考察,",網頁前端設計師，文案寫手，爬文手，PHP前端工程師,http://hack.g0v.tw/abroadplay/nOWhTpJPKx7,,,,,BertWang ,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,菜價,Data Driven Document,看圖說故事，願意學些經濟知識的寫手,http://muyueh.com/30/veggieprice/ggplot2/,,,,http://www.youtube.com/watch?v=Qo7rcM1uY2I&index=12&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,muyueh,,,,,,程式碼：gpl、文字：cc-by-nc-sa,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,動民主 1.337 - 全民記者會,"動民主, 政見, 選舉","前端 (sass/jade/angular), 後端, 企畫組",https://g0v.hackpad.com/-g0v-hackath7n-g6Ka3ms2rp3,,,,http://www.youtube.com/watch?v=00YgUKem0QM&index=13&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,ETBlue,,,,,,傳說中的 g0v-mit,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,市長，給問嗎,動民主、選舉、集氣提問,,,,,,http://www.youtube.com/watch?v=SDiBpOX9fiI&index=14&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,soidid,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,Roadpin - Report,roadpin,"designers, developers",http://106.187.101.193,https://docs.google.com/presentation/d/1gpVkaop7ql8YiILLxoUhJ57EWbzknmS-NKdo01xRvJQ/edit?usp=drive_web,,,http://www.youtube.com/watch?v=VvqrE27DGbM&index=15&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,老蕭,,,,,,,,,大松,No
+2014/2/22,7,g0v hackath7n | 台灣零時政府第柒次自由時代黑客松,g0v summit,,,,,,,http://www.youtube.com/watch?v=seTRZ5F7Cp0&index=16&list=PLdwQWxpS513BWqFnI0qfGvXVFv9X2kk3x,hcchien,,,,,,,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,立法院開放資料平台7倍速動能推昇方案,立法院、開放資料、文件協作,,https://g0v.hackpad.com/Sjnb19uV8od,,,,http://youtu.be/_lqDSiU8S8,pm5,,pm5,,,,CC BY,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,選票與代議士,資料、分析、需求,"App, 企畫,前端",,,,,http://youtu.be/U-MlY5U7lE,Kai,,,,,,MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,島嶼天光學潮實紀錄,學運、整理、資料,前端、後端、資料庫,http://hack.g0v.tw/sunflowerDocumentary/07KBjWEFS,,,,http://youtu.be/79yRnOZwXjY,shuhua,,,,,,MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,北市豪宅通,"開放空間,容積獎勵,豪宅","App, 企畫",http://ronnywang.pixnet.net/blog/post/3105893,,,,http://youtu.be/Pu8Q5jD4nFM,Ronny,,@ronnywang,,,,MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,開放政治獻金,"政治獻金,群眾外包,人工OCR",,"http://ronnywang.pixnet.net/album/set/14924844
+http://campaign-finance.g0v.ronny.tw/",,,,http://youtu.be/Pu8Q5jD4nFM,Ronny,,@ronnywang,,,,MIT,,yes,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,打道掛 123 護台灣,議題  訴求模板  施壓對象,議題統籌 留言板管理  txt,123.g0v.today,,,,http://youtu.be/Gm-cpo-HWHI,Isabel,,,,,,MIT/ CC0,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,連續坑 (待整理）,,,,,,,http://youtu.be/iHiVbmDTGcI,clkao,,@clkao,,,,MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,直播導播台,,,https://g0v.hackpad.com/VVlHNqKaQrC,,,,http://youtu.be/ZGFepQB9ks,ipa,,,,,,,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,公民運動後勤表單、SOP,線路、直播、文播、物資,參加過線路松的人,http://hackfoldr.org/congressnetwork/Q2ZQHLxhkK,,,,,(有誰可以幫我廣告 XD 沒人的話就刪掉吧 =w=),,,,,,CC0,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,太陽花盒子,直播、內容推送、理髮院,玩過 embed 熟 Linux,https://g0v.hackpad.com/Fr9H7GPcUM,,,,http://youtu.be/MaFV-AiS64,hbtsai,,,,,,MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,廢核連署平台,,,https://g0v.hackpad.com/v15A2Oaw5JF,,,,http://youtu.be/Uu0X2_fn3A,ttcat,,,,,,,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,立委投票指南、議員投票指南、工會發起指南,,,http://goo.gl/C6HIF,,,,http://youtu.be/-up85JYg4JE,johnny,,,,,,CC0,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,第五權電視牆監看「評」台g8v.tv,實況直/轉播電視牆、公民記者影音平台、電視新聞小幫手,專長不限，有興趣都歡迎加入,https://g0v.hackpad.com/g8v.tv-lkpamtKwyr,,,,http://youtu.be/ctXavsk6Fg,NewCliCker,,,,,,以Open Source為主，哪種授權由參與者們討論決定,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,g0v 2014 summit主視覺進度報告/填坑遊戲提案徵求,summit、填坑、視覺需求,活動製作物廠商；遊戲設計,https://g0v.hackpad.com/g0v-summit-2014--S98dMyXUUR,,,,http://youtu.be/q98ZVgIVXg,Shanzay/Airos,,,,,,,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,超農域,農業、農藥、疫情,前端、美工,http://hack.g0v.tw/agricuture/8Hlh2hux8xg,,,,http://youtu.be/14B2KB63w8,a0kman,,,,,,,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,服貿專題網,整理、資料、分析總體面貌,專長不限、TXT文字、程式皆可,http://hack.g0v.tw/CSTACO,,,,http://youtu.be/zv7IUFa0fM,Michael_LI,,,,,,CC BY／MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,g0v 公報組,"g0v, 新手入門, 資料","新手 / 老手,   txt",https://g0v.hackpad.com/JTSWsHutsb,,,,http://youtu.be/EPvXKkGUCE,Lee,,,,,,CC BY,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,帶你認識G0V,"G0V, 新手入門, 廣宣","新手 / 老手
+使用者訪談 / txt 解說
+熟悉 G0V 新手資料者",http://hackfoldr.org/newtog0v/3aVX2qH7mK,,,,http://youtu.be/4NLhb2VuEY,Bropheus,,,,,,CC BY,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,人人有案提,直接民主 人民提案 NGO參與,企劃、前後端、有興趣的NGO,https://g0v.hackpad.com/9x2rxSwUc,https://docs.google.com/spreadsheet/ccc?key=0AjGJ4qvz2D3EdGdfZFZXanhwdUp2dWxSTjRBLW9GYWc,,,http://youtu.be/UxdqEhuH68,peiyu kuo/littleta,,,,,,CC BY / MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,阿嬤的雜細車,文學、土地、劇場,,https://www.facebook.com/FlipFlopTheatre?fref=ts,https://docs.google.com/presentation/d/1RWYeaE2Y3xKNyKSBve2rg99VKc3SJNpj8fUU75MV5wc/pub?start=false&loop=false&delayms=3000,,,http://youtu.be/2T8s5abpiE,吳易蓁,,,,,,,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,選票成份分析,投好票、立場、分析,PHP coder,https://www.facebook.com/VoteAnalysis,,,,http://youtu.be/4cCrT1V7Ec,bater,,,,,,CC BY,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,小蜜蜂戰鬥隊覆蓋率地圖視覺化,"小蜜蜂戰鬥隊, 地圖視覺化, 回報工具","地圖視覺化, 前端, 後端",https://g0v.hackpad.com/KOsFaCMi6u0,,,,http://youtu.be/r20oKHdrj4,kirstenliu,,,,,,MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,吼吼熊愛味噌,遊戲、學運、crowdsourcing,HTML5 coder、pixel artist、任何對遊戲有興趣者,http://hoekuma.tumblr.com/,http://slides.com/bater/va,,,,johnson lin,,,,,,CC BY / MIT,,,大松,No
+2014/4/19,8,g0v hackath8n | 台灣零時政府第捌次解除戒嚴黑客松,g0vopen faceg0v,,,,,,,http://youtu.be/pfl0xz2pS0,ingy,,,,,,,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,國際社群參與協力團,,,https://g0v.hackpad.com/ieiIzaSfOWu,,,,http://youtu.be/vC14ToV6P3s,clkao,,@clkao,,,,CC0,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,自己的活動自己拍,"攝影,紀錄",所有人,http://g0v.photos,,,,http://youtu.be/dfkzyKUkUM0,tkirby,,,,,,depends,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,公有地大行動,"公有地,變賣現況,地圖","資料庫,網站",https://hackpad.com/MOFQWOWvtbY,http://www.slideshare.net/MikLiu/20140621,,,http://youtu.be/d37pfrBnKpY,Afeyhsu,,,,,,CC0,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,inLiveTW,"直播, inLiveTW","文字, 鄉民, 前端, 後端",http://hackfoldr.org/inLiveTW/oVQouJIUgA0,http://goo.gl/A7ppM3,,,http://youtu.be/tV8eoT2H6OY,Lee,,,,,,CC0,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,議員投票指南,,,https://g0v.hackpad.com/KjfdRZ08FZ3,,,,,johnny,,,,,,CC0,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,politwoops.tw,"立委, 監督",前端,https://g0v.hackpad.com/politwoops.tw-TMZxxNandPs,http://www.slideshare.net/lanfon/politwoopstw-36122309,,,http://youtu.be/lLRq7pwcFIo,yhsiang,,,,,,"CC0, MIT",,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,太陽花盒子之 ChromeCast,"直播, inLiveTw",前端,https://github.com/miaoski/inLiveTwTextChrome,,,,http://youtu.be/Jn8U82fi_Dc,miaoski,,,,,,Apache 2,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,全民除黴計畫 APP4AM,"全民除黴計畫,APP,媒體監督與改革","前端,APP,資料庫端，文案，公關及其他",https://g0v.hackpad.com/APP4AM--YGd0FvMp9Vr,http://prezi.com/87ugn3no80yt/app4am/,,,http://youtu.be/XcurCKVEnuM,Rhozan,,,,,,未定，傾向開放,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,自經區正反意見比較表,"比較表, prototype, UX design","文字, 對自經區議題熟悉, 新聞專業",https://g0v.hackpad.com/iTm0MWa9h4s,https://speakerdeck.com/mrorz/g0v-hackath9n-ti-an-zi-jing-qu-zheng-fan-yi-jian-bi-jiao-biao,,,http://youtu.be/Z5gg2Adg9V0,MrOrz,,,,,,"協做表格文本 CC-BY-SA, GFDL",,no,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,輻射地圖APP,"輻射,地圖,app","Android, PHP",https://g0v.hackpad.com/91ZImrFjGvx,http://www.slideshare.net/celineliang/app-36096725,,,http://youtu.be/e4kTIo7yIF4,Shihta,,,,,,程式LGPL,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,超農域,超農域,,http://hack.g0v.tw/agriculture/8Hlh2hux8xg,http://slides.com/simonpai/185845,,,http://youtu.be/gx-D7lXMhMA,simonpai,,,,,,CC0,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,選票成分分析,選舉、偏好分析,PHP、laravel,https://github.com/g0v/congress-vote-analytics,http://slides.com/bater/va,,,http://youtu.be/SrY6D_K5av8,bater,,,,,,CC0,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,第五權電視牆監看「評」台G8V.tv,電視牆、公民記者協作、媒體識讀,前端、以及任何有興趣想給意見的人,http://hackfoldr.org/G8VTV/http%253A%252F%252Fi.imgur.com%252F2napF5z.jpg,https://docs.google.com/presentation/d/1LmZUgPxnhNFsEprtOi2NOpsJthCQjj4HI0mVWiBDlas/edit?usp=sharing,,,http://youtu.be/w92M1mYiwDM,NewCliCker,,,,,,"CC0, MIT",,no,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,data.g0v.tw ng,opendata,文字組或資料蒐集、設計師,https://g0v.hackpad.com/Data.g0v.tw-ng-LA2MpOEjraI,,,,http://youtu.be/z9ytWOzNIn8,jimmy,,,,,,GNU GPL v2,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,開放政治獻金,政商關係、開放資料、監察院,資料庫（欄位搜尋）、前端、文案（SOP/芻議）,https://g0v.hackpad.com/-at-hackath9n-Luax4CXQgio ,http://www.slideshare.net/venev/g0v-hackath9n-political-contribution,,,http://youtu.be/-AUm9g9GbzE,venev,,,,,,"程式 BSD
+內容 CC by",,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,食用油測試,油、雷射、PublicLab,寫手、油,http://hack.g0v.tw/g0v-hackath8n/sFjxTpfze7i,,,,http://youtu.be/Mi6smqkEQSw,muyueh,,,,,,CERN Open Hardware License,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,展覽松,,,https://g0v.hackpad.com/CGK7T9IuQIw,,,,http://youtu.be/ag-gq3BWV5g,muyueh,,,,,,,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,財政昏迷指數,地方財政、,前端、資料庫端,https://g0v.hackpad.com/--ZRG6X2A0fWA,,,,http://youtu.be/9Ma5u9IPls4,Peggy Chen,,,,,,CC-BY-NC,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,人人有案提,"動民主, 提案","操作流程,網路討論",https://g0v.hackpad.com/9x2rxEcSwUc,http://www.slideshare.net/ddioibb/ss-36126407,,,http://youtu.be/RaGo6Rs_C9w,ddio,,,,,,"CC0, MIT",,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,動民主0.5,"線上民主,公投,","設計師, firebase工程師",http://github.com/g0v/don-republic/ http://bindo.la/,,,,http://youtu.be/rps-aK6cJUU,tkirby,,,,,,MIT,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,動民主 lab、g0v project list,動民主、基礎建設,TxT,"http://hack.g0v.tw/don-democracy/Ejozjt0LSZm , http://hack.g0v.tw/meta/CPsHrGu1qLA",,,,http://youtu.be/GZRiR7sLF2A,ETBlue,,,,,,CC0 / CC By,,,大松,No
+2014/6/21,9,g0v hackath9n | 台灣零時政府第玖次還我土地黑客松,義務律師陪偵平台,義務律師、陪偵,後端、Android、iOS app,https://g0v.hackpad.com/h6fOoDAd9qZ,,,,http://youtu.be/vM_JeOefeio,Miffy,,,,,,CodeIgniter v2,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,11/9 Summit unconference懶人包,"unconference, summit,懶人包", 設計/繪圖/動畫,https://g0v.hackpad.com/unconference--UQVESB4TJm3,,,,https://www.youtube.com/watch?v=fERgMNnJmwg,ipa,,,,,,CC by g0v.tw,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,貪汙案件查詢網站(暫名),"貪汙 , 監督 , 開放",前端 & 後端 (資料解析),,http://www.slideshare.net/littlekang1/g0v-38507200,,,https://www.youtube.com/watch?v=xHotWnUiJZc,吳長鋼,,,,,,MIT,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,公有地大行動/天龍特公地,"公有土地資料, 地圖, 協作","地圖互動上傳資料功能建置,前端,後端",http://hackfoldr.org/POPonFire/6UvvtZqOfN5,http://www.slideshare.net/MikLiu/20140830-poponfire-3min-38477927,,,https://www.youtube.com/watch?v=OZ4UY1ApieE,chewei,https://www.facebook.com/MikLiu,@chewei,,,,"CC0, MIT",,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,島嶼天光學潮實紀錄,"學運, 記錄, 文字化","前端美化, 逐字工具包(切youtube+切豆腐技術)",http://hackfoldr.org/sunflowerDocumentary/,https://drive.google.com/file/d/0B17DUQv0YPeMZUNiaGVyeWtLQ3c/edit?usp=sharing,,,https://www.youtube.com/watch?v=8zpaGUpNQgk,shuhua,,,,,,MIT,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,議員投票指南,議員 http://goo.gl/yphsjC,抓各縣市議會資料、設計,http://councils.g0v.tw/,,,,https://www.youtube.com/watch?v=26tQV_lFe6U,johnny,,,,,,CC0,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,零食儲備計畫,xml、政府資料開放平台、視覺化,美工、UI、xml,https://g0v.hackpad.com/U4G8f2H9ttF,http://www.slideshare.net/SilversKi/ss-38505697,,,http://youtu.be/UEtE4Ekpr6o,lololol,,,,,,CC-BY-SA 4.0,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,氣候選戰,氣候變遷，平台，監督,互動網站建構，美工,"https://g0v.hackpad.com/-Vote-for-Climate-4ac9ap7zhrn
+",,,,http://youtu.be/PnIqOYpMVFo,陳膺帆,,,,,,CC0,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,自己的文字自己究,文字、字形、正體中文,初期：字形專家、工人智慧、資料庫、圖像辨識（如果可能）,https://g0v.hackpad.com/j7PqE3IBJFG,http://bit.ly/1tLEkqw,,,http://youtu.be/wC2btL3rRww,nchild,,,,,,CC BY 4.0,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,圖博資訊站,圖博、藏人、徵後端,PM、後端,https://g0v.hackpad.com/ocinSG3jCJF,https://www.icloud.com/iw/#keynote/BALo9f9M7Rhc0jQoXgKBHG3Pr5kdWuuXk-OF/%E5%9C%96%E5%8D%9A%E8%B3%87%E8%A8%8A%E7%AB%99%E6%8A%95%E5%BD%B1_20140824,,,http://youtu.be/EhEmeBWL0jc,AliceWei,,,,,,MIT,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,全民除黴計畫app:新聞啄木鳥,"新聞監督,資料視覺化,協作",前後端、文案、美工,http://hack.etblue.tw/app4am/BO7zPeNfxg8,http://www.slideshare.net/karlrecon/app4-am-slide,,,http://youtu.be/6n1c1gCMt54,Rhozan,,,,,,Apache 2.0,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,inLiveTW,"新聞, 直播, 事件",,,,,,http://youtu.be/TN1-e_DCGYc,YuTin,,＠yutin,,,,CC0,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,開放媒體,"新聞, 共筆, 媒體",,,,,,http://youtu.be/J9W-tn0mEJQ,音地大帝,,,,,,"CCBY, MIT",,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,台北市長政見比較表,"比較表, 政見, 協作",新聞、出處資料收集與整理,http://hack.etblue.tw/mayoral-table-project,https://speakerdeck.com/mrorz/g0v-hackath10n-ti-an-2014-tai-bei-shi-chang-zheng-jian-bi-jiao-biao,,,https://www.youtube.com/watch?v=XTemwe3bdRY,lololol(代理),,,,,,程式碼MIT / 文本CC-BY-SA 4.0,,no,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,阿美語萌典,"阿美語, 萌典",打字工人,https://github.com/miaoski/amis-data,https://speakerdeck.com/miaoski/a-mei-yu-meng-dian-at-2014zi-liao-ke-xue-ai-hao-zhe-nian-hui,,,http://youtu.be/YV9LCq-r45M,miaoski,,,,,,台灣聖經公會授權非營利無償使用。,,,大松,Yes
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,選票成份分析,立場、分析比對、議題,PHP Laravel 工程師,https://github.com/g0v/congress-vote-analytics,http://slides.com/bater/va#/,,,http://youtu.be/kD4pJUDO1ic,bater,,,,,,MIT,,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,輻射地圖,"輻射,地圖,Android","Android, PHP",https://g0v.hackpad.com/91ZImrFjGvx,,,,http://youtu.be/E4kOChdvfks,林怡,,,,,,"CCBY, MIT",,,大松,No
+2014/8/30,10,g0v hackath10n | 台灣零時政府第拾次資料科學黑客松,割闌尾V計畫,罷免成功、自己的里自己養、神指引,前後端、UI、數據分析,https://g0v.hackpad.com/V-NMUKAD9OBI8,看過錄影的鄉民請保密,,,https://www.youtube.com/watch?v=UvMfiOYR4wk,林祖儀(台北林先生),,,,,,CC-BY-4.0,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,開放食庫之有7-11真好,7-11 開放食庫 食安,"熱血資料搜集手, UI介面設計, 營養學背景, 法律背景",https://github.com/georgelin422/FoodScanner,https://docs.google.com/presentation/d/1tw8yaH9Ts_ms6HWclM2WmRkCrYH75iehD6JRPowGW2Y/edit?usp=sharing,,,https://www.youtube.com/watch?v=4YHAry6Q4Ow&index=1&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,georgelin,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,互動問答式數位專輯,"新聞,g0v","插畫,文字工作者,視覺設計師",http://github.com/zbryikt/qa/,,,,https://www.youtube.com/watch?v=aqkMDcO2OeI&index=3&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,tkirby,,,,,,CC-BY-SA,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,木材追追追－Sarawak to Taiwan,"馬來西亞砂勞越林業, 財政部關務署進出口資料, 跨國合作","報關專業, 林產業人員, 馬來西亞語言",https://g0v.hackpad.com/Sarawak-to-Taiwan-oqsXADzMrp8,http://www.slideshare.net/MikLiu/20141220-sarawak-to-taiwan,,,https://www.youtube.com/watch?v=aqkMDcO2OeI&index=3&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,chewei,https://www.facebook.com/MikLiu,@chewei,,,,CC BY,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,參加2015香港舉辦的兩岸三地黑客松競賽,2015香港兩岸三地黑客松競賽,後續承接人員,https://g0v.hackpad.com/qDGr2yDRCuz#2015,,,,https://www.youtube.com/watch?v=kmUBC6iZBU8&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=5,林俊秀,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,貪汙查詢網站,貪汙  開放  監督,前端   後端  文本處理,https://g0v.hackpad.com/--OoaenzjVDKK,http://www.slideshare.net/nt90561/g0v-42800649,,,https://www.youtube.com/watch?v=u2GePGpCbAE&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=6,吳長鋼,,,,,,CC BY,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,影子政府,勞工,前端   後端  資料庫分析,https://g0v.hackpad.com/39pf0Milpkz,,,,https://www.youtube.com/watch?v=eTMMnmnjF_0&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=7,Arny,,,,,,CC BY,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,雨還沒停 - 字幕組與公視農場,,打字專長．資訊背景,,,,,https://www.youtube.com/watch?v=4JooRhy4EoU&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=8,YuTin,,＠yutin,,,,CC BY,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,開放藥典,藥典、查藥、說明書,醫、藥；IT；設計等各路好手,https://hackpad.com/--qNuCNFrcwnm,,,,https://www.youtube.com/watch?v=L0Vm5k3DIj0&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=9,蓮霧+胖胖,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,第零次設計松籌備,設計、小松、跨界,辦過大小松的經驗者,https://g0v.hackpad.com/0qqoIcDMCLJ,,,,https://www.youtube.com/watch?v=7mIdt_r-QNI&index=10&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,子龍,,,,,,CC0,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,新聞後面．觀眾留言的存檔（爬蟲機器人）,全民除黴計畫、新聞松、社會學,軟體工程師，記者工程師，社會人類新聞系工程師,https://www.flickr.com/photos/_michael_li_/sets/72157649825519072/,,,,https://www.youtube.com/watch?v=eQa1edOwPtA&index=11&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,Michael_LI,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,輻射地圖APP,核災、輻射、輻射地圖,iOS App  Android APP工程師,https://g0v.hackpad.com/91ZImrFjGvx,,,,https://www.youtube.com/watch?v=PYC3AWXIpp4&index=12&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,恰恰,,,,,,CC BY,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,大腸花補完計畫+S4d公民頻道頁面建立+選舉2.0,"大腸松,公民頻道,選舉2.0",1.類似族語萌典的作法?2.攝護線公民頻道的整合收看網頁->會寫網站的人(?),https://hackpad.com/2.0--i94GDf4QxUf,,,,https://www.youtube.com/watch?v=dzlH8Sb_Juc&index=13&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,音地大帝,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,公有地大行動,公有地 9d8TW 天龍特公地,前後端,http://hackfoldr.org/POPonFire/,,,,https://www.youtube.com/watch?v=MZ3CM_5m-qM&index=14&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,dz1984,,,,,,CC0,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,憲餅廚房,憲法、勤勞包、基礎建設,前端、翻譯、架站,http://hackfoldr.org/cckitchen/,,,,https://www.youtube.com/watch?v=md1Y62aYrgY&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=15,ipa,,,,,,"翻譯 CC0, 網站 MIT",,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,動憲法,憲動盟、動民主、2016,資料結構規劃工具人、架站工具人、草根論壇志工,https://g0v.hackpad.com/-x--ZlxnPcG1xLm,,,,https://www.youtube.com/watch?v=8jqmLZnqgOc&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=16,ETBlue,,,,,,MIT,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,M Project,跨領域、日本、融合,大型conference類型活動各種工作人員,http://hackfoldr.org/mproject/,,,,https://www.youtube.com/watch?v=M_c-IbIDpMk&index=17&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,a0kman,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,都市計畫透明化,都市計畫、資訊親民、資料整合,"規劃師, 程設, web...各路好手",https://g0v.hackpad.com/f3z18AeU2uH,,,,https://www.youtube.com/watch?v=T1Tbuydjz7c&index=18&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,理查 (monaludao),,,,,,CC BY,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,開放政府資料授權條款-民間建議版,法律、基礎建設,開源軟體授權、文字、公眾授權,https://g0v.hackpad.com/Taiwan_open_government_data_license_citizens_community_version,http://www.openfoundry.org/of/download_path/openlegal/Open_Government_Data_license_for_Taiwan_from_a_bottom_up_perspective/20141220-proposal.pdf,,,https://www.youtube.com/watch?v=TEMMoWLzyEE&index=19&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,南港林先生,,,,,,CC0,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,割闌尾W計畫,全民參與罷免權連署、罷免法下修、蔡正元在你背後非常怒,前端、後端、設計師、PM、行銷,https://appyteam.hackpad.com/-g0v--5pkcgk4eOtf,https://www.dropbox.com/s/1rlgj6s5t90yzif/g0v%20%E7%AC%AC%E5%8D%81%E4%B8%80%E6%AC%A1%E9%BB%91%E5%AE%A2%E6%9D%BE%EF%BC%9A%E5%89%B2%E9%97%8C%E5%B0%BEW%E8%A8%88%E7%95%AB.pptx?dl=0,,,https://www.youtube.com/watch?v=JRvzh5nIJlg&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_&index=20,台北林先生,,,,,,CC By SA,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,g0v × gov--可以不去開曼設公司嗎？,行政院、法規、工作組,編輯、設計、後端,https://vtaiwan.tw/,,,,https://www.youtube.com/watch?v=QMS4HuFzwcE&index=22&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,蔡玉玲 (jaclyn),,,,,,CC0,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,公益實驗室,,,https://docs.google.com/document/d/1rKRk4ZL8ROpjeS23006tt61a71jJezbwPSIuEY8jOrY/edit,,,,,Kenny,,,,,,,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,"iOS App審核探討之""政治干預?""",民運、Mobile App、開心聊天,聊天、經驗分享、record,https://g0v.hackpad.com/iOS-App-l2r4qdju7cR,https://docs.google.com/presentation/d/1UAgG2IP3t57X_G-VxpIDiuWH6OqoMoC7glBZVPF1-zg/edit?usp=sharing,,,https://www.youtube.com/watch?v=e9eaOerNmu8&index=23&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,Novel,,,,,,MIT,,,大松,No
+2014/12/20,11,g0v hackath11n | 台灣零時政府第拾壹次開放報禁黑客松,能源反抗軍the Power Within,太陽能、核能、民主發電,企劃、軟體工程師,,,,,https://www.youtube.com/watch?v=5STHj5SOvI0&index=24&list=PLdwQWxpS513Aqt0pAcF-SNUbZbRp_odC_,一人一千瓦,,,,,,,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,政商關係圖,臺灣公司關係圖、政商關係、open data,,https://g0v.hackpad.com/hxJBK9v7frt,,,,https://www.youtube.com/watch?v=5x98ffmYE24&index=1&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Gilbert,,,,,,CC-BY,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,空難事件視覺化,空難、新聞、視覺化,TXT,https://g0v.hackpad.com/4o8ADZLQJfx,,,,https://www.youtube.com/watch?v=qQoXQpxgfI0&index=2&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Kirby,,,,,,CC-BY,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,抵制好朋友之即刻救援,抵制、消費者賦權、打倒連鎖店振興經濟,程式設計師、視覺設計師,https://g0v.hackpad.com/KW83vzwiWhc,http://goo.gl/n5OCkk,,,https://www.youtube.com/watch?v=C1vFuPBjUd8&index=3&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,茶李王,,,,,,,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,來去宜蘭住一輩子,宜蘭、鄉村發展、人,,https://g0v.hackpad.com/jAFuERTpDC5,,,,https://www.youtube.com/watch?v=eqP9CN9LSl8&index=4&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,wenchuan,,,,,,,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,環境、污染與資訊之地理套疊,環境污染、檢測站資訊、地理資訊,程式設計師 視覺化,https://g0v.hackpad.com/3IlRBxAKgVg,,,,https://www.youtube.com/watch?v=DPxz3yKJcG4&index=5&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,孫瑋孜 / xavier,,,,,,,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,蚊子館地圖,蚊子館、土地、地理資訊,"parse x1
+後端 x1
+資料輸入 數人",http://wuchangkang.blogspot.tw/2014/01/app.html,http://www.slideshare.net/littlekang1/g0v12th-app,,,https://www.youtube.com/watch?v=BOP0KFevt5I&index=6&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5, 吳長鋼,,,,,,"CC0 , MIT",,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,「程序正義」之幸福提案 議題集中共享媒體網站,程序正義、議事規則、立委選舉,,http://bit.ly/1KV7dYP,,,,https://www.youtube.com/watch?v=ibgfp-JWkoQ&index=7&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Nicky 謝,,,,,,,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,"全民除黴計畫（新聞啄木鳥APP）
+＆
+其他專案",新聞啄木鳥APP、全能拆掉改造王、民瓊林計畫、新聞媒體,"1.找視覺設計師（UI/UX）
+　跟
+2.會作曲的人（如果莫名其妙超過10人冒出來，將舉辦作曲松）
+3.會拍攝微電影，畫分鏡圖的人","https://g0v.hackpad.com/-g0v--rEzVnbqCZrz
+https://www.slideshare.net/karlrecon/app4-am-slide",https://www.flickr.com/photos/_michael_li_/sets/72157650796723961/,http://beta.hackfoldr.org/app4am/,,https://www.youtube.com/watch?v=ryYBD1tWI50&index=21&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Michael_LI,,,,,,MIT,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,動憲法,憲動盟，野生官網，動民主,TxT 組 for 草根論壇記錄,https://g0v.hackpad.com/-x--ZlxnPcG1xLm#:h=專案報告@2015/2/14-不得宣傳罷免黑客松,,,,https://www.youtube.com/watch?v=0HGDRCcoHRI&index=8&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,ETBlue,,,,,,"MIT, CC BY-ND",,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,憲餅廚房,憲法 基礎建設 遊戲,TxT，全端工程師,http://hackfoldr.org/cckitchen/,,,,https://www.youtube.com/watch?v=X5qkiGajGqA&index=9&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,isabel,,,,,,CC-BY,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,2015 summer of ?,"學生,暑假,寫code",贊助商 x N,https://speakerdeck.com/yhsiang/2015-summer-of,,,,https://www.youtube.com/watch?v=Nv4WUuk3Qx4&index=18&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Ly,,,,,,CC-BY,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,哲學萌典,phi10sophy、概念釐清、烙哲學、百科全書,網頁前端、視覺化、資料輸入,https://g0v.hackpad.com/tor49cAgodQ,,,,https://www.youtube.com/watch?v=nEwlgQWRe3A&index=13&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,weihung,,,,,,CC-BY,,,大松,Yes
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,阿美語萌典2015年,阿美語萌典、百科全書,文字工人,,,,,https://www.youtube.com/watch?v=NHrvAEiGzkc&index=10&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,miaoski,,,,,,CC-BY,,,大松,Yes
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,都市農耕網,都市農耕(urban agriculture)、community、policy-hacking,網站、社群論壇、知識庫,http://hackfoldr.org/Taipei-Urban-Agri/,http://goo.gl/Sg5WrE,,,https://www.youtube.com/watch?v=mkjiXW6gcKA&index=11&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,chewei,https://www.facebook.com/MikLiu,@chewei,,,,CC-BY,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,圍標檢測器,政府標案、公司關係、圍標、反貪,"網站前端設計 x1
+Android x1 
+資料輸入 數人",https://docs.google.com/presentation/d/1KChMkSegPghREVL0zsf2yw6FwgRg40a9si4AgPGlKEE/edit?usp=sharing,,,,https://www.youtube.com/watch?v=sXRUxVG57os&index=12&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Wush,,,,,,"CC-BY-SA
+GPL",,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,ppt 政治承諾追蹤網,政治承諾追蹤、共筆協作、選舉承諾與政策白皮書整理,整理六都候選人政見承諾,https://g0v.hackpad.com/-Political-Promise-Tracker-4a31UkdBItq,http://goo.gl/m0yTni,,,https://www.youtube.com/watch?v=TS5e5G9YL5Q&index=22&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,MrOrz,,,,,,MIT,,no,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,國會調查兵團網站,立委言行資料庫、資訊整合平台、國會監督,"網站前端設計 x1
+資料輸入 數人",https://cic.tw/,,,,https://www.youtube.com/watch?v=jUJ-J55PqKU&index=14&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,王希,,,,,,"CC-BY 4.0 , MIT",,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,開放都市計畫,都市計畫、民眾參與、計劃書資料庫化,"1.pdf資料擷取、網頁前後端
+2.都市計畫知識提問、寫手",https://g0v.hackpad.com/f3z18AeU2uH,,,,https://www.youtube.com/watch?v=lOSPkMHTLKk&index=15&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,理查,,,,,,"CC-BY, MIT",,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,語言、本體資源與知識開放計畫,open data、中文語料、知識資源,"1.網頁前端、資料視覺化
+2.機器學習、資料探勘、自然語言處理",http://lopen.linguistics.ntu.edu.tw/about.html,http://goo.gl/NBHdnS,,,https://www.youtube.com/watch?v=f2_Wj-wzz_8&index=16&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,"Mark Chang, Simon",,,,,,CC-BY,,,大松,Yes
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,ivod下載器UI改寫,立委言行資料庫、ivod、國會監督,桌機應用程式開發工程師,https://g0v.hackpad.com/IVOD-KdTs5gZb3yw,http://www.slideshare.net/joyhsu/ivod,,,https://www.youtube.com/watch?v=2mMmWrCLDis&index=17&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,Joyhsu,,,,,,CC-BY,,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,vTaiwan.tw 第二階段,法規諮詢、工作組、動民主,視覺設計、前端設計、文案、審議帶領人、Ruby hacker,https://g0v.hackpad.com/vTaiwan.tw-hackath12n-RLDmz3h7oJg,https://speakerdeck.com/audreyt/vtaiwan-dot-tw-di-er-jie-duan,,,https://www.youtube.com/watch?v=yOdg47vOvUg&index=19&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,au,,,,,,"CC0, CC BY",,,大松,No
+2015/2/14,12,g0v hackath12n | 台灣零時政府第拾貳次不得宣傳罷免黑客松,司改會Open data,司法教育,,,,,,https://www.youtube.com/watch?v=8vyWeR2trlQ&index=20&list=PLdwQWxpS513BqtUjQsBV-7d4QhYmHSJP5,雨蒼,,@billy3325,,,,CC-by,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,自己的選區自己畫,憲改、選制、選舉,前端、文案、動畫,https://ckitchen.hackpad.com/1XXUB9gMNul,,,,https://www.youtube.com/watch?v=6tTFpZZLXb8&index=2&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,clkao,,@clkao,,,,MIT,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,立法院 ivod下載網,"立法院, ivod, 下載器","UI, 文案,",https://g0v.hackpad.com/IVOD--bwKQ3P8bGMv,http://www.slideshare.net/yhsiang/ss-47052684,,,https://www.youtube.com/watch?v=nAj4tnk09L4&index=3&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,Ly,,,,,,CC BY 4.0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,憲餅互動小鋪,憲改、互動、前端遊戲,前端、設計、內容編輯,http://bit.ly/1Hi7BAf,,,,https://www.youtube.com/watch?v=PqFg8NlqOls&index=4&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,isabel,,,,,,CC By 4.0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,憲動盟野生官網/野生部落格,NG0、憲改、憲餅廚房,前端、設計、編輯,https://g0v.hackpad.com/-x--ZlxnPcG1xLm#:h=專案報告@2015/4/18-無殼蝸牛黑客松,,,,https://www.youtube.com/watch?v=tgn_-A1VFIU&index=5&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,etblue,,,,,,MIT,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,憲改限時批,短片、系列懶人包、憲改,動畫、前端工程、編輯,http://bit.ly/1CWo9at,,,,https://www.youtube.com/watch?v=juzP9pBVYW8&index=6&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,ipa,,,,,,CC By 4.0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,政治承諾追蹤網 PPT,promise tracker、協作,整理地方/中央政府承諾,https://g0v.hackpad.com/-Political-Promise-Tracker-4a31UkdBItq,http://goo.gl/m0yTni,,,https://www.youtube.com/watch?v=vqfZALpAQVc&index=7&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,MrOrz,,,,,,MIT,,no,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,國民黨產調查報告 KMT Property,"黨產,國民黨",前端、UI、視覺設計,https://g0v.hackpad.com/87CNswL2g7U,,,,https://www.youtube.com/watch?v=0rUJCZMnQeI&index=8&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,"雨蒼
+",,@billy3324,,,,CC0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,賽豬公...上太空！,GIS、衛星、環境監測,前端、Bash、眼睛好的人,http://nspo.g0v.tw/,,,,https://www.youtube.com/watch?v=zFcxJBY4ULs&index=9&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,jimmy(huang),,,,,,CC by-nc-sa 4.0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,NPO Lab 公益實驗室,,,https://docs.google.com/document/d/1rKRk4ZL8ROpjeS23006tt61a71jJezbwPSIuEY8jOrY/edit?usp=sharing,,,,,Kenny,,,,,,cc0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,國會調查兵團開放公督盟數據API,"國會調查兵團,cic.tw,公督盟",,https://cic.tw/opensource,,,,https://www.youtube.com/watch?v=wrN-b-ivxf8&index=10&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,Joy,,,,,,CC0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,SOAK 泡・議題擴散機,"議題, app, 共享經濟",App、前端、後端開發者，UI / UX，視覺設計,https://g0v.hackpad.com/iWODvWQnIGM,bit.ly/soak-g0v,,,https://www.youtube.com/watch?v=YzR0iHp1wYM&index=12&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,nchild,,,,,,CC BY 4.0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,社民黨年金改革政見視覺化,社民黨、年金改革,網站等相關程式,https://g0v.hackpad.com/xG0V--FoQcVuzFAOX,,,,https://www.youtube.com/watch?v=OsiFJhyxCm4&index=13&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,建寰,,,,,,MIT,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,貪污判決查詢網站,貪污 判決書 text-mining,UI/UX text-mining NLP,https://g0v.hackpad.com/--OoaenzjVDKK,,,,https://www.youtube.com/watch?v=aXWhfAS16QE&index=14&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,淵智,,,,,,CC0,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,第零勢力：闌尾阻黨,割闌尾、2016立委選舉,,,,,,https://www.youtube.com/watch?v=I2zJGVW0wy4&index=15&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,台北林先生,,,,,,MIT,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,2015 WWViews ＠ TW 跨國審議/投票系統專案,資料視覺化、審議民主、氣候變遷,1) 會議紀錄資料視覺化 + 投票結果資料視覺化；2)  open source 做的單頁式網站,https://g0v.hackpad.com/2015-WWViews-TW--W6l1GtZ3l1A,,,,https://www.youtube.com/watch?v=gN7GNMllzYE&index=16&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,家華,,,,,,,,,大松,No
+2015/4/18,13,g0v hackath13n | 台灣零時政府第拾參次無殼蝸牛黑客松,河圖資訊整合UI 提案,"行動指南
+資訊整合UI、議題熱度",網路工程師、設計師、律師、圖資管理師、企劃宣傳人員、翻譯人員、校錯人員、網站維護人員、資料備份人員,"https://drive.google.com/open?id=0BxfjKRD3dE9nZnAyOVZ0aDJJbFU&authuser=0
+",http://goo.gl/Uj1sO6,https://g0v.hackpad.com/UI-M7krouLdPYq,,https://www.youtube.com/watch?v=Rkq-tj15I78&index=17&list=PLdwQWxpS513BhZaBy3VdW2MHQZd3ziulN,三,,,,,,,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,立委投票指南－易用性測試,UX Usability  ,UX、受測者、任務設計 ,https://g0v.hackpad.com/-Usability-test-yxrIYtdhyzF,https://docs.google.com/presentation/d/1QdfzZFuSFAWGDd5mqZv6XY8g9RNO4lS3xvRdD95LClM/edit?usp=sharing,,,https://www.youtube.com/watch?v=zya5MT8klRs&index=3&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,Yo Yo,,,,,,CC0,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,COSCUP野生官網,COSCUP，野生官網，CC0,前端工程師,https://g0v.hackpad.com/COSCUP-2015--WxxpYVpXOWA,,,,https://www.youtube.com/watch?v=mXvzEwXlxpI&index=5&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,ETBlue,,,,,,CC0,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,發文附上判決書運動,新聞、判決書、wikipedia,"文字,法律",https://g0v.hackpad.com/hQ12Bq8UQIq,https://docs.google.com/presentation/d/1sx3kcJKfU833DGJhFQdt9mFn6TEIIxdl-aB7lWECaT0/edit#slide=id.ga122bd45a_1_58,,,https://www.youtube.com/watch?v=7-RBjmwEgA4&index=4&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,ronny,,@ronnywang,,,,CC0,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,心家園：臨時住宅與永久屋規劃設計資料庫,"空間規劃與建築設計資料, 救災與重建, 資料庫","建築設計, 資料庫, 授權實務",https://g0v.hackpad.com/jEoiuMS44dD,https://docs.google.com/presentation/d/1GZpFUD9EFicgR3_PnluaJrkKC6kSi45aT-WIzqpiIhM/edit?usp=sharing,,,https://www.youtube.com/watch?v=knTsXgZSe3s&index=6&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,chewei,https://www.facebook.com/MikLiu,@chewei,,,,?（需要協助釐清）,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,顧膝蓋的捷運移動指南 ㊙,"捷運, 膝蓋, 工人智慧","MRT, indoormapping, crowdsourcing",https://g0v.hackpad.com/--UtFnSw1N82s,https://docs.google.com/presentation/d/1iZtVd9Ite4qNAP1l81hVvQuPXsz8n1olxxuXVfEZJHE/edit?usp=sharing,,,https://www.youtube.com/watch?v=j_oPwwkNkoU&index=7&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,chewei,https://www.facebook.com/MikLiu,@chewei,,,,?（需要協助釐清）,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,地號轉地圖  Land No. Mapper,"野生地號查詢API, 試算表, Mapper","http://twland.ronny.tw, UI, ",https://g0v.hackpad.com/-Land-No.-Mapper-uhB6qAwYXe5,https://docs.google.com/presentation/d/17zoTSPLiG9wZITZkjMXuCD3y14KWRCc78PrCKBSq8fk/edit?usp=sharing,,,https://www.youtube.com/watch?v=J3ZESIRIA8w&index=8&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,chewei,https://www.facebook.com/MikLiu,@chewei,,,,?（需要協助釐清）,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,碩士論文研究,碩士論文  分享  協作工具,1。(xe)latex 中文章節項修改，2。D3.js 轉統計圖，3。填問卷，https://docs.google.com/forms/d/1OEjW3VyUofXD3mSuQQkQs5gIah7rw-2joqWVwHEOAKU/viewform,https://g0v.hackpad.com/EMBA-qlnlC8oRFCw,https://docs.google.com/presentation/d/1bB4gu5GkB8MUEnj35VaBkIPAJ-6uPuhrfwf_AkJUJ4w/present?slide=id.p,,,https://www.youtube.com/watch?v=c_Kvdg9Dlzc&index=9&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,timloo,,,,,,CC0,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,貪污判決查詢網站,,,https://g0v.hackpad.com/--OoaenzjVDKK,,,,https://www.youtube.com/watch?v=-2GIYABcF5U&index=10&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,淵智,,,,,,CC0,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,車禍熱圖,"車禍, 地點分佈, 經緯度request",設計（我們的美術糟糕沒有極限）,https://github.com/Drainet/cacci-opendata,https://dl.dropboxusercontent.com/u/67191344/site/g0v_present/assets/player/KeynoteDHTMLPlayer.html#0,,,https://www.youtube.com/watch?v=-Nd8RgHlsts&index=11&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,Jason Kuan,,,,,,"CC-BY/BSD
+",,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,開放都市計畫:委員會會議紀錄,"都市計畫委員會,會議紀錄",地方政府政務官 (!)、爬梳施政報告,https://g0v.hackpad.com/--BpW2Xt7s8AH,,,,https://www.youtube.com/watch?v=cphsT3dENY0&index=12&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,理查,,,,,,CC-BY;MIT,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,政治承諾追蹤網 political promise tracker,"群眾協作, 施政報告, 政策追蹤",,beta.hackfoldr.org/ppt,https://speakerdeck.com/mrorz/political-promise-tracker-zheng-zhi-cheng-nuo-zhui-zong-wang-g0v-hackath14n-ti-an,,,https://www.youtube.com/watch?v=EpyBdNSBN0c&index=13&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,MrOrz,,,,,,code:MIT; content: CC0,,no,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,跨海峽企業環境表現資訊揭露與民間監督,污染轉移、環境資訊揭露、供應鏈社會責任,企業基本資料與表現資料收集與爬梳,生產中,,,,https://www.youtube.com/watch?v=cH75eAnlLWQ&index=14&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,洪申翰,,,,,,,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,方敏英字典拼字修正誠徵義工,阿美語、萌典,鍵盤義工,https://github.com/miaoski/amis-data,迷有投影片,,,https://www.youtube.com/watch?v=pg4ENqPjq10&index=15&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,miaoski,,,,,,CC-BY-NC 3.0,,,大松,Yes
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,全台公立動物收容所資訊統整,動物、收容所,,https://g0v.hackpad.com/JBhVDOPxhxe,,,,https://www.youtube.com/watch?v=v0CUCLFq8T0&index=16&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,viola,,,,,,,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,醫農,農業 病蟲 試驗單位,UI、前端,馬克阿婆生產中,,,,https://www.youtube.com/watch?v=WYwfh_k34io&index=17&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,a0kman,,,,,,?（需要協助釐清）,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,空污檢測啦啦啦,"PM2.5, Arduino, Aircasting",硬體、後端,https://g0v.hackpad.com/IoT-DIY-B1xkj9fUqqH,迷有投影片,,,https://www.youtube.com/watch?v=NXZ9FYZ_b78&index=18&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,miaoski,,,,,,MIT (暫定),,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,授權小幫手(=ﾟωﾟ)ﾉ,cc授權,前端大人,https://g0v.hackpad.com/CC-Cp3CFHqbLcx,,,,https://www.youtube.com/watch?v=Itl_WU3SmCA&index=19&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,moon_c (RS代),,,,,,CC0 ,,,大松,No
+2015/6/13,14,g0v hackath14n | 台灣零時政府第拾肆次野百合黑客松,河圖-跨議題資訊整合UI,群眾上傳、議題整合,前端後湍工程師、設計師、律師、圖資管理師,https://drive.google.com/open?id=0B9bDFHChjWyHRTliS0EwaVc2WXc&authuser=0,,,,https://www.youtube.com/watch?v=BUM2uXR4vLA&index=20&list=PLdwQWxpS513A5q0y-BIxN3BmWl0TOuoVu,三,,,,,,,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,2016 總統大選承諾一覽表,"總統大選,立場比較,MRG coding scheme",新聞工作者/政治學者/社會學者 (政見分類)、網路行銷 (網宣文案)、視覺傳達設計 (og:image),http://beta.hackfoldr.org/president2016-folder,,,,,mrorz,,,,,,,CC BY 4.0,no,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,政治承諾追蹤網,"政治承諾整理,地方政府研考會",新聞工作者/政治學者/社會學者 (承諾進度整理)、react.js,http://beta.hackfoldr.org/ppt,,,,,mrorz,,,,,,MIT ,CC BY 4.0,no,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,自主生產計劃書產生器,"生產,懷孕,小黑客",文字工作者/ 後端,http://beta.hackfoldr.org/b1rth/,https://goo.gl/QoAMM7,,,https://youtu.be/dNfsNjVoA3g,ipa,,,,,,CC BY / MIT,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,環境資訊全球推動計畫 Environmental Knights ,環境新聞 經驗分享 全球資訊,新聞工作者、行銷人,https://g0v.hackpad.com/Environmental-Knights-YZtxPge4Xbq,,,,https://youtu.be/NKkZf6cGEik,formotse,,,,,,CC BY 4.0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,判決書懶人包,判決書 司法,前端、法律人、文字處理,https://g0v.hackpad.com/suxchYnyCBR,,,,https://youtu.be/T6YaBuFsXJw,ronny,,@ronnywang,,,,CC BY 4.0 ,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,眾志成城：基進、人本、科學的開放協同議論平台,協同議論、筆戰的意義,思辨者、資訊系統設計,https://g0v.hackpad.com/jLVacJPjj5D,,,,https://youtu.be/WJpmLwI-rnQ,chihao,,,,,,"GPL 2.0
+CC BY-SA 4.0",,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,g0v @ 台北數位藝術節, ,不會寫程式會整理資料的人,http://goo.gl/r8gIlG,,,,,chihao,,,,,,"不確定
+",,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,IoT 空污偵測,"空污, PM2.5",前端、維修,https://g0v.hackpad.com/IoT-DIY-B1xkj9fUqqH,,,,,miaoski,,,,,,CC0 / MIT,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,阿美語萌典,"阿美語, 萌典",測試、資料編輯、PDF 處理,,,,,https://youtu.be/5zRsqe8QApI,miaoski,,,,,,CC BY-NC,,,大松,Yes
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,這個社會的新聞樣貌：以八仙塵爆意外為起點,文字的新聞稿不算　側錄１２家電視台影片共計１００天高達２萬８千８百小時以上,檢查員（文職）　工程技術（不限）　其它,"
+https://drive.google.com/folderview?id=0B6ASgY1GMSOhfmdnbVlKMlNadjBfb3NPMnhGNkl5dUlQMnBMRnRxZk9henh6U0Rab0lJX3c&usp=sharing",https://goo.gl/FvvfAU,,,https://youtu.be/xjlwf9eUA1c,Michael_LI,,,,,,"有待確定
+",,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,BatDrone（婦幼治安犯罪危險地點提醒、監測）,晚上、回家、無人機,"資料收集者, iOS, Android",https://g0v.hackpad.com/BatDrone--BB8UPY6SPCD,https://docs.google.com/presentation/d/1dxcrHnTRdkaejmtZb3l7Ws8LJ31d1sL1oHlAOpiuc08/edit?usp=sharing,,,https://youtu.be/0weoEgpztFE,kevinphy,,,,,,CC BY 4.0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,地政司火車組不給玩怎麼辦,"地號建照地圖化, 厝邊隔壁來畫圖, 合法爭取公有空間實踐憲法143條","爬資料,地圖化,OpenStreetMap",https://g0v.hackpad.com/z3C6ZqUlvMk,,,,https://youtu.be/h3cRAAHmhp4,chewei,https://www.facebook.com/MikLiu,@chewei,,,,cc0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,Data + Design 資料＋設計 正體中文版翻譯,"data, design, zh-Hant",翻譯者、校對者、23日成果展示者,bit.ly/data-design-zh,https://goo.gl/aJXGSY,,,,nchild,,,,,,CC BY-NC-SA 4.0（翻譯）/ CC BY 4.0 (文件),,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,河圖-跨議題資訊整合介面,跨議題、互動、資料庫,D3工程師、網頁工程師,http://aod.tw/,,,,,3,,,,,,CC BY 4.0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,TaipeiTimes特寫報告,新聞,受訪者,https://hackpad.com/Taipei-Times-Feature-Article-on-g0v-TdhRNHamGAV,https://docs.google.com/presentation/d/1Pt8IINb6h7xDgxAs-evh_DXkHl5zsF9uTV8SaVS2h04/pub?start=false&loop=false&delayms=3000,,,https://youtu.be/zYZA3b-lNvk,Aaron,,,,,,CC BY ,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,情境網頁遊戲框架,遊戲、互動、網頁,網頁設計師、前端設計師,https://g0v.hackpad.com/J84agQVmxG7,,,,https://youtu.be/dLmv77tSKhc,billy3321,,@billy3321,,,,CC BY 4.0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,選舉支出回報系統,"選舉、支出、回報
+","App 設計師、前端、後端、公民
+","https://g0v.hackpad.com/--E9X1LqXJZz9
+",,,,https://youtu.be/iEK2C-vW5dM,ytsu,,,,,,CC0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,選舉媒體紀錄,選舉、媒體曝光、支出,,"https://g0v.hackpad.com/--tCSj9sN15ZI
+",,,,https://youtu.be/OkbLa0ea_rQ,ytsu,,,,,,CC0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,台北市政府跟社群的合作,,,https://g0v.hackpad.com/doit-20150820--uXVYkyc7ldE,,,,,,,,,,,CC BY 4.0,,,大松,No
+2015/8/22,15,g0v hackath15n | 台灣零時政府第拾伍次資料科學黑客松,IssueTaiwan 台灣好問題,"全民參與, 還政於民, 永續發展","資訊系統設計, 視覺傳達設計
+新聞工作者/社會學者/政治學者",https://g0v.hackpad.com/IssueTaiwan--OCelk22n02v ,,,,,nicky,,,,,,CC BY 4.0 ,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,八仙塵爆　新聞分析（80天）,,,,,,,https://youtu.be/oHv5CNmRW8U,Michael_LI,,,,,,,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,救救臺灣龜與生態研究資訊交流,,,"https://g0v.hackpad.com/tFDaeOtsSbU
+",https://hackfoldr.org/turtle-cuora,,,https://youtu.be/vSWG9Ja7L2Q,If,,,,,,MIT ,CC BY-NC 4.0,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,2016 總統大選承諾一覽表,"總統大選, 選舉承諾, 表格 UX design","新聞, 政治, UI / UX",http://beta.hackfoldr.org/president2016-folder,http://hacktabl.org/president2016,,,https://youtu.be/-ivY4s4R9ow,MrOrz (Johnson),,,,,,MIT ,CC BY 4.0,no,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,公有地大行動-財政部國產署管理土地地圖,"地號, 地圖, 公有資產","爬資料, 地圖, db",http://hackfoldr.org/POPonFire,http://land.shida.info/,,,https://youtu.be/NHoJdkeUXd0,chewei,https://www.facebook.com/MikLiu,@chewei,,,,CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,Translate4you 為你翻譯,"翻譯, 語言, 工具","Ul, 程式, 翻譯",https://g0v.hackpad.com/Translate4you--j5b4i4DdTbX,https://github.com/g0v/Translate4you,,,https://youtu.be/NHoJdkeUXd0,chewei,https://www.facebook.com/MikLiu,@chewei,,,,程式授權待查 ,CC BY 4.0,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,農作物開放資料,農業、維基物種、圖鑑,"農作物分類, 爬資料, 資料儲存",https://g0v.hackpad.com/agrisync--kCmdNxq7RUe,https://goo.gl/xRa1rT,,,https://youtu.be/ySVuwrb0L48,yan,,,,,,CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,逆滲透 - 開放資料研究社,,,,,,,https://youtu.be/rJjV3Qhcd3g,Macpaul/Mindos,,@mindos/ @Macpaul,,,,,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,g0v@台北數位藝術節,g0v 藝術,佈展人力 & 顧攤的人,http://beta.hackfoldr.org/%E7%9C%BE%E5%BF%97%E6%88%90%E5%9F%8E/hackath16n-AhBaJJ6GX6V,http://chihaoyo.github.io/0art/,,,https://youtu.be/JU2Inaru8wg,chihao,,,,,,CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,公務員開放資料Lesson 1,公務員、操作手冊、開放資料格式,能具體說明格式問題的人,https://hackpad.com/Lesson-1-NNteOTb7Ftd,https://www.dropbox.com/s/sb7wy8y69qjanad/%E5%85%AC%E5%8B%99%E5%93%A1%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99Lesson%201.pptx?dl=0,,,https://youtu.be/aLZOSLsIvtI,Peggy,,,,,,CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,共享路平,路平、共享,app 、後端 、GIS,https://g0v.hackpad.com/Iz4ydeSxlGH,https://docs.google.com/presentation/d/1N6ofpoOKhPhOJsi9JrbF2rYSvRuRy4dOsQ3UcfvkABw/edit#slide=id.gd0980cc7c_1_0,,,,Dylandy,,,,,,MIT / CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,超農域-醫農&Stage 2,農業、地圖、疫情,UI/UX、前端、GIS,http://hackfoldr.org/agriculture/dz2qc0E8i0T,http://g0v.github.io/agriculture/pesticide/usages/,,,https://youtu.be/aLZOSLsIvtI,a0kman,,,,,,MIT / CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,生活政治的資訊系統計畫,社區、平台、政治,UI/UX、後端,https://hackpad.com/5ywvJjfdnZX,https://docs.google.com/presentation/d/1Ph1177Z98t-mHYjaQ40h61qE-QkMmO0LTgf4caKC1f4/edit#slide=id.p,,,https://youtu.be/cKD4xdV5SUo,柏瑜,,,,,,MIT / CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,開放都市-委員會會議記錄資料庫,"都市計畫, 文件資料庫","資料結構, 資料庫設計",https://g0v.hackpad.com/--BpW2Xt7s8AH,https://github.com/g0v/urbancode-commission,,,https://youtu.be/ViYCaskYF5Y,理查,,,,,,MIT / CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,阿美語萌典,"阿美語, 萌典",文字工、校對,https://hackpad.com/WPLVA9cNxOc,http://ckhis.ck.tp.edu.tw/~ljm/amis-mp/,,,https://youtu.be/Tl3a_Ny6XWs,weiting,,,,,,CC BY-NC,,,大松,Yes
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,原能會管制事件時間軸,原能會、政誌、時間軸,議題、爬資料、時間軸設計,https://g0v.hackpad.com/Sd7OkOgUSbH,https://www.dropbox.com/s/8ipjomxr6ig7c8y/2015_10_24%20%E5%8E%9F%E8%83%BD%E6%9C%83%E7%AE%A1%E5%88%B6%E4%BA%8B%E4%BB%B6%E6%99%82%E9%96%93%E8%BB%B8%E6%8F%90%E6%A1%88.pptx?dl=0,,,https://youtu.be/MG1d_7NaiZY,YK,,,,,,CC BY 4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,g0v project pool,g0v基礎建設 專案 整理,UI/UX、後端,http://g0v.github.io/projectPool/,http://g0v.tw/en-US/projects.html,,,https://youtu.be/0G47anUlNeE,ipa,,,,,,CC BY-4.0,,,大松,No
+2015/10/24,16,g0v hackath16n | 台灣零時政府第拾陸次刑法一百黑客松,政知道了（暫）,Polis、Live直播、政知節目,熟「總統政見一覽表」「Polis」的人,https://docs.google.com/document/d/1laNG-OWmxtkRNW0v_-CEspsHiD58Ih-CimmTh4ddiQg/edit,https://www.icloud.com/keynote/000AkAxYrDVK_D6fwpwoNbdxg#g0v,,,https://youtu.be/RhIAYOwd3ZM,dab,,,,,,CC BY-4.0,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,健保核刪,,,https://dsp.hackpad.com/L8FFA61oHcF,http://www.slideshare.net/peishenwu/ss-56012640,,,https://www.youtube.com/watch?v=vEuj2tBE0NU,吳沛燊,,,,,,,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,MT7688,,,,,,,,Mindos,,@mindos,,,,,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,站聲 - 民意代表的評價平台,民代贊和噓、評論、排行,,https://g0v.hackpad.com/m4tGX88GT8X,http://solveissue.org/,,,https://www.youtube.com/watch?v=XJ6f6GJ-rhY,王信凱 Sky,,,,,,CC BY,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,懶人藝術家 x 經濟民主連合,插畫、社運、NGO,插畫家,http://beta.hackfoldr.org/lazy-artist,,,,https://www.youtube.com/watch?v=lZlf49C1VvY,ETBlue,,,,,,CC BY,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,Guild Wars 2 Inventory,GW2、前端、除蟲,可以忍受菜鳥的 code 的F2E,https://g0v.hackpad.com/Guild-Wars-2-Inventory-NcrQirRU18O,http://etblue.github.io/gw2inventory/,,,https://www.youtube.com/watch?v=pbgbN9T5Ue8,ETBlue,,,,,,MIT,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,公務人員開放資料Lesson 2,公務員翻譯蒟蒻,有耐心跟我解說你怎麼用資料的工程師,https://hackpad.com/Lesson-2-SSDJngGP8MU,https://www.dropbox.com/s/p6p4h5gk64cr3nm/%E5%85%AC%E5%8B%99%E5%93%A1%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99Lesson%202.pptx?dl=0,,,https://www.youtube.com/watch?v=yEYa14hKPkM,Peggy,,,,,,cc0,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,一起來玩防災演習唄～,災害、演習、志工,對防災有興趣的人、網頁或資料庫工程師,https://hackpad.com/105-UWDiLaZEEaQ,,,,https://www.youtube.com/watch?v=uQYUXPqpGQc,小四,,,,,,MIT,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,開放資料 landing page 產生器,資料分析、產生器、行銷,喜歡玩資料的人,https://g0v.hackpad.com/-landing-page-SfuUIP4TA80,https://dl.dropboxusercontent.com/u/125794/datasmith.pdf,,,,poga,,@poga,,,,MIT,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,司改實境遊戲計畫,實境遊戲、司法議題、網站建置,視覺設計、插畫家,https://g0v.hackpad.com/uG07Z5744Sp,https://drive.google.com/open?id=0B_uTOPXK4r0daExsVzFDbFlpVG8,,,https://www.youtube.com/watch?v=Uv5iSabK3yc,Effie,,,,,,CC-BY,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,自己的Emoji自己造,"Emoji, Unicode, 標準化",繪圖、Google Trend等,https://g0v.hackpad.com/Emoji-YPkxkHyGz97,http://www.slideshare.net/bobby3302/emoji-56448120,,,https://www.youtube.com/watch?v=C9bR5e5bVqs,Bobby Tung,,,,,,Open Standard,,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,iTaigi嘛愛講台語,台語、鄉民、好工具,前端工程師、網頁設計師,https://g0v.hackpad.com/moed7ct-taigi-neologism?r=0#iTaigi,http://itaigi.tw/,,,https://www.youtube.com/watch?v=iHgS_xZIJ-4,Liz,,,,,,CC0,,,大松,Yes
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,救救臺灣龜/野保法,台灣龜、盜獵走私、野保法,網頁設計師、挖資料,https://g0v.hackpad.com/tFDaeOtsSbU,http://g0v.github.io/cuora/,,,https://www.youtube.com/watch?v=ODZ-SyYpeH8,If,,,,,,MIT ,CC BY-NC 4.0,,大松,No
+2015/12/26,17,g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松,通勤自行車道影片平台,自行車通勤、影片分享,,https://g0v.hackpad.com/acE04QoED4q,,,,https://www.youtube.com/watch?v=43T8uzm8fjE,理查,,,,,,CC-BY,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,資料新聞產生器,資料新聞、產生器、視覺化,視覺化經驗者,https://g0v.hackpad.com/SfuUIP4TA80,https://speakerdeck.com/poga/xin-wen-chan-sheng-qi,,,https://www.youtube.com/watch?v=bqFgsJxCTjM,poga,,@poga,,,,MIT,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,Excel 小工具  ,"excel, data, javascript
+","excel 轉 csv 需求者, 想練習 js 的人
+",https://g0v.hackpad.com/Excel--jkpco57DjJH,,,,https://www.youtube.com/watch?v=x9As-svKyeM,ronny,,@ronnywang,,,,BSD,,other,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,地址轉經緯度 API,"地址, 經緯度, 地理",地址轉經緯度需求者,https://github.com/ronnywang/taiwan-address-lookup,,,,https://www.youtube.com/watch?v=x9As-svKyeM,ronny,,@ronnywang,,,,BSD,,yes,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,戰後臺灣規劃史料資料庫,泛黃文件OCR、老舊地圖數化、都市計畫 ,,https://g0v.hackpad.com/-Taiwan-Spatial-Planning-Data-Base-Jk9DUGUvgla,https://docs.google.com/presentation/d/1O8IQv-IUYFPsSx9H0RGyq3jWaYtt0jI7S8TC0Z0YPzc/edit,,,https://www.youtube.com/watch?v=qqw0sRTYL6E,chewei,https://www.facebook.com/MikLiu,@chewei,,,,cc-by,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,社會變遷全記錄 - 議題資料連結小幫手,研究、問卷、統計,,https://g0v.hackpad.com/UssOWtAVda9,https://goo.gl/WRELny,,,https://www.youtube.com/watch?v=uvr2U_kmbYE,林宗弘,,,,,,MIT / CC-By,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,公務員開放資料Lesson 4,API白話文運動,有耐心的工程師大大、也有推動開放資料經驗的公務員,http://beta.hackfoldr.org/1y53yMePrhGHqYRiLnpGxRBCkEbq6gk72eswTGewx2mc,,,,https://www.youtube.com/watch?v=ocWCorZXvQo,Peggy,,,,,,cc-by,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,開放資料csv產生器,excel、csv、自動化,VBA or other coders、公務員或替代役等開放資料釋出者或協助者、開放資料使用者,https://g0v.hackpad.com/-Excel-.csv--vDLLZbbikXF,https://www.dropbox.com/s/w2hixqsm30ow09q/20160305_ExcelToCsv.pptx?dl=0,,,https://www.youtube.com/watch?v=YR_vApGJ65U,Arshain,,,,,,cc-by,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,一個社會公共事務社群的 UX2.0," 社會公共事務, 透明中立, User experience","UX designer, APP & Web developers",後補,後補,,,https://www.youtube.com/watch?v=iy1aTxy3wZE,Faraday Jeffrey,,,,,,,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,Summit 支援前線,,,https://g0v.hackpad.com/g0v-summit-2016--n6mtHE69Kzg,,,,https://www.youtube.com/watch?v=7R74krlQ3W8,LY,,,,,,cc-by,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,性別統計資料庫,性別議題、資料庫、駭客松,文書、對性別議題有興趣的人（資料API化）,"https://g0v.hackpad.com/--I6TyKqNg0Yz
+",https://drive.google.com/a/womany.net/file/d/0B-yEKOH7xVMKSlhKMXFZUFhfODA/view?usp=sharing,,,https://www.youtube.com/watch?v=u_KIUNM0298,Tin,,,,,,MIT,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,g0v 零時空汙觀測網,空氣汙染、物聯網、公民科學,前端工程師、資料工程師、關注空汙議題者、感測站放置志願者,https://g0v.hackpad.com/g0v--TexkKFNmqZP,http://g0vairmap.3203.info/,,,https://www.youtube.com/watch?v=kXcl-CHgay4,Lafudoci,,,,,,MIT,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,阿美語萌典,阿美語、萌典、辭典,後端工程師、OCR工人、對於阿美語有興趣的人,https://g0v.hackpad.com/3Ydp2FGteEs,https://docs.google.com/presentation/d/1Mm1kubR0HPNBcKK-d9znURDhPmcWIccY0etTVa7LGWE/edit?usp=sharing,,,https://www.youtube.com/watch?v=Enxt1gF-9Og,Lafin,,,,,,cc-by,,,大松,Yes
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,災害議題管理Hackfoldr,災害議題管理、台南大地震,願意分享防災議題Hackpad一同彙整的人/希望相關研究者互相實體認識/共筆,http://beta.hackfoldr.org/em/,http://www.slideshare.net/JessieWang29/hackfoldr,,,https://www.youtube.com/watch?v=fpDRlYTKScQ,Fumi,,,,,,cc-by,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,立委咖電喂,立委、通訊錄,工程師/設計師/願意討論介面/應用的人/想出更好名字的人,https://g0v.hackpad.com/t5nla4R4Dft,http://www.slideshare.net/JessieWang29/18g0v,,,https://www.youtube.com/watch?v=0YF5V4heAVI,Fumi,,,,,,cc-by,,,大松,No
+2016/3/15,18,g0v hackath18n | 台灣零時政府第拾捌次亞太營運黑客松,叛民城市地圖資料集,,前端工程師、網頁設計、精通美日語者,https://hackpad.com/JAhnEkKAxoi,http://www.slideshare.net/BrandinYang/hackath18n,,,https://www.youtube.com/watch?v=l5nHp1EhXbo,楊緬因,,,,,,cc-by,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,近期成果報告（？）,,,有點雜,https://docs.google.com/presentation/d/1FkzyZASKwUlfM4zOqkxiJYYc91O1w7viAM0_2sc34II/pub?start=false&loop=false&delayms=3000,,,https://www.youtube.com/watch?v=u5U7eXR1eKo,雨蒼,,@billy3323,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,Rev Now 音樂製造,音樂創作、開放、共享經濟,工程師、音樂創作者,待補,http://www.slideshare.net/HongHong19/revnow,,,https://www.youtube.com/watch?v=3F1zYoHGeGk,Neo,,,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,Taiwan 2030,公共參與、維基城市、時代力量,UI設計師、UX設計師、前後端工程師,http://hackfoldr.org/taiwan-2030/,http://www.slideshare.net/addisonsky/npp16th-g0v,,,https://www.youtube.com/watch?v=WQaf6MQ_ubc,BoYi,,,,,,CC BY NC-SA,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,你今天加班了嗎?,勞動環境、工時與加班費、資訊曝光,UI設計師、UX設計師、瞭解勞基法的人,https://g0v.hackpad.com/tA21IMtODD8,http://www.slideshare.net/WeimingChen1/ss-63180418,,,https://www.youtube.com/watch?v=czEdOIS_Q-Q,韋銘,,,,,,MIT / CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,（如何不要）秒滅兩萬人？,危險度、境況模擬、災,都市計畫，災害議題，地理資料,https://g0v.hackpad.com/lBqSV2OOpIi,https://docs.google.com/presentation/d/1v19LXTU8bQZGZ44oRc1OPHEAn4q43q0V0hGL5QlfUKU/edit?usp=sharing,,,https://www.youtube.com/watch?v=QdKNurap3io,chewei,https://www.facebook.com/MikLiu,@chewei,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,iTaigi 愛台語,台語、家己的辭典家己編,前後端工程師、UI/UX設計師、對台語有興趣的人,https://g0v.hackpad.com/moed7ct-taigi-neologism#iTaigi,http://www.slideshare.net/LizLin5/itaigi-0618,,,https://www.youtube.com/watch?v=_L5pcXJQzc4,Liz,,,,,,CC BY 4.0,,,大松,Yes
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,WaterGo！免費飲用水地圖,飲水地圖、osm,前端工程師、app開發工程師,http://beta.hackfoldr.org/drinking-water/BAdDl4G9uXM,http://www.slideshare.net/ssuser5782ff/ss-63168512,,,https://www.youtube.com/watch?v=6nc478CbFHo,陳瑞賓,,,,,,全都公開？,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,文本分析器（用魚骨圖討論事情）,新聞事件分解出原因、文字分析、直播節目,前端工程師javascript、UI/UX設計師、node.js,https://newshackathon.hackpad.com/2016-06-18g0v-Mrk4q9PMO40,https://youtu.be/7K-_Tl-ba_k?t=2h36m47s,,,https://www.youtube.com/watch?v=NHgDVZNYCC0,Michael_LI,,,,,,MIT,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,共識預煮 precooksensus,公共參與、社會共識,對公共議題共識機制有興趣的人,https://g0v.hackpad.com/precooksensus,http://bit.ly/g0v19th,,,https://www.youtube.com/watch?v=CaWcDNO_FEY,nchild,,,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,立委咖電喂,立委聯繫資料,PM、文字討論工作者、對專案有興趣的人,https://g0v.hackpad.com/--t5nla4R4Dft,http://www.slideshare.net/JessieWang29/19g0v,,,https://www.youtube.com/watch?v=ywqRMVxu_xA, Fumi,,,,,,CC-BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,看見思法：屬於人民的視覺司法資料庫,司法統計資料、Infographic,後端工程、UI/UX設計師,黑客松完立馬補上,http://vizjust.tw,,,https://www.youtube.com/watch?v=CSpus99gmno,Y.D Lin,,,,,,MIT,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,padagraph.io + g0v.tw = ?,network crowdsourcing dataviz,"python scripter, 有案子的人 legal aspects discussion",https://g0v.hackpad.com/Padagraph.io-Dp1htXil6rO,http://g0v-tw.padagraph.io/,,,https://www.youtube.com/watch?v=KvXE1rgqifo,ynnk&a-tsioh,,,,,,,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,g0v新手讀書會,學習、新手、教學,"1.新手想學
+2.老手想教人
+3.想一起學習進修",https://g0v.hackpad.com/g0v-T8j3gi1D2ee,https://docs.google.com/presentation/d/1J7RSGY1j4PpcjYBabkM60iDIbCytp2TYvHE2Ti96cgw/edit?usp=sharing,,,https://www.youtube.com/watch?v=d8mcYNf-PKI,Yoyo,,,,,,CC-BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,坑曆,一鍵黑客松、自己報的松自己跳、進步主義,前端工程師、UI/UX設計師,http://j.mp/坑曆,,,,https://www.youtube.com/watch?v=GKQWWeOUXao,leo424y,,,,,,CC-BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,新住民入館第一步：博物館官網母語化,新住民、博物館官網、母語化,(待討論後列出),https://g0v.hackpad.com/pnSMhz0PLLa,https://docs.google.com/presentation/d/1u45GNxT4us4sWM87PwcvPyQohAHZ9wBe6BVh5LKwiRc/edit#slide=id.p30,,,https://www.youtube.com/watch?v=s_urDTjNt_8,Moses,,,,,,,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,自己的公園自己顧：公園地圖+特公盟時間軸,公園、遊戲權、公民參與,不論專長，只問熱血,https://g0v.hackpad.com/--5mr6LvvVLva,https://www.dropbox.com/sh/r0vudgrcwtx9h4d/AACbFzwwb6nB7A85LLqnHAr0a/PPFCC%20for%20Hackthon.pptx?dl=0,,,https://www.youtube.com/watch?v=7jhcoLoX9w4,Christine Lee,,,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,Debater 編輯小幫手 browser plugin,網路、筆戰、整理,前端工程、著作權法、編輯,https://g0v.hackpad.com/Debater--vjeJIZ8onSY,http://etblue.github.io/debater/?source=https://hackmd.io/CwUwJgZiDMAcsFowAYQEYHAJy2QgRsslgtMMVuQMZUBs+EQA/download,,,https://www.youtube.com/watch?v=FZJUflCXxEw,ETBlue,,,,,,MIT / CC0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,自己的飛安，自己救,空拍、無人機、飛安,歡迎參加,https://g0v.hackpad.com/NacE7VPcPVx,https://docs.google.com/presentation/d/1wubhsjJRfuspnlLpB6ZDV5B-oIkMYFtKAI_xGBMWGPo/edit?usp=sharing,,,https://www.youtube.com/watch?v=wtlEZw2FY4s,gavin,,,,,,CC BY-NC,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,g0v 基礎建設,人坑介面、基礎建設,,https://g0v.hackpad.com/projecthub-redux-9U6DLtdZc48,,,,https://www.youtube.com/watch?v=Mc95SXQ-anU,clkao,,@clkao,,,,MIT / CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,開放資料學術問卷發放,,,http://www.surveygizmo.com/s3/2865978/FB,,,,https://www.youtube.com/watch?v=2SGTQUaswc8,liang,,,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,拆後重建．建後撰史,直播、字幕,"如果你非常渴望跳坑，這裡有非常容易上手的坑
+
+1. 幫忙（連連看）整理YouTube網址
+2. 幫忙上字幕（中英日!?）
+3. 還有一些短影片（閃電秀）可以剪",https://github.com/g0v/summit.g0v.tw/blob/2016/app/javascripts/components/SpeakerList/speakers.json,http://summit.g0v.tw/2016/schedules,,,https://www.youtube.com/watch?v=1VHR0CsImOM,YuTin,,＠yutin,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,小農X黑客 = 農客松,農委會、小農、黑客,想跟小農一起改變台灣農業的問題的跳坑人,,https://drive.google.com/file/d/0B5u8cSzbVq4WZ3BuZG4xSzJSWVU/view?usp=sharing,,,,Terix,,,,,,CC 0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,政府資訊預算大透視,政府、資訊預算,"坑主, 了解政府預算與採購者",https://hackmd.io/EwMwDA7BCGAmIFoDGBOFwEBYDMBWDa0uCApttihAEYCMusYS0QA=,,,,https://www.youtube.com/watch?v=D4j7E3RLqY0,clkao,,@clkao,,,,MIT / CC BY,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,勞基法計算機 - 變形工時實作,"勞基法, 計算機, 工會","UX, Visual Design, 熟悉勞基法的人",https://github.com/g0v/workweek/issues/20,https://github.com/g0v/workweek,,,https://www.youtube.com/watch?v=0nWf4VTWRAo,Yuren,,,,,,MIT,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,search-g0v,,"Coder, Hacker, Designer",,https://docs.google.com/presentation/d/1Z7WQoNbOXu4hJjbN5wIsVlZ5BFwOPUsyHZWSD-JWTL0/pub?start=false&loop=false&delayms=3000,,,https://www.youtube.com/watch?v=Z1u1p_nGIwk,Allan,,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,假日工時知多少：法源補完,"勞基法, 整理, 圖解",熟勞動法規的人，TXT 組,https://g0v.hackpad.com/HwFox2AWCZf,https://docs.google.com/spreadsheets/d/19wkhjjGFkxtFuDK5R6e1mzmrrjxSV9n4jS0TOkfm3sc/edit?usp=sharing,,,https://www.youtube.com/watch?v=q15dGRRV5dk,ETBlue,,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,零時空汙觀測網,空氣汙染、物聯網、視覺化,前後端、照顧感測器,https://g0v.hackpad.com/g0v--TexkKFNmqZP,http://airmap.g0v.asper.tw/,,,https://www.youtube.com/watch?v=E_qiLNhl030,Lafudoci,,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,一起蒸懶人包,,,http://g0v.hackpad.com/lazytogether,,,,https://www.youtube.com/watch?v=4OA3bBJiH0A,nchild,,,,,,CC BY-SA 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,看見思法: 戒護人力--矯正機關永遠的痛,司法統計、開放資料、尋找長期作戰夥伴,法律、法律、法律,後補,http://vizjust.tw,,,https://www.youtube.com/watch?v=XHhQPanMkzw,Y.D Lin,,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,「假的！」-- 護病比資料查詢,護病比、查詢網站,願意從0開始幫忙的大大QQ,https://g0v.hackpad.com/L4KNanSM67U,,,,https://www.youtube.com/watch?v=DSdPU8N2C48,peggy,,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,itaigi.tw 愛台語,,,https://g0v.hackpad.com/moed7ct-taigi-neologism#iTaigi,http://itaigi.tw/,,,https://www.youtube.com/watch?v=Z40WwK9ge_k,johnny,,,,,,MIT,,,大松,Yes
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,台灣參與預算提案與追蹤 地圖,參與預算 視覺化 台灣,前後端,https://hackpad.com/--kesOVMt4rtP,https://drive.google.com/file/d/0B4Dee6_4G1R5eFB4SVlIZm1XMTA/view?usp=sharing,,,https://www.youtube.com/watch?v=z-6p1tNa-_E,chia hua,https://www.facebook.com/luchiahua0515,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,共筆時間軸,協作工具、時間軸,"UI, UX, Coder",https://g0v.hackpad.com/HackTimeline-6svktTYKVLb,https://docs.google.com/presentation/d/17chsTU6nYXHgtA03yz95kiE2ggmwkAgdrygiTXBqAwI/edit?usp=sharing,,,https://www.youtube.com/watch?v=Dqw0ZFOUNsQ,cheetah,,,,,,CC BY 4.0,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,HackMD UI/UX 改善案,協作工具,"UI, UX, Coder",http://youtu.be/BGvr-s3EDKI,https://github.com/hackmdio/hackmd,,,https://www.youtube.com/watch?v=QIST2083_H8,jackycute,,,,,,MIT,,,大松,No
+2016/8/6,20,g0v hackath20n | 台灣零時政府第貳拾次總統直選黑客松,政權轉移/政策改變後被消失的那些資料,政府資訊公開、議題發想,,https://g0v.hackpad.com/Untitled-qMqNgMJFxDu,https://drive.google.com/open?id=0BxSNMMOjKnE-cDdJVUZZNWJoZGs,,,https://www.youtube.com/watch?v=daQwnZoZGbU,YK,,,,,,CC BY 4.0,,,大松,No
+2016/6/18,19,g0v hackath19n | 台灣零時政府第拾玖次飛彈試射黑客松,電力,,,,,,,https://www.youtube.com/watch?v=UjidI8XlORA,Muyueh ,,,,,,,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,Hackfoldr @ PDIS.tw,公務員、數位創新、共筆空間,"logo 設計, 公務系統規劃, hackfoldr 協作",https://github.com/PDIS/web/issues/1,http://www.slideshare.net/autang/hackfoldr-pdistw,,,https://youtu.be/8WnTgW9eyM4,au,,,,,,CC0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,開放都市計畫-南港區都市計畫通盤檢討,"都市計畫, 南港, 書圖資料","txt, 資料視覺化, 南港生活者",https://g0v.hackpad.com/--hzxdTtdG3QU,https://goo.gl/LpHLpY,,,https://youtu.be/C9cGIrSpQLI,chewei,https://www.facebook.com/MikLiu,@chewei,,,,CC BY 4.0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,g0v Project Hub,"基礎建設, 人坑松, 協作","txt, designer, developer",https://hackmd.io/EYDgzAbArALAxgJgLQFMAMMZJlCEkCGBKcSYCUcAJsFVQJxxwpA=,http://github.com/g0v-data/registry,,,https://youtu.be/sNx51AdUDxM,tkirby,,,,,,MIT,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,你想要怎樣的黨產資料網站？,API、資料集,網站架構、資料視覺化、介面設計師,https://g0v.hackpad.com/xpvderSMBSU,https://docs.google.com/presentation/d/1dIzsSvniD8vh9j6jYRuAwX6yCwqnfSb3ZuST4WAzv-A/pub?start=false&loop=false&delayms=3000,,,https://youtu.be/XCsKIJ3kphg,雨蒼,,@billy3322,,,,政府資料開放授權條款,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,g0v Budget Reboot,,"會計, 前端",http://beta.hackfoldr.org/open-budget,,,,https://youtu.be/w4X4Eqq83Ug,clkao,,@clkao,,,,MIT,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,第一次參與式預算就苦手-舊莊茶點燃計畫,參與式預算、社區營造、產業再生,設計，社區營造經驗，文字類人員,http://ngdo.gov.taipei/public/Attachment/67251713036.pdf,https://goo.gl/Tf6OI2,,,https://youtu.be/oRNWT64L2hk,偉尼基,,,,,,CC BY 4.0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,散落在世界的國家寶藏,,,https://g0vus.hackpad.com/G0VNYC--LHg8jvQVJIj,,,,https://youtu.be/WO8C8T7K-38,蕭A,,,,,,MIT,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,公務之聲,公務員、想想公僕、由下而上改造政府,"1.願意接受需求訪談的公務員
+2.幫忙釐清要開發出什麼東西才合用的大大
+3.再依要開發出什麼東西來徵技術高手",https://hackpad.com/8B8dlXJSNax,https://youtu.be/tAx645Bx5AU,,,https://youtu.be/h3Fw6BHOhZg,魚凱,,,,,,CC BY 4.0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,愛台語 itaigi.tw,"台語, 辭典, 自己編","前端, 網站宣傳, 貢獻講法",https://g0v.hackpad.com/moed7ct-taigi-neologism#iTaigi-,http://itaigi.tw/,,,https://youtu.be/GdwiNzNUTZg,Hank,,,,,,MIT,,,大松,Yes
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,vTaiwan 改版,vTaiwan、網站、改版,,https://g0v.hackpad.com/H2QhNRFVMOw,https://github.com/g0v/vue.vtaiwan.tw,,,https://youtu.be/73Sv2ZHWhtY,書漾,,,,,,CC BY 4.0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,臺灣百景消逝,文化資產、鍵盤參與、百景消逝,我覺得我好像什麼都不會QQ,https://g0v.hackpad.com/MybKptjGvDL,https://docs.google.com/presentation/d/1iKW4JMIXptfE50Dk8oenCLg6_0kcYYKXIxXxtaVrEdE/edit#slide=id.p35,,,https://youtu.be/yKsHbsiK_GQ,黃郁仁,,,,,,,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,真的假的 Line bot,"Line, 謠言, lmgtfy",文案、NLP,http://beta.hackfoldr.org/rumors,https://github.com/MrOrz/rumors-line-bot,,,https://youtu.be/uFQuyCvm5ng,MrOrz / johnson,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,Emoji再來一次之送素還真進Unicode,"Unicode, Emoji, Culture",插畫 / 英語專長 / 耐煩者,https://g0v.hackpad.com/Emoji-YPkxkHyGz97,https://docs.google.com/spreadsheets/d/1GHA0iy-OJsQ9BBiJXtffkCLjFbScYyVffrzQvmGs-wk/edit#gid=0,,,https://youtu.be/XnB1DUAgWlU,Bobby Tung,,,,,,CC0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松, 看見思法 - 屬於人民的司法視覺資料庫,看見思法、特偵組、PyCon,資料收集,https://g0v.hackpad.com/--LHL3rG6YM5F,https://docs.google.com/spreadsheets/d/1dN04G0y3tZwBBiindOUL_hy5W8ZsQ4FCrFflRtfr8Os/edit#gid=0,,,https://youtu.be/xUnfinW6o_g,Y.D. Lin,,,,,,CC0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,鄉民風水師,勞基法、凶宅、開放街圖,美術、試算表 (LibreOffice Calc),https://g0v.hackpad.com/-0.1.0-for-Android-0zZtHOsh7DJ,https://play.google.com/store/apps/details?id=tacoball.com.geomancer,,,https://youtu.be/fcrIuD0aXIw,吳政璋,,,,,,GPL 3.0,,,大松,No
+2016/10/15,21,g0v hackath21n | 台灣零時政府第貳拾壹次根留台灣黑客松,原住民數位博物館網站大改造,原住民、文化資源,網站架構、資料庫、資料視覺化、原住民文化興趣者、博物館興趣者,https://g0v.hackpad.com/ezmmu2aN5oD,http://www.dmtip.gov.tw/,,,https://youtu.be/RvyT9b-WYKA,蔡念儒,,,,,,,,,大松,Yes
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,「g0v 公民科技創新獎助金」& 詢問台,公民、科技、沒有人要給你錢,,http://grants.g0v.tw/,,,,https://www.youtube.com/watch?v=maUrFrIjcYw&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=4&t=0s,ipa,,,,,,MIT,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,看見思法－司法改革國是會議最新動況,司法改革國是會議、法律、資料視覺化,前端、設計,https://justice.president.gov.tw/,,,,https://www.youtube.com/watch?v=SESvUmDDLzo&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=5&t=0s,Y.D. Lin,,,,,,MIT,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,共生音樂節大網頁計劃,二二八、網站,前端工程師、行銷/文案、UX,"https://g0v.hackpad.com/g0v--lB4dmrpRAfs
+",,,,https://www.youtube.com/watch?v=z4N1uqt052Q&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=6&t=0s,子期,,,,,,MIT,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,政治人物行程雷達探測,行程、地圖、施政報告,介面設計,https://hackpad.com/--h2uP0wXsaKy,,,,https://www.youtube.com/watch?v=JMhVtu05YM8&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=7&t=0s,Yiping,,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,WizardAmigos CodeCamps,"free, JavaScript, eSchool","JavaScript devs, designer",http://slides.com/ninabreznik/wizardamigos-7#/,http://app.wizardamigos.com/,,,https://www.youtube.com/watch?v=U7IuOD7IhfY&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=8&t=0s,NIna&Alex,,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,歷史災害照片大平台,246、土石流、老照片,all,https://g0v.hackpad.com/sDRTfSlK9rs,http://246.swcb.gov.tw/event2015/,,,https://www.youtube.com/watch?v=RKM2Io9a9Fs&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=9&t=0s,陳振宇,,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,電力的真實成本,補貼、電力、其實,,tbd,,,,https://www.youtube.com/watch?v=FVqr56Y7aN0,Szu,,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,開放政府是什麼？能吃嗎？,開放政府、協作,"任何 ""沒有人""",,,,,https://www.youtube.com/watch?v=ZVizRXbTRL8&list=PLdwQWxpS513CcFIWolRQQg-THPjiCnLgV&index=11&t=0s,Mg Lee,,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,真的假的 - 查證轉傳訊息,網路謠言、Chat bot、crowdsourcing,"跪求各種轉傳謠言。
+txt 協助查證、網頁前端、elasticsearch 使用顧問",謠言.大平台.tw,api.rumors.hacktabl.org,,,https://www.youtube.com/watch?v=IX7Vp3DYOFk,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT,CC0,yes,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,g0v.news 執行計畫,News nobody civictech,新聞專業、編輯、網站前端、設計,https://g0v.hackpad.com/g0v.news--aXd55BN8hmk,,,,https://www.youtube.com/watch?v=gMdqo9iA2wk,Ttcat,,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,HackStory共筆時間軸,協作工具、時間軸,"Javascript, UI, UX",https://g0v.hackpad.com/HackStory-6svktTYKVLb,,,,https://www.youtube.com/watch?v=yyYdVB7uFBw,劉李(night17x),,,,,,,,,大松,No
+2016/12/17,22,g0v hackath22n | 台灣零時政府第貳拾貳次公民科學黑客松,iTaigi：家己的辭典家己編,台語、語音合成,,https://g0v.hackpad.com/moed7ct-taigi-neologism#iTaigi-,https://itaigi.tw/,,,https://www.youtube.com/watch?v=465yu64jZhE,莊銘彥,,,,,,,,,大松,Yes
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,HackStory,1.協作工具 2.時間軸,"Javascript, UI/UX",https://g0v.hackpad.com/HackStory-6svktTYKVLb,https://docs.google.com/presentation/d/1wQWcjQhfLpZRMJPnTLXphjLlgzQxikWVhr4sUt5RReo/edit#slide=id.g1aad072ec0_0_0,,,https://www.youtube.com/watch?v=gGN0Hmx4tw0,劉李,,,#hackstory,,,MIT ,CC0,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,真的假的 - 查證轉傳訊息,LINE bot、fact checking、crowd sourcing,"1. 查證轉傳訊息的小編
+2. web 前後端工程師
+3. 對開發 bot 有興趣的人",http://謠言.大平台.tw,https://cofacts.g0v.tw,,,https://www.youtube.com/watch?v=HgWmQfVdMSM,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,阿美語萌典,阿美語、萌典、原住民,文字工、校對,https://hackpad.com/WPLVA9cNxOc,,,,https://www.youtube.com/watch?v=axbngEEQXow,weiting,,,,,,,,yes,大松,Yes
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,開放政府報告 - 資料集盤點,開放資料、開放政府觀察報告,"對開放資料有興趣的人
+擁有各領域知識的人",https://g0v.hackpad.com/--8fxOWuoTDrl,,,,https://www.youtube.com/watch?v=uoH6vn0fmDg,Mg Lee,,,,,,CC-BY,CC0,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,g0v 紀錄短片介紹,,,,,,,https://www.youtube.com/watch?v=iJididxzjN8,Sarah Maquet (journalist) and Dominique Preusse (director/cameraman),,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,公共政策網路討論論壇,"1.公共政策論壇
+2.爭議點釐清
+3.公共政策wiki","網站前後端工程師
+熟悉論壇作業的版主
+熟悉公共政策討論流程",https://g0v.hackpad.com/OUeZtcTmQon,,,,https://www.youtube.com/watch?v=wIUhNf0D5w8,芥藍菜,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,一思一友 Mentor Matching,1.大學生學職涯接軌 2.Design your life 3.點燃大學生自我熱情,網站前後端工程師,https://g0v.hackpad.com/-Mentor-Matching-TdTZhgyg0Y5,"http://www.spiroxfoundation.org/Mentor_Matching/index.php 
+",,,https://www.youtube.com/watch?v=blfLoJjBSV0,Mentor Matching 工作團隊,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,鄉民風水師,"1. 凶宅
+2. 勞基法",徵三星手機除錯,https://g0v.hackpad.com/-0.1.0-for-Android-0zZtHOsh7DJ,https://play.google.com/store/apps/details?id=tacoball.com.geomancer,,,https://www.youtube.com/watch?v=Rb8ThHQjjMk,吳政璋,,,,,,Apache v2,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,影片聲音文字圖片整理系統－－政府與民眾社會對話還原裝置,"1.Hypertext 超文本的活用（簡單 index 法則）
+2.人的記憶是有時效性的
+3.歷史事件當下的存檔資料整理（例如：318學運）","1.網站軟體工程師。（例如：JavaScript，PHP）
+2.asp.net mvc（開發環境還可以調整）。
+3.文書工作的技能。",https://newshackathon.hackpad.com/vnXJ3yAaqdI,,,,https://www.youtube.com/watch?v=y0h6kIjY0Lw,Michael_LI（VT System 開發團隊 ）,,,,,,MIT,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,為匯流 N 法注射更多 NN－通訊傳播匯流修法,網路中立性、數位人權、數位匯流,共同完成社群修正案；翻譯／校對（針對馬尼拉原則）,https://nninlaw.hackpad.com/dc,,,,https://www.youtube.com/watch?v=q440FUHijfA,nchiild,https://www.facebook.com/events/245048412615212/,,,,,CC0,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,城市綠地健檢與資訊揭露,綠地健檢 資訊接露 地理資訊,"敘事網站設計與架設人
+生態系美編平面設計人",http://prezi.com/gyhqqlaj_s86/?utm_campaign=share&utm_medium=copy,,,,https://www.youtube.com/watch?v=gNCX7NkI8mw,林書正,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,預防登山迷途- 手機輔助登山,手機GPS登山，山難預防，登山地圖,iOS、Android裝置APP程式開發夥伴,https://docs.google.com/presentation/d/1CMEyRlHonYF8siZxnoXJi49FV5hYnBxYIXs0e2X9iFs/edit?usp=sharing,https://grants.g0v.tw/projects/58908c3046da1c001e3601e7,,,https://www.youtube.com/watch?v=RkrBnZUPlk4,Timothy Kuo (摩西),,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,監督網路新聞（台灣媒體觀察教育基金會）,媒體素養教育，公民監督媒體，監督工具的改善,關心新聞的人，程式工程師，鄉民（花時間監督網路新聞）,https://newshackathon.hackpad.com/mrzzcKc795W,http://www.net543.com/web_test/mediawatch/3minutes_01.html,,,,台灣媒體觀察教育基金會,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,台灣版s4s ＋便便收藏中文版,,,https://g0v.hackpad.com/Sync-for-Science--ktNib2TTgAP,,,,https://www.youtube.com/watch?v=vPZimHrBvqM,Yu-Chen Liu,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,臺北市公有非公用建物土地資料地圖展示,開放資料、公有、土地及建物,徵對圖資熟悉的人(不熟也可以啦),http://beta.hackfoldr.org/1QJCYYYBr3rbkvYuVbDXW7V3mcyDmGb1wB-P-GkBe-7o,https://drive.google.com/file/d/0B75SS9hnnHMiemRLS0RQNlg5RGc/view?usp=sharing,,,https://www.youtube.com/watch?v=9PTpd_aznso,王寶萱,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,台中自由/開放文化授權條款 1.0 版 - Hack 博物館開放文化的新選項,開放文化、開放授權、台中市,清議、玄談、文化感染,https://hackmd.io/s/S11nftLcg,https://hackmd.io/p/Skm32zDql#/,,,https://www.youtube.com/watch?v=0B_z6RAPM4c,林誠夏,,,,,,PDM,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,新北市議會監督,議會監督、新北市,web前後端工程師 小編 文案 設計師 各種志工Q,https://g0v.hackpad.com/aCejtHVw9dX,http://www.hsintienstay.org.tw/blank-7,,,https://www.youtube.com/watch?v=t4oizb_Z6j4,Fi,,,,,,,,,大松,No
+2017/3/4,23,g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松,世大運反恐 3月29日兵棋推演,防災演習,物資、模擬災民,https://hackpad.com/1063-6lcKhsOqUuC,https://bifrostio.herokuapp.com/#/stations/58b59d6d4fbbc3004afb4454?_k=9x85u3,,,https://www.youtube.com/watch?v=SieVnXzAPQc,YuTin,,＠yutin,,,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,白色恐怖時空資料視覺化,白色恐怖、時空關係、視覺化,網頁設計、工程師、對白色恐怖有興趣的使用者,https://docs.google.com/document/d/1xFiVc7LNzMxhLAierzR_zA5CrrtOTF_MIrSg1vNQ5zM/edit?usp=sharing,,,,https://www.youtube.com/watch?v=x8dkIPyUBOI,Afa,,,,xuppu645@gmail.com,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,鄉民風水師 ,屎缺、凶宅、人文地理,Play 商店 banner 設計，icon 設計,,https://play.google.com/store/apps/details?id=tacoball.com.geomancer,,,https://www.youtube.com/watch?v=3tbNVwUXI5E,小璋丸,,,,,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,InternLens 實習透視鏡，全台最透明的實習資訊平台,實習，資訊透明，匿名,"UI, UX, Javascript, nodejs, 法律大神，以及任何對於實習相關議題有興趣的沒有人",https://quip.com/jUL9AOFMHDST,https://internlens.com/,https://github.com/internlens-tw/InternLens,,https://www.youtube.com/watch?v=iW1ixaNUPjw,kjohn,https://www.facebook.com/groups/241235806333620/?ref=bookmarks,,,internlens.tw@gmail.com,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,勞基法函式庫：勞基法相關應用的基石,勞基法,"想看勞基法的人, 勞工, UI/UX",https://hackmd.io/c/SJES19Fy-,https://docs.google.com/presentation/d/1AFzd5pZ5_VEq3eSWDWRrqYWdEcTq_rMpKqvUUGldghg/edit?usp=sharing,https://github.com/g0v/labor-standards-tw,,https://www.youtube.com/watch?v=3NFAlmKOWAc,yurenju,,,,,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,臺灣媠聲2.0：母語語音合成再利用,母語,對母語有興趣的人,https://g0v.hackpad.com/2.0-iVckawDYITB,https://www.slideshare.net/chenghunghsueh/20-75712093,,,https://www.youtube.com/watch?v=f89btlLzHds,Sîng-hông,,,,,,MIT,,,大松,Yes
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,開放政府報告 - 資料集盤點,開放資料、開放政府觀察報告,"對開放資料有興趣的人
+擁有各領域知識的人",https://g0v.hackpad.com/--8fxOWuoTDrl,https://github.com/TheWebFoundation/odb,,,https://www.youtube.com/watch?v=5tThx9njxQE,Mg Lee,,,,,,MIT ,CC0,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,溫柔生產計劃書產生器,,,http://beta.hackfoldr.org/b1rth,,,,https://www.youtube.com/watch?v=bPlkXXyQWUA,ipa,,,,,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,新聞小幫手2.0,新聞、媒體,常看新聞的人,https://g0v.hackpad.com/-2.0--uK29ywpgBK4,https://docs.google.com/presentation/d/13XEFMSR1_KA9Ugm4b5j_Utb1fhhRwXTIAFfm-V-9iYY/edit#slide=id.g21840c0597_0_33,,,https://www.youtube.com/watch?v=OU7qub1hbwY,ronnywang,,@ronnywang,,,,BSD,,no,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,阿美語萌典,阿美語萌典、原住民族、寫作,對原住民族文化有興趣的人,http://beta.hackfoldr.org/11BRa7Ftnni8Q1NRdjwS378BgBz832UY4uIr-d0J0YpM/https%253A%252F%252Fhackmd.io%252Fs%252FHJJeu08Al,https://docs.google.com/presentation/d/1d0L2dY-8Le4tqUga2y90N6cucPhd6SIhxsiH-ZFUy-Q/pub?start=false&loop=false&delayms=3000,,,https://www.youtube.com/watch?v=Kd19lXTTUJc,weiting,,,,,,cc-by,,yes,大松,Yes
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,國家寶藏,歷史檔案、數位化、開放資料,對挖寶有興趣的人、文案寫手、ios工程師,http://beta.hackfoldr.org/national-treasures/g0v--LHg8jvQVJIj,,,,https://www.youtube.com/watch?v=9OJb-SBbNfM,mooon,,,,,,cc-by,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,公有地專案：有了開放資料之後？,公有地,,https://goo.gl/fS86d3,http://taipei-pop.herokuapp.com/,https://www.facebook.com/groups/1417173811903954/,,https://www.youtube.com/watch?v=ctlFCBBrheU,chewei,https://www.facebook.com/MikLiu,@chewei,,,,cc-by,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,「新聞分析指標」以及「轉檔工具」,我來了，我看到了，我征服了（拉丁語：VENI VIDI VICI）,"1.軟體工程師（PHP,JavaScript / node.js），
+2.關心新聞品質的鄉民，
+3.懂一些些新聞學的人",https://newshackathon.hackpad.com/--rJ6ArtkHum0,https://docs.google.com/presentation/d/1mm3-r5iCQswdeJlGo5-mHAlesnmxMC5fcPST_QH8CfQ/edit#slide=id.p3,,,https://www.youtube.com/watch?v=N2pZnHJeUVk,Michael_LI（新聞松 x 媒觀）,,,,,,MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,超簡單的無人機管理,,,,,,,https://www.youtube.com/watch?v=TBSL39vGLkU,gavin,https://www.facebook.com/groups/1803114993339496/,,,,,CC BY-NC-ND,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,開放都市計畫 - API + 前端設計,都市計畫、資訊開放,前端/API設計 PHP + Laravel,https://g0v.hackpad.com/-API-QHArc116FJR,http://hackfoldr.urbancode.tw/,,,https://www.youtube.com/watch?v=KgpAe9Ms-E0,理查,,,,,,CC-BY / MIT,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,台北市心理資源地圖,台北市心理資源,"可以設計icon或logo的設計師
+喜歡複製貼上的人
+對心理諮商服務有興趣或參與討論的人",http://beta.hackfoldr.org/psy,https://www.slideshare.net/JessieWang29/g0v24,,,https://www.youtube.com/watch?v=JcK21KPefLI,Fumi,,,#psymap,,,CC-BY,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,前瞻計畫數位內容全民公聽會,前瞻計畫、數位、傳播文化,"1.本案針對數位建設部分。
+2.議題規劃者。
+3.會場規劃者。
+4.直播、紀錄。
+5.相關宣傳",https://hackpad.com/GGVzQvHn6Ti,https://drive.google.com/file/d/0B6JTgAKtGuy-TS1kQ19LU1V6bWM/view?usp=sharing,,,https://www.youtube.com/watch?v=zEGqyX-UIJw,子瑋,,,,,,cc,,,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,cofacts / 真的假的 LINE bot,"LINE bot, collaborative fact checking, 謠言追追追",新聞專業、遇到專業領域謠言知道要找誰查證（或自己可以查證）的人,http://謠言.大平台.tw,https://cofacts.g0v.tw,,,https://www.youtube.com/watch?v=nPJoWnewNbQ,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2017/5/6,24,g0v hackath24n | 台灣零時政府第貳拾肆次凍省黑客松,g0v.news,"news, 翻譯",翻譯者,g0v.news,,,,https://www.youtube.com/watch?v=qr66czJGE6E,canadian_aaron,,,,,,,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,政府網站顯示標案資訊和承包廠商,標案 / 開放 / join,,https://g0v.hackpad.com/a0wv4LdHpwx,,,,https://www.youtube.com/watch?v=rx4qwz2x9kk,Ronny,,@ronnywang,,,,CC0,,yes,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,阿美語萌典,阿美語萌典、原住民族、寫作,對原住民族文化有興趣的人,http://beta.hackfoldr.org/11BRa7Ftnni8Q1NRdjwS378BgBz832UY4uIr-d0J0YpM/https%253A%252F%252Fhackmd.io%252Fs%252FHJJeu08Al,,,,https://www.youtube.com/watch?v=HwyuhUz7M-A,weiting,,,,,,CC-BY,,yes,大松,Yes
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,Build Great Bridges Around Taiwan (BGBAT),吸引留住「國際觀」人才 ／ 跨領域合作 ／ 讓台灣變更好,"Social innovation, int'l business, intercultural training, sociology, int'l affairs, counseling psych, coaching & facilitation.",http://tinyurl.com/bgbatpdfjune,,,,https://www.youtube.com/watch?v=byyyRTI3YuU,Jane 汪,,,,,,,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,吳守禮辭典,,,"https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/OpenWuDict
+",,,,,上官,only messanger ,n/a,n/a,n/a,n/a,CC BY-SA 3.0,,no,大松,Yes
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,如果你是議員候選人,,看膩一成不變的政見的人,,https://councils.g0v.tw/candidates/intent_home/,,,https://www.youtube.com/watch?v=6nxiVBwTh1w,johnny,,,,,,CC0,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,Foodsharing Taiwan - foodsharing tool,"Website, app, sharing","developers, programmer, software engineer, coder (javascript & python)",https://www.facebook.com/foodsharingtaiwan/,https://foodsharing.world/,,,https://www.youtube.com/watch?v=SpWFn2HRbd8,Stefan Simon,,,,,,MIT (frontend) & GNU-AGPL 3.0(backend),,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,機器學習歧視案例整理兼檢驗方法閒聊,機器學習 / 歧視 / 共筆,需要幾個例子去抽成純粹的技術問題，所以希望有政治，社會，保險，金融等非電腦科學相關背景的人來討論,沒有人：徵求投影片,,,,https://www.youtube.com/watch?v=mLfIdbXEfcM,hychen,,@hychen,,,,cc0,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,論公策,公共政策 / 平台 / 協作,"前後端工程師
+想多探究公共政策的人",https://drive.google.com/open?id=0B2N1kfWfJEVadWNIMGZnamNtakE,,,,https://www.youtube.com/watch?v=wUb-7KUULSA,芥藍菜,,,,,,CC BY 4.0,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,知識協力倡議模式,政治 / 知識 / 共筆,關心公共議題，願意提供知識的人，認同開放及去壟斷的理念,goo.gl/AQLqcN,,,,https://www.youtube.com/watch?v=YoM73pFH110,Saul Peng,,,,,,CC BY SA,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,lost,,,https://goo.gl/g3d56V,,,,https://www.youtube.com/watch?v=QSbz0JaBVow,gavin,https://www.facebook.com/groups/101397120502155/,,,,,CC BY-NC,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,Akoma Ntoso台灣在地化計畫,法案、修正動議、判決,所有做議案、法案相關的朋友,https://hackmd.io/EYZgZgxgjATAHAFgLQgSArEhBOAbBJAQzF0KRnXQFMAGOGBGgdioSA==?view,,,,https://www.youtube.com/watch?v=_AquvyOmw2E,雨蒼,,@billy3321,,,,CC0,,,大松,No
+2017/7/1,25,g0v hackath25n | 台灣零時政府第貳拾伍次一綱多本黑客松,g0v 獎助金,,,https://docs.google.com/presentation/d/1olUiB9WBtH_JQXYTH2lX62SBNqxSEMpAstSMI2RrIxc/edit#slide=id.g207df311e5_1_167,,,,https://www.youtube.com/watch?v=N3bkMqARO7Q,小班,,@ael,,,,CC0,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,拆解開放資料咨詢小組,開放資料、諮詢小組、gov,資料整理者,https://g0v.hackpad.tw/rfTpW5sFjkj,,,,https://www.youtube.com/watch?v=TXvZuXsYyWY,Ronny Wang,,@ronnywang,,,,CC-BY,,other,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,JSonView(Android快速開發OPenData),Android、Eclipse、好懂好用,行銷、測試,goo.gl/EfyZ5n,,,,https://www.youtube.com/watch?v=AoDIn69MgSk,Hsu Weiyen,,,,,,,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,公民科技的資料保存與分析 civic-notebook,資料、備份、去中心化,資料分析、開發者,https://hackmd.io/CwI2FYAYBMDMGYC0l72I4wDG6AcBOYfRAQ0hAEYB2C6cANnywqA=,,,,https://www.youtube.com/watch?v=9n--MYdG6C8,poga,,@poga,,,,MIT,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,共享關心(Justwithin),國際張老師 ,"front-end engineers, iOS app, Journalists, 導演, 喜歡設計和外語都可以來～",https://g0v.hackpad.tw/Justwithin-dQ4KZ1vHxwX,www.justwithin.org,,,https://www.youtube.com/watch?v=LCsORXvUWI4,Maggie Sheu,,,,,,MIT,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,工時紀錄上區塊鏈 (punch card on blockchain),勞工、區塊鏈,區塊鏈、企劃，勞工專家,https://g0v.hackpad.tw/hqQGdzE8KJn,https://docs.google.com/presentation/d/1kXLSx6eW1SJxFoIXZrGQ730NUPWZfoiXqICvjVO3TjE/edit?usp=sharing,,,https://www.youtube.com/watch?v=YMA_g2U89WA,Yuren Ju,,,,,,MIT,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,工商寶(公司設立輔助工具,公司設立、word,後端、法律專業、熟悉公司法或公司設立流程之高手,https://goo.gl/9FxooG,,,,https://www.youtube.com/watch?v=kBs58vt7Z1Y,Jeff,,,,,,MIT,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,阿美語萌典(O citing no AMIS),阿美語、台灣原住民語與南島語、台灣原住民族文化,前端、後端、資料打字小幫手、設計,https://amis.moedict.tw/,,,,,小蟹,,,#amis,,,MIT,,yes,大松,Yes
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,公有地大行賄 / 公有地大行動,公有地、行賄、司法案件,對於「公有資產與行賄」有興趣的人（？）,https://g0v.hackpad.tw/1KopENAUlH6,https://goo.gl/BwHvwo,,,https://www.youtube.com/watch?v=oVeSxUelGNg,chewei,https://www.facebook.com/MikLiu,@chewei,,,,CC-BY,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,企業永續資訊平台（Corporate Social Responsibility）,開放CSR（企業社會責任）資料、PDF爬蟲、XBRL線上表單,前端、後端、設計、資料分析,,https://docs.google.com/presentation/d/1pJxGkVfh_mNRdNAePLVwnWjVSg6iKggzJcGm3KMJD-o/edit?usp=sharing,,,https://www.youtube.com/watch?v=Qhl7x6dum6Y,李振北,,,,,,,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,Cofacts / 真的假的 LINE bot,"Fact-checking, crowd-sourcing, chat bot",會 google 的人,"
+beta.hackfoldr.org/cofacts",cofacts.g0v.tw,,,https://www.youtube.com/watch?v=BgFLGIHUjzw,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,樣板劇逐字稿計畫,逐字稿、markdown、文字,看得懂簡體、會螢幕截圖、會用 markdown (hackmd),https://hackmd.io/c/ry2TPHV9W/%2Fs%2FBkkpi4uqb,https://hackmd.io/c/ry2TPHV9W/%2Fs%2FBkkpi4uqb,,,,mrorz,,,,,,,CC0,no,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,都市更新天眼通,都更  都市更新  資料視覺化,"front end developer, data scientist, 對都市更新都市計畫有熱情者!",,https://www.slideshare.net/JasonHsu56/ss-78293143?ref=https://www.slideshare.net/JasonHsu56/slideshelf,,,https://www.youtube.com/watch?v=gmt8usu7gzQ,許守傑,,,,,,CC,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,國家寶藏,開放資料 歷史 群眾參與,愛看英文史料的人 Javascript/React/RN 專案經理,http://beta.hackfoldr.org/national-treasures,https://www.nationaltreasure.tw,,,https://www.youtube.com/watch?v=yelfqQbLLgo,蕭a,,,,,,MIT,,yes,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,我們都是李明哲,李明哲、中國、維權,前端、設計師、文字工,https://hackmd.io/GYQwxmAmYgbAtMMBOApvALLAHAJntsMBvGAKywAM2a2YGylQA===,https://docs.google.com/presentation/d/1d-kiD_b-MrWl3LNpIvGdjV8aXeVwZE_r-CA8uBAp3G4/edit#slide=id.g26381a553f_0_12,,,,Shen,,,,,,MIT,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,vTaiwan @ TAF,vTaiwan、法規調適,法律、行銷,https://g0v.hackpad.tw/vTaiwan-106.09.16--38bNZoqCDn4,https://docs.google.com/presentation/d/1WuCDGCASI0F6Z9a5TkHxJSsiVKDJjot1vl9g4p8ptuM/edit?usp=sharing,,,https://www.youtube.com/watch?v=erXMZg-WqEw,子魚,,,,,,CC0,,yes,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,「唐鳳做了什麼」預告！,下午一點,錄影、公民記者、想問問題的人,https://docs.google.com/presentation/d/1xxnHE60LkX0JL31Ob-wqSS4sBL8N8PzByWfUzd4y40k/edit?usp=sharing,,,,https://www.youtube.com/watch?v=KYhP3QogpyM,雨蒼,,@billy3321,,,,CC0,,,大松,No
+2017/9/16,26,g0v hackath26n | 台灣零時政府第貳拾陸次五週年黑客松,黑農松,農委會、小農、土地,揪團打怪，願意一起跟小農合作，透過現有開源應用，創造更多的可能,https://drive.google.com/open?id=0B5u8cSzbVq4WZ3BuZG4xSzJSWVU,,,,https://www.youtube.com/watch?v=UnnAykFWoBg,Terix,https://www.facebook.com/groups/472962446424371/,,,,,,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,g0v 專案復活節計劃,,工程師、後端,https://g0v.hackpad.tw/g0v--9MbKWNVW1Is,,,,https://www.youtube.com/watch?v=hLfrw1EERS4,Ronny,,@ronnywang,,,,比照原專案,,other,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,重啟國會大代誌,,,,,,,https://www.youtube.com/watch?v=lxn1O4Qdu4g,clkao,,,,,,,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,看見思法,犯罪、統計、開放資料,工程師、設計師、法律人,"
+https://hackmd.io/s/HyROlhHeG",,,,https://www.youtube.com/watch?v=yzWRBF0U-wE,YD,,,,,,MIT,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,我不難過：好工作讓你好開心,勞基法、面試、還在想,後端工程師、測試人員、行銷,https://g0v.hackpad.tw/sntyvcSjebZ,,,,https://www.youtube.com/watch?v=rOLOui7e0ZE,書懷,,,,,,MIT,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,g0v 揪松網,揪松、基礎建設、HUB,設計師,https://g0v.hackpad.tw/g0v--JAjfHwGD32I,,,,https://www.youtube.com/watch?v=p3Z0pVMVp_w,Kirby,,,,,,CC0,,yes,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,阿美語萌典,阿美語、台灣原住民語與南島語、台灣原住民族文化,後端工程師、前端工程師、設計師、有興趣的人,https://github.com/g0v/amis-moedict,,,,https://www.youtube.com/watch?v=jsDiSY-FZIM,小蟹,,,#amis,,,CC0,,yes,大松,Yes
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,FB帳號陣亡者聯盟,Facebook、停權、救援,後端工程師（Web / Chatbot）、前端工程師、寫手,https://hackmd.io/OwNgLAzMCM0KYFoAMSCcIFgGYmgghrBAhACapb4AcWVAxhKkkA,https://drive.google.com/file/d/1dTJpLQQWX-Fnke74iVFacietkDeKJ4Xo/view?usp=sharing,,,https://www.youtube.com/watch?v=Y0eWgjdG3_E,Even,,,,,,未定,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,沒有人在乎的「假新聞受害者」　－　X 媒體計劃,新聞出現了、我們一起來評論它們、保留紀錄讓社會公評,後端工程師（要會設計資料庫），架設網站（含網站設計師），文書（整理文字的工作任務）,https://hackmd.io/CYTgLAjFBsAcC0BWAxrC8wDMAMZ4EMBTfAdg2mQCZhpNEBmEbYIA?view#,,,,https://www.youtube.com/watch?v=nzJFaIBMHVo,Michael_LI,,,,,,未定,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,沒有人知道- g0v數位典藏計畫,g0v、知識、社群,編輯、設計、網頁工程師,https://g0v.hackpad.tw/-g0v-Ep7lDkOWGZd,,,,https://www.youtube.com/watch?v=zy_yTj33RSg,Peace,,,,,,,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,Cofacts 真的假的,"Fact-checking, crowd-sourcing, chatbot","編輯：會上網查證的人
+程式：Node.JS, React.JS
+玩資料：elasticsearch
+設計：UX、LINE bot 使用者",beta.hackfoldr.org/cofacts,cofacts.g0v.tw,,,https://www.youtube.com/watch?v=D4iw9OfDyNc,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,開放參與好朋友,小松,開放、參與相關，正在填坑、想要挖坑、想被推坑的人,https://g0v.hackpad.tw/SwMzsJHYror,,,,https://www.youtube.com/watch?v=Z5HVTAnYBqg,chihao,,,,,,CC-BY,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,中央助聽器：千千傾聽，萬人協作科技政策白皮書,線上公民審議,工程師、行銷、公民審議工作者、任何有興趣的公民、對政府開會很煩的人,http://beta.hackfoldr.org/GGV,,,,https://www.youtube.com/watch?v=cyjHeRJbu5s,ael,,,,,,MIT,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,參與開放立法專案送T-shirt,開放立法、開放國會、議員投票指南,,https://councils.g0v.tw/,,,,https://www.youtube.com/watch?v=AfATV4DMDnw,johnny,,,,,,CC0,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,g0v Summit 2018 啟動 & 會議 APP 開發,,,http://beta.hackfoldr.org/g0v-summit2018,bit.ly/2018-ken,,,https://www.youtube.com/watch?v=7-CC7dehDQQ,ipa,,,,,,cc-by,,no,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,政治獻金開放,,,,,,,https://www.youtube.com/watch?v=1MxXQ1s3DFo,hc,,,,,,MIT ,?,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,g0v Shadow ,g0v、shadow website、大平台,有正常螢幕電腦的人、工程師、UI、設計,https://g0v.hackpad.tw/g0v-shadow-ta138sdLdND,,,,https://www.youtube.com/watch?v=-eEj6gOgbgs,Ttcat,,,,,,MIT,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,Open Source Guide 翻譯坑 ,"open source, guide, 翻譯",會英文的人即可,https://g0v.hackpad.tw/g0v-shadow-ta138sdLdND,https://felixshai.github.io/open-source-guide/,,,https://www.youtube.com/watch?v=LMPRZ737Wnk,TypingMonkey,,,,,,MIT,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,板橋新民街區公有宿舍群 / 盤點群眾規劃工具 / 北市府公有資產網頁,公有建物、戰後住宅、空間願景協議工具,有興趣者都歡迎,https://goo.gl/p7KsVv,https://www.facebook.com/groups/291147378066665/,http://taitung-fan-182028.middle2.me/,,https://www.youtube.com/watch?v=E2lTPcEbO3g,chewei,https://www.facebook.com/MikLiu,@chewei,,,,cc-by,,,大松,No
+2017/11/25,27,g0v hackath27n | 台灣零時政府第貳拾柒次全球開放立法黑客松,農業創新黑客松,農業、科技、智慧農業,不限領域、年齡，歡迎具研究、設計、管理、傳播、工程、資訊等各類專才踴躍報名。,,http://www.farmhackathon.tw/,,,https://www.youtube.com/watch?v=F1pRlXNuZQA,Patt,,,,,,MIT,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,文字編輯戰鬥團,基礎建設 / 文字 / 行銷,文編 / 小編 / 媒體 / 行銷,https://g0v.hackpad.tw/g0v--KgJrTYXsd4b,,,,https://www.youtube.com/watch?v=bFe6u6Khyho,tkirby,,,,,,CC0,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,友善環境同溫層App,友善環境 / 不塑 / 串連,程式 / UX顧問 / 資料登錄,https://g0v.hackpad.tw/App-bBclKtkhC3L,,,,https://www.youtube.com/watch?v=joPN6YlDtmU,Starhead,,,,,,MIT,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,求職小幫手,勞動 / 勞基法,設計 / 行銷 / 勞動法,https://g0v.hackpad.tw/v35eOZ6CVGI,,,,https://www.youtube.com/watch?v=FaIguKr475s,Ronny,,@ronnywang,,,,BSD,CC0,no,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,阿美語萌典,阿美語、台灣原住民語與南島語、台灣原住民族文化,後端工程師、前端工程師、有興趣的人,https://github.com/g0v/amis-moedict,,,,https://www.youtube.com/watch?v=v4_E2RjhWoM,小蟹,,,#amis ,,,CC0,,yes,大松,Yes
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,Cofacts 真的假的,"Fact-checking, crowd-sourcing, chatbot","編輯：會上網查證的人
+程式：Node.JS, React.JS
+玩資料：elasticsearch
+設計：UX、Cofacts 網站使用者",beta.hackfoldr.org/cofacts,cofacts.g0v.tw,,,https://www.youtube.com/watch?v=8AIass_ImOA,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,The Space Hub,基礎建設 / 地圖 / 平台,對空間與其相關議題有興趣的人 / 文字 / 資料收集 / 程式 / 或其他可能？,https://g0v.hackpad.tw/The-Space-Hub,,,,https://www.youtube.com/watch?v=-RtPsPwjhZ4,bess,,,,,,cc by-nc,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,議員投票指南 - 送紅包      袋,,,https://www.facebook.com/events/798602507005190/,https://councils.g0v.tw/,,,https://www.youtube.com/watch?v=ri5sdA4YhRY,johnny,,,,,,CC0,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,g0v-shadow 影子政府網站,g0v、shadow website、大平台,工程師、UI/UX、設計師,https://g0v.hackpad.tw/g0v-shadow--ta138sdLdND,,,,https://www.youtube.com/watch?v=Bzfb7g605AU,ttcat,,,,,,cc by-nc,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,2018縣市長選舉地圖,選舉 / 投票 / 地圖 / 找褲子,"前端：會寫html/css/javascript/jquey會接API的人
+後端：協助將資料轉檔並匯入資料庫
+美術：協助網頁切版、設計、畫圖表
+文字：會說故事的人
+民調分析師：解釋各種選舉統計的意義",https://hackmd.io/GwDghgJhCmEKwFpogsBAWAzHaCCcATCAOwIAMeYARnAIwTHrpUBmQA==,http://jizz5566.github.io/2010-2016/map.html,,,https://www.youtube.com/watch?v=HxijnTrbXkk,積木,,,,,,CC0,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,Code for Japan(Nanto) 開放資料新手村桌遊中文版,桌遊 / 挑戰無人駕駛坑,"坑主
+主持人
+試玩的人
+文字：用g0v專案把遊戲本地化",https://g0v.hackpad.tw/Code-for-JapanNanto--qIrL0tB5POF,https://docs.google.com/presentation/d/1DcPAXMaOFvOLszW2QELnK1uZA2xSpCj2x7TfnfmVnwE/edit?usp=sharing,,,https://www.youtube.com/watch?v=oaBThz2_MtU,子魚,,,,,,cc by-nc,,,大松,Yes
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,vTaiwan：來做Chatbot吧,公民參與,行銷 / 文編 / 攻城師 / 法律人 / 熟悉問卷設計的人,https://docs.google.com/presentation/d/1fzcl1M43iA_1bqRbY3_r_jgP6OnJwZbrKNUPdkQKbcQ/edit#slide=id.p,,,,https://www.youtube.com/watch?v=1prUHHoFCdI,子魚,,,,,,CC0,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,線上意見整理工具、線上社群參與政策手冊,科技政策、意見整理、公民參與,意見整理者、去政府開會的人、想推議題的人、行銷、積極公民,https://docs.google.com/presentation/d/1mHMtkId9kWDnVgszQVbYxfx4wCJnLXryJ6eIRMnx_CE/edit#slide=id.g2f95f3a2fb_0_10,,,,https://www.youtube.com/watch?v=Rqg7D_xHkmE,sense.tw,,,,,,MIT,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,推動「未婚女性接受人工生殖」合法化,,文字、資料蒐集閱讀、粉專小編、政府相關人員,https://g0v.hackpad.tw/PxKqJGnlrEn,https://join.gov.tw/idea/detail/53479b9a-8cbb-4ea0-9f16-2294c97f24ac,,,https://www.youtube.com/watch?v=5LrLLSMXwFc,ballII,,,,,,,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,勞動相關遊戲計畫,勞基法/勞工/遊戲,APP開發工程師、小說家、資訊工程師、檔案庫管理者、插畫工作者、音樂工作者、有興趣的朋友（前期提供意見，後期可提供遊戲測試回饋）,https://g0v.hackpad.tw/hnC9l7LwwwNGRd,https://docs.google.com/presentation/d/1O6OQb8k8kylwAArEOq522HHX6q8iVUCbpNZf3VbxxYQ/edit?usp=sharing,,,https://www.youtube.com/watch?v=vd82S-H9U2c,柏豪,,,,,,,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,市議員在幹嘛,議員/選舉/智力測驗,"文案寫手、幫忙抓資料、設計師、前端工程師
+",https://hackmd.io/EYQw7ArGAMAmDGBaeAWAZtRKDMLMmAA4AmLCYFSAUxGhVhCA,,,,https://www.youtube.com/watch?v=s5emcCAoKDE,fi,,,,,,,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,天氣風險開放資料,,,,,,,https://www.youtube.com/watch?v=qNzkcWaqebI,彭啟明,,,,,,,,,大松,No
+2018/1/13,28,g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松,HackingMap DEMO,基礎建設,坑主更新專案,https://g0v.github.io/HackingMap,,,,https://www.youtube.com/watch?v=LumBjYwQrsc,,,,,,,,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,Cofacts 真的假的,"Fact-checking, crowd-sourcing, chatbot","編輯：會上網查證的人
+程式：Node.JS, React.JS
+玩資料：elasticsearch
+設計：UX、Cofacts 網站使用者",beta.hackfoldr.org/cofacts,cofacts.g0v.tw,,,,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,運輸．共享,"共乘, 順風車, 環保",工程師、設計師、企劃、行銷,,,,,https://www.youtube.com/watch?v=qQbaHuhCelw,嘉豪(Kahou),,,,,,,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,薪資與租屋居住品質關聯調查,,,https://g0v.hackpad.tw/hZwt2iPr78w,,,,https://www.youtube.com/watch?v=onZ3ihBGw6w,Su-su,,,,,,CC0,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,阿美語萌典,阿美語、台灣原住民語與南島語、台灣原住民族文化,後端工程師、前端工程師、有興趣的人,https://github.com/g0v/amis-moedict,https://amis.moedict.tw,,,https://www.youtube.com/watch?v=o2kqTJOPGU4,小蟹,,,#amis ,,,CC0,,yes,大松,Yes
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,Say Hi !!! g0ver,,,https://github.com/g0v/g0ver-box,,,,https://www.youtube.com/watch?v=KE-1_1GZKqI,YuTin,,＠yutin,,,,CC0,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,自己emoji自己造之二,"emoji, taiwan, 軟實力",插畫家、平面設計師、文化工作者,https://g0v.hackpad.tw/make-taiwan-emoji,,,,https://www.youtube.com/watch?v=b8JHKghxokk,chihao,,,,,,CC BY,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,數位考古:未來歷史學,歷史、典藏,爬蟲人、工程師、有興趣的人,https://g0v.hackpad.tw/zg2QPaKbWgP,,,,https://www.youtube.com/watch?v=yKzG3ZQzkDY,Ally,,,,,,MIT ,CC0,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,How Well Do You Know About China?,,,,,,,https://www.youtube.com/watch?v=0SnyXJ-8gkI,Brian,,,,,,,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,g0v.news意見大收集,新聞網站、電子報、社群經營,對新聞媒體有興趣、有想法的社群成員,https://g0v-tw.slack.com/messages/C30F846JU/,https://g0v.news/,,,https://www.youtube.com/watch?v=PjQ_u1-GJuI,kting,,,,,,CC BY,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,無家者小幫手,"街友,資源分配,資訊整合",工程師,https://paper.dropbox.com/doc/E41k6Q4XwXkU7F00CIL08?_tk=share_copylink,,,,https://www.youtube.com/watch?v=n7aCxcobJc4,盈婕,,,,,,,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,sense.tw 榕樹下・眾開講,,,https://docs.google.com/presentation/d/1JzmCysvXnzM7DhTlqwZolnW2Znk11A5icq-8WRnaJM0/edit?usp=sharing,sense.tw/about,,,https://www.youtube.com/watch?v=lG4PuxVMJlE,ael,,,,,,CC-BY,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,Trello 看板一秒變網站,"Trello, 做網站, 還在想","程式：PHP, JS: Angular 1.0 (Orz)
+企劃：手冊編寫",https://g0v.hackpad.tw/Trelolo.com--zqDbdM2arCv,https://docs.google.com/presentation/d/1zUIwRmGbS2feozzD7_zWkX-TVPpFUANtUn9KKpHUfZM/edit#slide=id.g3127d54885_0_26,,,https://www.youtube.com/watch?v=xNdudlm086s,書懷,,,,,,MIT,,,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,vTaiwan政府資料跨部門運用案,"vTaiwan, Data-Integration, 意見徵集",有使用過政府資料的人或承辦相關業務的公務員，提供使用者經驗。,https://g0v.hackpad.tw/vTaiwan-2018.03.03-Data-Integration--wrI370PrRxA,https://docs.google.com/presentation/d/1Gt66nePGxVzwBuOYDLXQVVJ-z7o5g3JzX5YXNgg6b6w/edit?usp=sharing,,,https://www.youtube.com/watch?v=uqk43YuSbmA,tmonk,,,,,,CC0,,yes,大松,No
+2018/3/3,29,g0v hackath29n | 台灣零時政府第貳拾玖次開放資料黑客松,公民協作二二八檔案資料庫,檔案、資料庫、好用,能標註檔案的人、使用檔案的人、能提供技術建議的人,,,,,,,,,,,,,,,大松,
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,"g0v summit2018 協辦之黑客松活動提前曝光
+(2018 HackH2O)",水資料、創新水服務、黑客松,程式設計師、硬體設計師、創意發想者,http://goo.gl/7entun,,,,,Mavis,,,,llwblue@gmail.com,,,,0,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,徵求佛系讀者,,,https://bit.ly/digest0505,https://g0v.news/,,,https://youtu.be/q--A3IYDCTw,g0v.news,,, #news,,,CC BY,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,信差 - 社運鄉民出來走,"decentralization, mobilization, AR","程式：Node.js, Swift
+設計：UI視覺, 使用者安全
+法律：開源社群資安管理",https://g0v.hackpad.tw/Courier--zbl3CtRxsmg,,,,https://youtu.be/6X88yqwuqUo,eddie,,, #courier,,,MIT,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,DAOJO 道場,"ico, event, license",目前 DAOJO Task Force（DJTF）暫分為：綜合規劃（制度、程序）、開放授權（DJ、DJx 制定）、場地經營（場務、紀錄）、社群經營（線上、實體）、技術開發（web、bot、blockchain）、文化傳播（CIS、白話文師傅、curator）、政策法律（整理、研究、倡議）。DJTF 邀請連結（5.25前有效）：http://bit.ly/2HTcIQ8,https://g0v.hackpad.tw/daojo,,,,https://youtu.be/aeVy7JDS17c,nchild,,@nchild ,,,@nchild ,CC BY,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,大安森林公園花卉辨識：前線戰報,植物辨識 大安森林公園 花卉,"如果你對認識植物很有興趣
+或者認識 對植物很有研究的朋友",https://drive.google.com/open?id=1m4bMxpkpvNgGvLZGfEgRtgtiewGo5jzM,,,,https://youtu.be/pdoLURXCZ4U,denkeni,,denkeni ,,denkenie@gmail.com,,,,,大松,yes
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,Cofacts 真的假的,"Fact-checking, crowd-sourcing, chatbot","編輯：會上網查證的人
+程式：Node.JS, React.JS
+玩資料：CSV
+設計：遊戲化相關",beta.hackfoldr.org/cofacts,cofacts.g0v.tw,,,https://youtu.be/6VEaSyn_MP4,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,開放租屋之不住頂加有多難？,居住資料 頂加 工人智慧,"租屋族：一起來幫 591 標頂加
+法律人：討論資料開放條件
+玩資料：40k/day + ML 頂加辨識",https://g0v.hackpad.tw/Ih7Jp4pUD5y,http://bit.ly/2HXuk9v,,,https://youtu.be/CYqgZoG5NW0,ddio,,,,,,MIT ,CC0,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,聯發科技「智在家鄉」社會創新百萬獎金競賽推坑,黑客松 數位社會 一百萬,,https://goo.gl/yNei1k,https://goo.gl/yNei1k,,,https://youtu.be/iuVDtTmhWgI,Macpaul,,@ddio,,,,,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,家用水偵探-來源水庫庫容與河川水質監看,水質資料 水庫庫容資料 location,"程式 : objective-c, java, python
+設計：網頁或app ui設計",https://hackpad.tw/--jBgwNkPTdiW,,,,https://youtu.be/IuHl_RIR_78,ej04,,,,clshih73@gmail.com,,,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,餐桌上的違章工廠,產銷履歷 有機 違章工廠,"地理資料擷取及清理
+架設地理圖資平台",https://hackpad.tw/aydKwNKL7Ab,https://drive.google.com/drive/folders/1iIypiBRJXYrOD6_qHw1Yrzb3lmR2mUp_?ths=true,,,https://youtu.be/BuDiVgRJykk,張淑貞,,,,changs@e-info.org.tw,,,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,我們的島二十年資料庫關鍵字釋出,資料庫 關鍵字 分析,會分析資料庫的人 會視覺化呈現數據的人,,,,,https://youtu.be/FNMyQLF2OYo,林燕如,https://www.facebook.com/profile.php?id=659246084,,,,,,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,sense.tw - 議題釐清工具,issue-based policy mapping,"政策分析：分析架構分享
+程式: TypeScript, React, Python",,https://www.youtube.com/watch?v=tqSMOeai2-s,,,https://youtu.be/kMht_17-lTQ,hychen,,@hychen,,,,MIT,,no,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,復活者聯盟,"landing,website,marketing","編輯：會網路考古、搜集資料的人
+視覺設計",https://makeweb.io/page/4eP+ut05os05zF0CaT04JuhtL/,https://makeweb.io/page/4eP+ut05os05zF0CaT04JuhtL/view,,,https://youtu.be/gk7kv_YSux0,tkirby,,@tkirby,,,,MIT,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,vTaiwan,open government,"1.研究開放政府組織
+2.研究方法/徵集意見專家
+3.UI/UX
+4.社群經營
+5.政府機關聯繫人
+6.法律人",https://vtw.link/1v_1Wwt5gqaUEJeBNR5XU6Hm3JpqSxDorROfCzpDK1bY/https%253A%252F%252Fg0v.hackpad.tw%252F20180502-vTaiwan-XClxInLEjfe,https://www.facebook.com/groups/vtaiwan/,https://vtaiwan.tw/,,https://youtu.be/vvcoitN-QSk,Peace,,@Peace,,,,,,yes,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,uWikipedia.org 油雞百科,"sound, wikipedia, truth","user, developer, designer",j.mp/y-tts-,https://uwikipedia.org/,,,,fly,,@fly ,#uwikipedia,,,MIT ,CC0,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,公民協作二二八檔案資料庫,"二二八, 資料庫, metadata, 協作","資訊技術, 會標註的人, 對二二八有興趣的人、歷史專業",https://g0v.hackpad.tw/SWnxLFXNXLv,https://g0v.hackpad.tw/228OCR-zkGjwVuNRo5,,,https://youtu.be/UNFd2JgCRnQ,Wen,,,,hwchou@drnh.gov.tw,,文件討論：cc by NC，影像檔在國史館和檔案館尚未開放,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,我終於搞懂健康存摺在幹什麼了，但資料能應用在iOS健康App上頭嗎？,健康存摺 iOS CDA,衛福部的朋友 iPhoneUser iOSDeveloper(?),,,,,https://youtu.be/3BiQCGHIjkA,Bobby Tung,,@bobbytung,,,,,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,珊瑚體檢十年數據怎麼看,海洋、公民科學、視覺化,想了解珊瑚體檢怎麼做的人、資料視覺化專長、Crowd-sourcing 專長,https://docs.google.com/document/d/152VmClLsG6PYIZdliEYNdEu-ZPTdcpKQwD52n6DfprI/edit,https://drive.google.com/file/d/1GH5mOLFntVclLde5PA2pz_bemrVaxdA8/view,,,https://youtu.be/atWqDvp4E9E,lulu,,@Lulu Keng,,,,,,,大松,No
+2018/5/5,30,g0v hackath30n | 台灣零時政府第參拾次佛系黑客松,大電奉還：校園節電專案,氣候變遷、校園節電、資料視覺化,資料分析師、全端、機械電機（電力組）、想了解建築節電的人們、對節電有興趣的人們,https://goo.gl/pJkfUK,http://slides.com/victorho/g0v30nep,,,https://youtu.be/YjhV_Bscs0k,大威,www.facebook.com/sav1on,@Dawei,,,,呃呃不知道這格該怎麼辦,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,228事件資料掃描檔文字化,228、打字、皮卡丘,鍵盤戰士、神眼、授權專家、網頁開發者,https://hackmd.io/GYU0UFBSRaqLsn16uGhkgA,,,,https://youtu.be/ZuCWRY0UK8w,紅雨,https://www.facebook.com/not1911,,,,,CC,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,g0v tools,專案介紹、國際交流,,http://x.co/g0vtools,,,,https://youtu.be/q0Vd6hhryD8,YuTin,,＠yutin,,,,CC by g0v,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,農夫小幫手,生態、農業、友善環境,UI、Social Crawler、喜歡植物&自然的人,https://hackmd.io/MqHL7ifzTamtn49SmNLn0w,,,,https://youtu.be/LOcFcIwv6zQ,幸延,https://www.facebook.com/HsingYanChen,,,,," MIT
+",CC0,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,g0v summit 2018 線上交友大平台,"summit, 交朋友，大平台","geek, UX",https://g0v.hackmd.io/POmvTZ-QQQWKcjUi52xOnA?view,,,,https://youtu.be/i9RqK5obNzs,ipa,hsiao-wei chiu,@ipa,,,,CC,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,行動議題包,"公民參與, 街頭, 運動","JSON資料處理, 翻譯, Android, Node.js",https://github.com/agameofprivacy/Movables-iOS,,,,https://youtu.be/0Rzrax5VQ-E,Eddie,,@gameofprivacy,#courier,,,MIT,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,為什麼你還在 g0v,g0v 公民科技 社群,閒聊者,https://g0v.hackpad.tw/-g0v-...-ogyZjIUFekF,,,,https://youtu.be/j_7_oiWopb0,Ronny,,@ronnywang,,,,BSD,,other,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,猛禽 FB,"
+保育 猛禽 動物","
+賞鳥者",https://g0v.hackpad.tw/8RnmdP7IFFH,,,,https://youtu.be/j_7_oiWopb0,Ronny,,@ronnywang,,,,BSD,,other,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,🗳️ 連署《勞基法複決公投》🗳️,勞基法、公投連署、廢除惡法,台灣國民，滿 18 歲以上,https://g0v.hackpad.tw/ljYZfeJwMex,,,,https://youtu.be/XEdwf4A-P8o,🐒 tmonk,,@tmonk,,,,,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,Dear Airlines,公投連署,,http://x.co/aircn,,,,https://youtu.be/LkXb7YAE4qw,Sleep No More,,,,,,MIT,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,Cofacts 真的假的,"Fact-checking, crowd-sourcing, chatbot","編輯：會上網查證的人
+程式：Node.JS, React.JS
+玩資料：CSV
+設計：遊戲化相關",謠言.大平台.tw,,,,https://youtu.be/1EIc6mmsuRk,MrOrz,https://www.facebook.com/groups/cofacts/,@mrorz,#cofacts,cofacts@googlegroups.com,,MIT ,CC0,yes,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,阿美語萌典,阿美語、台灣原住民語與南島語、台灣原住民族文化,後端工程師、前端工程師、有興趣的人,https://github.com/g0v/amis-moedict,,,,https://youtu.be/eTC3DtE_Hrg,小蟹,,,#amis ,,,CC0,,yes,大松,Yes
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,全國國土計畫.pdf,國土計畫、書圖文件、易讀好讀化,前端、ePub 、空間規劃,https://www.facebook.com/groups/g0v.general/permalink/1688334401242959/,,,,https://youtu.be/eTC3DtE_Hrg,chewei ,https://www.facebook.com/groups/1502473446693278/,@chewei,,,,CC by,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,g0v sense tw 介紹 + g0v 歷屆關心議題整理,議題釐清、文獻管理,"編輯：有興趣整理 g0v 歷屆黑客松關心議題或是新一代健保卡規劃相關資料的人
+程式：TypeScript, ReactJS",https://beta.hackfoldr.org/sense-tw,,,,https://youtu.be/E5lWCsW5Tx4,hychen,,@hychen,#sense,,,MIT,,no,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,g0v.news介紹＋資訊失調圖表化,"fakenews, infographic, infodisorder",文案、資訊圖表設計師,https://docs.google.com/document/d/1Ihz43okSP36WV0GnmN4XdmFUGi2mMYXOq2j0VntHdKo/edit,,,,https://youtu.be/ke0sjXkoEMw,育軒,,@yuhsuan,,,,,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,g0v 全球推坑,美國、日本、大坑,有興趣進行實體國際交流的人員,https://ocftw.kktix.cc/events/usavisits,,,,https://youtu.be/2VqiybNJq24,Lulu,,@Lulu Keng,,,,,,,大松,No
+2018/7/7,31,g0v hackath31n | 台灣零時政府第參拾壹次香蕉吃到飽松,公民科技以外、大松以外,"reflect, reframe, re-open",想說故事的所有人,https://hackmd.io/k3aBxFUgTQ6EK5Dv23NQKw,,,,https://youtu.be/seds19rN1I4,chihao,,@chihao,#art,,,CC by g0v,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,我愛家・我解惑 —— 平權社會對話工程,婚姻平權、對話、中間選民,溫暖的文字 (?),https://g0v.hackmd.io/c/B1iHBvVPQ,https://www.facebook.com/groups/answerfamily/,,,https://www.youtube.com/watch?v=zLcKM_K9tjc,比鄰 on youtube,,@bil,#cofacts,,,CC0,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,影片逐字稿自動化 & 整理系統,AI，逐字稿，方便整理,打字工人，網站程式工程師,https://grants.g0v.tw/projects/587388cb8798fb001e7324de,,,,https://www.youtube.com/watch?v=ki85ziA38AA,Michael_LI,,@Michael_LI,,L54Happy@gmail.com,,待討論,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,iTaigi愛台語離跤手,台語、辭典、語音,後端工程師,https://drive.google.com/open?id=1UUaNVJKIrfWH6JsCCo8Z9psbdA4YisNlh9aGJvwyt9M,,,,https://www.youtube.com/watch?v=40K1uGhET_4,liz,,@liz,,liz462@gmail.com,,CC0,,yes,大松,Yes
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,沒有人的新手村,,,https://g0v.hackmd.io/g0village,,,,https://www.youtube.com/watch?v=vQiQuGH0WaI,大助,,@daisuke,,,@daisuke1230,CC0,,other,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,跨出同溫層！先從較低對立的新聞議題開始討論,對話、討論、突破同溫層,,https://g0v.hackpad.tw/LaMs5uWUwb1,,,,https://www.youtube.com/watch?v=9DpwV9J8XG4,ronny,,@ronnywang,,,,CC0,,no,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,g0vbanner: 這是一個g0v 台灣公民科技社群開發的網站。,前端 設計 基礎,,https://github.com/g0v/banner,,,,https://www.youtube.com/watch?v=vuX9wTZr_hI,kjcl,,@kjcl,,,,cc0,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,ICO 資訊揭露平台,ICO、資訊揭露、規範,設計、後端、IPFS,https://g0v.hackpad.tw/ICO-transparency-platform-TqFhFwXrI4h,,,,https://www.youtube.com/watch?v=mHfbFX1pw0E,GITA,,@esbb48,,,,待討論,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,開放 e 樓網 - 台灣公寓大廈資料庫 & 開放 API,,http://www.eb31.asia,https://g0v.hackpad.tw/--Rxf1DaPMR6D,,,,https://www.youtube.com/watch?v=yNY3yjRa8k8,易樓網,,,,,,cc-by,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,"台中市公有地地圖 🗺️ 
+台北市公有資產資料釋出概況 👁‍🗨",台中市、公有地、公有建物,地理資料、網站、都市議題,https://g0v.hackmd.io/F-qKThrCSUG5lc2FRBWjIw?view&fbclid=IwAR0TiY_kJQOWVx1184fe2OQdStjqB81b0fpe2-W-oQvU8ctUDRuxgNC2LRo,,,,https://www.youtube.com/watch?v=wPCBmSpG_k4,chewei,https://www.facebook.com/groups/1417173811903954/permalink/2202643293356998/,,,,,cc-by,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,引得市市什麼？,引得、漢字、檢索,古文字造形研究、書法、藝術創作,https://g0v.hackmd.io/0qjC-p3fRI-sToq8sd-l3w,,,,https://www.youtube.com/watch?v=SA5HnrI4OAs,阿良人,,,,ebag2007@gmail.com,,待討論,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,南漂計畫,,,https://g0v.hackmd.io/ZltGmVb5QXOOETv1m_xdcw,,,,https://www.youtube.com/watch?v=j5sAhl6nk9c,wellson,,,,wellsonjain@gmail.com,,cc-by,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,台灣文化組織、個人關係圖,文化、藝術、關係,肉搜、key 資料、資訊視覺化,https://g0v.hackmd.io/D34S13f9R_ixLYBPSolW4Q,,,,https://www.youtube.com/watch?v=QSxGiNB-vNo,chihao,,@chihao,#0art,,,待討論,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,g0v.news，公民科技新聞,公民科技、開放政府、不實資訊,記者、作者,https://docs.google.com/presentation/d/13ebchKy3MZvK7XKH3ogS0soy-UIdJ2YJHWIcVFfZGN8/edit#slide=id.p,,,,https://www.youtube.com/watch?v=XtBexTrRYOE,育軒,,,,yhchang@ocf.tw,,CC BY/BY-NC-ND,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,飲水思源！假訊息從哪來！,不實資訊、ptt、爬蟲,資料視覺化、程式、資料分析,https://hackmd.io/exk-xSfRSamzw9oRglWS-g?view,,,,https://www.youtube.com/watch?v=-W9yGn2l4tg,ROCK,,,,rockhung@ocf.tw,,MIT 或其他 open license,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,從政府資源來看單側聽損,單側聽損.SSD.ICF,影片製作.社群媒體曝光.遊說相關人士提案修法.特教宣導相關.,https://www.facebook.com/photo.php?fbid=2622824874402278&set=a.517199194964867&type=3&theater,,,,https://www.youtube.com/watch?v=hGRzgqtL8I4,陳惠琪,,,,ching20130130@gmail.com,,,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,✨💌🕳 MAGIC CHAT PORTALS between the chat-homes of all communities!,"collaboration, infra, communication","connectors with local communities using Slack, international NGO/civictech outreach, copy writer, designer, user research, HTML+CSS, Go, Vue.js",https://g0v.hackmd.io/s/Sy5y_pw1N,,,,https://www.youtube.com/watch?v=XVJ_yBUJ-Rc,patcon,,@patcon,,patrick.c.connolly@gmail.com,,,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,"The good, bad and ugly of Emergency Data",公私協力、緊急應變、資料互通性,現場說明,https://drive.google.com/file/d/19PfW0r6i2bR8g6EGStOZGTabWUP8BHBS/view?usp=sharing,,,,https://www.youtube.com/watch?v=Ba_UUH4Coz8,Ziv/Peling/Dennis,,,,kmutrauma@gmail.com,,CC0,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,減廢連線,,,https://drive.google.com/file/d/17Dh6wMEZV7ULw2icga-Qg03ql3XDfOvK/view?usp=drivesdk,,,,https://www.youtube.com/watch?v=S6tiJvOaPLw,柳玟華,,,,sealicer@gmail.com,,再討論,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,區塊鏈電子投票系統(?),區塊鏈、電子投票、公投,"golang, 前端, 身分辨識系統",https://www.dropbox.com/s/3utnqvhhigl8qvf/blockchain_vote.pdf?dl=0,,,,https://www.youtube.com/watch?v=d1aqrn6pNYw,Ofa,,,,ofafa.hsueh.app@gmail.com,,再討論,,,大松,No
+2018/12/8,32,g0v hackath32n | 台灣零時政府第参拾貳次蜂蜜檸檬黑客松,g0v 獎助金開始徵件啦 12/10-1/13 來提案,揪松團 獎助金 基礎建設,許願 提案 評論 寫手,https://grants.g0v.tw/,,,,https://www.youtube.com/watch?v=YE7I4Qz7I54,Bess,,,,jothon-organizers@g0v.tw,,視專案而定,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,g0v.social ActivityPub 轉檔,聯邦式社群網路、去中心化,,https://g0v.hackmd.io/OZkYrTx6RZy4bkvjNvJ9DQ,https://docs.google.com/presentation/d/1txyAaGYs7XuhTkIu87TGZoggxkmdw2FZmJHK8kQAWx0/edit?usp=sharing,,,https://youtu.be/CISa7V11SUk,poga,,@poga,,,,MIT,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,立法院爬蟲/白色恐怖分享會/總統盃黑客松,,,https://docs.google.com/presentation/d/1xawlpDCASsJog7IO56QGcIvom3OlE1-0uVGXTXnHz_A/edit,,,,https://youtu.be/ghjaX0uKIZk,雨蒼,,@billy3326,,,,CC-BY,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,Mozilla Common Voice 語音資料庫收集,語言、語音辨識、句庫,"1. 語言學 2. AI 背景 (deep speech or voice recognize) 
+3. 對語音庫運用有興趣 (語音合成 or other)
+4.想推動台語 / 其他本地語言語音收集 (整理 CC0 無版權句庫)",https://moztw.hackpad.tw/Common-Voice-g0v33,https://voice.mozilla.org/zh-TW/datasets,,,https://youtu.be/XrSLCc9qSbo,Irvin,,"@irvin
+",,,t.me/moztwCV,CC0,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,廢文編碼器,反監控、言論自由,熟編碼解碼或加密的人,https://g0v.hackmd.io/6lNfj-VeQYCW9dvKqG0SGQ,https://www.paddingleft.com/junk-encoder/,https://docs.google.com/presentation/d/1APtPAmKYVbEoQFNb0I9_2tzamKfOCYU9HacoLUIoz3U/edit?usp=sharing,,https://youtu.be/e03cxhO3xKM,Ronny,,@ronnywang,,,,MIT,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,假新聞的主題：籌辦演講會／大松來玩桌遊《抓誑新聞》,對付假新聞、,痛恨假新聞、幫助籌備演講會、推廣演講錄影,https://hackmd.io/s/H10h63AIE#,,,,,Michael_LI,,@Michael_LI,,,,演講錄影 CC ?,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,阿美語萌典,阿美語、台灣原住民語與南島語、台灣原住民族文化,前端工程師,https://github.com/g0v/amis-moedict,https://amis.moedict.tw/,https://docs.google.com/presentation/d/1UUd_WHhfrrlXBace68uQvxBoIcWooKewyQm6gm-NMtw/edit?usp=sharing,,https://youtu.be/PMI6spx02sc,小蟹,,,#amis ,,,CC0 1.0,,,大松,Yes
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,ARThon,藝術家、,,,https://docs.google.com/presentation/d/1t8Yh6bQFRkB94Uv_K_VoJi7OW66xF-JppD2hgL05izQ/edit?usp=sharing,,,,李紫彤,,,,,,,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,PTT.ai,資料自決、去中心化、社群,"golang, p2p, distributed system, frontend",https://github.com/ailabstw/go-pttai,https://docs.google.com/presentation/d/14vC8ccA268Mjxg99kSntJKZ-X-zpPryORKqjm9o10Aw/edit#slide=id.g51f3293549_0_160,https://docs.google.com/presentation/d/1p84VUW7dsWIvf_QBrmCVOYS_SQ6F0tkt5zG0vuMYnUA/edit#slide=id.p,,https://youtu.be/GsoRDG9ZeEM,Lilian / 老蕭 / Sam,,,,lilian@ailabs.tw,,GPL v3,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,政府機關回饋平台,開放資料、意見信箱、接地氣,"redux, react, mongodb, graphql, 專案管理",https://github.com/agameofprivacy/gov-feedback,https://gov-feedback-web.appspot.com,https://docs.google.com/presentation/d/1XmhUKv0E7Im_BS0PmxnulIR-s3jE9ySkepfIDZX0epU/edit?usp=sharing,,https://youtu.be/xz5HobpW7Rs,Eddie,,,#gov-feedback,,,MIT,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,g0vhub - g0v 專案語音助理,語音助理、轉址、愛吸蕊,介面美化、整合更多實用服務、效能調教,https://heysiri.dev,https://hackmd.io/nzEPoia-RfKfMEk7nk3dVw?both#Heysiridev,,,https://youtu.be/mzSg8ujiOSw,fly,http://m.me/leo424y,,,,,"MIT
+",CC0,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,Zero waste taiwan 台灣零廢棄平台,地圖、環保、資源循環,專案發想、環境教育工作者,https://hackfoldr.org/zero-waste-taiwan/,https://hackfoldr.org/zero-waste-taiwan/JO0YNbhfKjE,,,https://youtu.be/swDy003epho,ivy,,,,ivy11628@gmail.com,,CC-BY-SA,CC-BY-SA,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,Cofacts 真的假的 ＆ 我愛家我解惑 資料庫,群眾協作、闢謠、婚姻平權,願意回應網路訊息的人、熟悉法律 / 婚姻平權相關法律的人,"https://cofacts.g0v.tw/hack
+https://g0v.hackmd.io/c/B1iHBvVPQ","https://cofacts.g0v.tw
+https://answerfamily.org",https://docs.google.com/presentation/d/1ASnXHiuc3BMXdxCWXCDI2ISZIxXoIKstWd7hmFEwsFY/,,https://youtu.be/65qSyFObo7c,MrOrz,,"@mrorz , @bil",#cofacts,,,"MIT
+",CC0,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,地號轉地圖 Land No. Mapper,地號、地圖、工具,工具開發、Mockup、地號使用者,https://g0v.hackmd.io/uFhBRHrnR-yvvFD4ZEn3XA,https://docs.google.com/presentation/d/17zoTSPLiG9wZITZkjMXuCD3y14KWRCc78PrCKBSq8fk/edit#slide=id.ga10b939f6_0_26,https://docs.google.com/presentation/d/17zoTSPLiG9wZITZkjMXuCD3y14KWRCc78PrCKBSq8fk/edit#slide=id.ga10b939f6_0_26,,https://youtu.be/XGRZavcD0Fc,chewei,https://www.facebook.com/MikLiu,@chewei,,,,,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,選服透明化,推坑、選民服務、公開透明,專案發想、工程師,https://github.com/FroggyTaipei/froggy-service,https://service.froggychiu.com,https://docs.google.com/presentation/d/1WFJsr-XCY64MRiJB6c2fV00iSCdmAl4S0vuqKiUDRS0/edit#slide=id.g525b6d1489_0_21,,https://youtu.be/MicZjnC39-A,HY Hsu / SSivart,,@HY Hsu @Eddy 林彥廷,#councilor-service,servant@65535studio.com,,"AGPL v3
+",圖文 CC0 1.0 資料 CC BY 4.0,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,g0vdatabase 專案資料庫補完計畫,填坑、爬API、資料整理,爬 youtube API、資料整理,https://g0v.hackmd.io/EpU0aJihRfqPoCkdj67UEQ,https://docs.google.com/spreadsheets/d/1C9-g1pvkfqBJbfkjPB0gvfBbBxVlWYJj6tTVwaI5_x8/edit#gid=1563040282,,,https://youtu.be/M2_TvrjQpiw,Lora,,shadowcrow,,,,CC 0,,,大松,No
+2019/3/9,33,g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松,g0v-intl、沖繩黑客松,國際交流、沖繩,,https://g0v.hackmd.io/3OIQMwCyT_iOl64y8otFMg#,https://pm5.github.io/talks/2019-03-09-g0v-intl/,,,https://youtu.be/vXit-3sJoP4,pm5,,pm5 isabelhou chihao,,,,,CC BY 4.0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,elixus 到 g0v 之 ilya 紀念共筆,"elixus, g0v, ilya",,,https://drive.google.com/drive/u/1/my-drive,https://drive.google.com/file/d/1Uae9lgTOQvFpvI64m_ebyf3fkLlt29tj/view?usp=sharing,,https://youtu.be/UT2IsC9Y-hw,揪松,,,,,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,阿美語萌典,阿美語、台灣原住民語與南島語、台灣原住民族文化,,https://github.com/g0v/amis-moedict,https://amis.moedict.tw/,https://docs.google.com/presentation/d/1fFURRk6y-zSJTGpw_4zjJ-USBD6EMbbofV2UB90FLbE/edit#slide=id.g525b4b4383_0_10,,https://youtu.be/QDCVdu4vvG0,weting,,, #amis,,,,CC-BY,,大松,Yes
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,金流百科-議員財產申報修法歷程與專案進度,議長、財產、不怎麼公開,,,https://docs.google.com/presentation/d/1Vmexsaq6zqLzJrkvBPih9tEKjWyGVtYnlASgJQ1e24E/edit#slide=id.p1,,,https://youtu.be/hBJHnTlZ1zs,田,,@田,,,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,我要選立委,立委、開放政府、虛擬候選人,,https://g0v.hackmd.io/_9meJ-_0TaWNRpu8XXO_SQ,https://docs.google.com/presentation/d/1HRWiDDaZ9KX9SLLNoyETyrILY1D6i4sBesvdTPdDN8c/edit,,,https://youtu.be/Hw47UpasdwU,Ronny,,@ronnywang,,,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,鄉民看電視,https://tvnews-logger.g0v.ronny.tw/,,https://www.youtube.com/watch?v=McIkusSFtjI,https://g0v.hackmd.io/t8UcxLiTRq6RyWToNZskMQ?view,,,https://youtu.be/Hw47UpasdwU,chihao（代）,,,,,,BSD,,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,新聞自由的界限 (feat. 鄉民看電視),,"推薦：新手、非工程師
+法律人、媒體人、想討論的人、擅長帶討論或工作坊的人",http://vtw.link,https://polis.pdis.nat.gov.tw/8m7p5emh8m,https://docs.google.com/presentation/d/1l7h5fxy97ZZuDobiNBzsIYoGCDVNUn6eBcUTYUyN3Ks/edit?usp=sharing,,https://youtu.be/KtuKi4z7Ynw,ky,,,#vtaiwan,,,,CC0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,沒有人關心主婦,世代溝通、性別賦權、社群,工程師、行銷、環保、性別意識、社群,,https://docs.google.com/presentation/d/1k7SLOZ76RkUsxYV2nJ5abjvfHSCo2TEIb0xGFAi1swE/edit?usp=sharing,,,https://youtu.be/1pivMOm-DVc,Peace,,@peace,,,,,CC0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,Cofacts 真的假的,群眾協作、闢謠,願意回應網路訊息的人、熟悉法律,https://cofacts.g0v.tw/hack,https://cofacts.g0v.tw,https://docs.google.com/presentation/d/1A1hLnyDIMXObY--gIp1ElHhVQGl_lKHMxL2habMWV2g/edit#slide=id.p,,https://youtu.be/R9A7zrlmcFI,比鄰,,"@mrorz , @bil",#cofacts,,,MIT,CC0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,Rentea 設計給租屋者的開源找屋工具,租屋者、租屋平台、開放資料,"UIUX, App+Web 前後端, 法律專業
+",https://beta.hackfoldr.org/rentea/,https://docs.google.com/presentation/d/1yWthDdbqVOv97_oq7YDrdX69Pi_m96rFGxjsnqWsvuU/edit,https://docs.google.com/presentation/d/1qtmOvrJS-zeYLAhgshr0qja2XCLFqt-lEHCe5Fp1CAw/edit?usp=sharing,,https://youtu.be/4dMszpMng-c,克羅依,,"@chloe, @ddio",#rentea,,,CC-BY-NC,,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,「被統一會怎樣？」共筆,想像、證據、討論、統一,any,https://hackmd.io/VdW-NEO7TrCyGwVRnkXafg?both,https://hackmd.io/BRsHMIh5Tx6kaV0eymXEbQ?edit,,,https://youtu.be/dWQH3-8qJks,林立,,@allenlinli,,,,,CC0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,翻轉殖民之眼：台灣攝影古籍數位化,實體書數位化、開放資料、日治時期寫真帖,熟悉數位開放資料的人、相關法律問題的人、古籍(修復)專家、執行過藝文機構的數位典藏計畫的人,https://hackmd.io/O-JSzUuLRGK7KAa3kbQSBA?both,,https://drive.google.com/open?id=19G9VpzolF8KJh7JuI2s9NmGTWd4pOv_7,,https://youtu.be/pTzsOglF5LM,阿定,,,," liang@lightboxlib.org, info@lightboxlib.org",,,CC0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,公眾陳情平台,陳情 公開 追蹤,公開資料專家、前端、後端,https://g0v.hackmd.io/ylFvVwGSTPCmQGH4gGsFRw?both,https://docs.google.com/presentation/d/1k_SCDfk5n-yBFs49q0ILDiLaOuuzCXjG3d-Rn4iecTg/edit?usp=sharing,https://docs.google.com/presentation/d/1k_SCDfk5n-yBFs49q0ILDiLaOuuzCXjG3d-Rn4iecTg/edit?usp=sharing,,https://youtu.be/YW7cS_cvQxY,9k,,@9k,#petitionplatform,,,CC-BY,,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,維基百科的靠山你也可以用，什麼都收的wikidata,opendata、CC0、結構化資料,徵想要想要結構化紀錄資料的專案,,wikidata.org,,,https://youtu.be/IPakKV1Y9sg,Allen,,,,alllenwang6212@gmail.com,,複合,CC0,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,沒有人知道 g0v 專案怎麼做的, ,,https://g0v.hackmd.io/whji1g-UROWEzCvylrb44Q,,,,https://youtu.be/6H1R9EZ1lQM,小班,,,,,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,新 g0v.tw 官網文字內容整理（與g0v 考古區）,"g0v 基礎建設, 考古, 新手友善",第一次來不知道怎麼貢獻，想看看以前有什麼資料的朋友,https://g0v.hackmd.io/s/BJdh4XE-V,https://docs.google.com/presentation/d/1V4_xRHYy9t2r14Jmuv2QKHMtEcyCHk5H6pv_JyEGbew/edit?usp=sharing,,,https://youtu.be/-oAPydEUYsk,大助,,@daisuke,,,,,CC-BY,yes,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,總統盃黑客松平方投票法Open Source,,,,https://pdis.github.io/quadratic-voting-frontend/,,,https://youtu.be/KxNRcx7ImkE,雨蒼,,@billy3327,,,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,Ptt 不能亡：社群機制重構與降低使用者進入門檻,沒有人要上Ptt、社群運作機制、簡單操作Ptt,系統規劃師、社群經營者、UXUI設計師、iOS工程師、Android工程師、前端工程師、後端工程師、有興趣提供Ptt怎麼進化的的各領域大大,https://g0v.hackpad.tw/Ptt--ctwZwU7BxcJ,,,,https://youtu.be/V4xtqavoDNY,祖儀、okcool,,,,zuyi.lin@gmail.com,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,我也要選立委 北投士林,KOL、減害救長照、無煙台灣,對選舉有興趣的任何人,https://hackmd.io/XYoD2mRTRD-FLq7EHTUVKw,https://www.facebook.com/TwGovStopBSus/,https://docs.google.com/presentation/d/1Z9L3f4tMBkBjtT9T_KolA8F94kI7wcclIDcyzdyDQ4o/edit?usp=sharing,,https://youtu.be/iBedjbHydls,王郁揚,,,,tthra.tw@gmail.com,,,CC-BY,,大松,No
+2019/5/25,34,g0v hackath34n | 台灣零時政府第參拾肆次再開放空總黑客松,回收卡路里,,,https://g0v.hackmd.io/s/H1NjSr86E,https://drive.google.com/file/d/1jdWwq8ix7V_CJqJQpTeDXKpKMc4GqNqj/view?usp=sharing,,,https://youtu.be/YKN3d-SB3Vs,Buni,,,,,,,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,林崔馬克,電子發票、Link Data、商標,"Backend、Frontend、Database Scheme Design、
+熟悉電子發票API、A.I. Trainer
+法律人、熟悉授權條款",,https://g0v.hackmd.io/p/Sy10d3JfH#/,,,https://youtu.be/Miw2i_7hhNk,tmonk,,,,,,,CC0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,亞洲模擬人權法院,人權、法院、國際,設計師、小編、志工,https://www.facebook.com/AHRCS.org/,https://ahrc.legal/,,,https://youtu.be/Q5lRfS8vjjE,YuTin,,,,,,MIT,CC-BY 4.0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,實價登錄 2.0 & 臺灣公寓大廈資料庫,實價登錄2.0  公寓大廈  使用執照,不動產相關,https://g0v.hackpad.tw/--Rxf1DaPMR6D,https://docs.google.com/presentation/d/1m48FSnC2cImYTYgfkb063bWAk6hMrXjIYjxRiOWcglY/edit?usp=sharing,,,https://youtu.be/jLQJSXHlNlg,易樓網 - 鄭淑麗,,,,,,,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,"回音森林 (for 學校/教師) 
+- 用 AI 訓練學生口說的 Website",教育 語言學習 口說,設計、Web (Svelte)、後端 (nodejs)、對語言教育有興趣的人,https://g0v.hackmd.io/OAq3-ouBTBScLk7TOYCQtg,https://github.com/wangchou/echo-mori,,,https://youtu.be/CEs4PjYJuuE,阿旺,,,,,,MIT,CC-BY,,大松,Yes
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,好新聞連播網,新聞 好選擇 懶人,"React, Firebase, Node.js",https://github.com/agameofprivacy/news-vj,https://agameofprivacy.github.io/news-vj/,,,https://youtu.be/gPSTxc3H04g,Eddie,,,,,,MIT,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,反制中共網軍入侵中文維基百科,網軍 維基 資訊戰,能構思低成本反制策略的人,https://g0v.hackmd.io/yD6PSK2tTSmPh6ZGAHpKVw?both,https://docs.google.com/presentation/d/1f_bT5TKJdUieWkCqZQFOi_Qlax740FPwQYzQSmRetpI/edit?fbclid=IwAR35Ili5MC_SOwJU-kQ_Jg5GXCbrX5eZel8mn3Ygg-SddlG7lQIEi-QDXlo#slide=id.g5dd698e344_6_1236,,,https://youtu.be/nXRlrAsoHF8,台灣維基社群,,,,,,,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,BBC 拍攝,,,,https://www.youtube.com/channel/UCu0Uc1oNDF36jRY_sskl8bA,,,https://youtu.be/lqvpIocUVYQ,BBC,,,,,,,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,Cofacts 真的假的,群眾協作、闢謠,願意回應網路訊息的人、熟悉法律,https://cofacts.g0v.tw/hack,https://docs.google.com/presentation/d/1CAZRoi7aF_zaJ98_AdWcHzLiul1im1rGIk7ESZvJgc0/edit,,,https://youtu.be/0l9-s7dgwcE,bil,,,,,,MIT,CC0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,2020投票指南,"2020, 立委, 選舉",行銷/公關/軟體工程師/任何有興趣的人,https://www.figma.com/file/JUzNk4lDjWAKiHea6vH9lfxF/%E6%8A%95%E7%A5%A8%E6%8C%87%E5%8D%97?node-id=500%3A192,"
+https://docs.google.com/presentation/d/1xJA_ot_cbBcy9PNE-N4H9YyLZo_ZbDn7dY0Fdzt3D-4/edit#slide=id.gd9c453428_0_16",,,https://youtu.be/cpMZ35hZ0lI,邦宇,,,,,,MIT,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,誠徵一日資料申請小幫手 ^^,開放資料、資訊自由、我想要更多,對政府資訊公開法、申請政府資料有興趣的熱血鄉民,https://ppt.cc/fBROjx,https://docs.google.com/presentation/d/1DBcZPfyFUfBjZh4t4pUOkW_JaxpInyMAfe_y34_tsi8/edit#slide=id.p,,,https://youtu.be/KkOkrXC23U0,淑貞,,,,,,,CC BY 4.0 ,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,Rentea 設計給租屋者的開源找屋工具,租屋者、租屋平台、開放資料,爬蟲、租屋議題跨界,https://g0v.hackmd.io/Bv_1JeHoT1O8gIjFBEJROg,https://beta.hackfoldr.org/rentea/,,,https://youtu.be/14HeMpz2Eyo,克羅依 / ddio,,,,,,,CC-BY-NC 4.0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,立志收羅全球知識，機器看得懂的維基百科--Wikidata,CC0、LoD、open data,想要結構化紀錄資料的人、有興趣做資料應用的人,wikidata.org,https://slides.com/allenwang6212/deck-27-28/,,,https://youtu.be/64XGvb1tIH4,Allen,,,,,,,CC0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,全民一起參與2020 總統候選人事實查核,事實查核、2020總統大選,逐字稿撰寫、逐字稿驗證,,https://www.readr.tw/project/fact-check-2020 ,,,https://youtu.be/aBFsM13ek-k,HC,,,,,,,CC0 + CC SA-NC-BY 4.0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,g0v 社群治理討論 ,g0v、社群、治理,Nobody,https://g0v.hackmd.io/vYdTfaYeR7SnIU3zT5evOw,,,,https://youtu.be/aBFsM13ek-k,Ronny,,,,,,,CC0 + CC SA-NC-BY 4.0,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,違章工廠舉報系統,違章工廠、監督政府、群眾協作,對檢舉農地違章工廠有興趣的人,https://drive.google.com/file/d/1MB3xjIwZd8NbgH39ax6ojsy76HjaN6Rh/view?usp=sharing,,,,https://youtu.be/OOKWIy86-Mk,小海,,,,,,,,,大松,No
+2019/7/20,35,g0v hackath35n | 台灣零時政府第參拾伍次最旁邊黑客松,NT01 地球上的夢幻逸品線上型錄,夢幻逸品、網站、地球資源,想要徵建造網頁的人,,,,,https://youtu.be/owkWL7Ehybc,cotton,,,,,,,,,大松,No
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,如何辦一場小松共筆 (feat. 揪松有小松場地喔),,,https://g0v.hackmd.io/51qNkup-TRK8uTOhlAuKhg?both,,,,https://youtu.be/jbzIILNgBQs,Ronny,,,,,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,違建類型統計及視覺化,違建、開放資料、房屋,資料視覺化、AI影像判斷,https://hackmd.io/@hsiaoa/rksxNtlIS/edit,,,,https://youtu.be/Wcy3eiYyT-U,林穎孟,,,,me@hsiaoa.tw,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,金流百科/政治獻金3.0,選舉、金流、倡議,,https://g0v-money-flow.github.io/candidates/12,https://drive.google.com/file/d/1Uxl0_pkDgBor8lGtJDA1OOQajEITd-QF/view?usp=sharing,,,https://youtu.be/6pw07370s50,田,,,,tty791002@gmail.com,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,實價登陸 2.0 大樓房價資料視覺化建置,"(1)實價登陸 2.0
+(2)資料視覺化",前端\後端\地圖資料視覺化,https://g0v.hackpad.tw/e--Rxf1DaPMR6D,https://drive.google.com/file/d/0B2MfRbsdwyGnY01rOHhNMjJ0M1M0SnhvS2RjV1czYmk3azZR/view?usp=sharing,,,https://youtu.be/tFtSj21Xce8,鄭淑麗,,,,,,,CC-BY,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,LINE BOT 市容幫手,line bot、市政、里長,LINE BOT工程師、對里長生態瞭解的人、對北市府生態瞭解的人,https://beta.hackfoldr.org/cityscape_helper,,,,https://youtu.be/w5fXa96bZNE,Pamela,,,,pamelaqwer12@gmail.com,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,連續錄影數十台新聞頻道，監督選舉假資訊傳播／紅色媒體，資訊戰，假新聞,資料連續存檔，新聞與名嘴，亡國之後被中共統治,行銷（要募資20萬以上買設備），軟體工程師（需要錄影自動化程序），AI技術（需要用機器來分析影片內容），把影片拿來分析「目前現況」的人（花時間）,https://hackmd.io/@MichaelLI/SywGOzlIH,https://hackmd.io/@MichaelLI/SywGOzlIH,,,https://youtu.be/w5fXa96bZNE,Michael_LI,,,,L54Happy（Gmail）,,,特定合作學術研究發表,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,叉出一個開放的在宅醫療社群,"在宅醫療、開放資料、複刻 fork, open data, homecare",Chatbot 開發者、MAP 開發者、社群推坑手：預計會辦週聚,https://flyis.me/hscan,https://hackmd.io/@fly/hc,,,https://youtu.be/8uGj6jwuKuQ,fly,,,,m.me/leo424y,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,"CC0 繁中語料 & Common Voice 語音庫
+omt: 代名詞貼紙","open data, 語音, ","語言學, scripts, 來錄音捐出聲音",slack #rand0m,http://github.com/irvin/cc0-sentences,,,https://youtu.be/mScB86IpyrM,Irvin,,,,irvin@moztw.org,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,我們的議員資料需要更結構化一點：Wikidata 議員大編輯松,CC0、結構化、容易編輯,無經驗者(想要入門開放文化)，結構化資料使用者/提供者，任何開放資料庫持有者/維護者,點擊加入,https://slides.com/allenwang6212/deck-27-30/,,,https://youtu.be/PPGKAg1k4EI,Allen,,,,alllenwang6212@gmail.com,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,Cofacts 真的假的,群眾協作、闢謠,願意回應網路訊息的人,https://cofacts.g0v.tw/hack,https://docs.google.com/presentation/d/1-pkINcy8ppo29tQF1wfgkerglpZwr1lsN0j5UzNNlFQ/edit,,,https://youtu.be/Dsx8VTq7ZkQ,斌綸,,@nonumpa,#cofacts,,,MIT,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,Positive Coin 帕斯堤貨幣,ART X HIV X Coin Design,1. 喜歡為藝術計畫與遊戲想點子debug的人 2. 有在關注 HIV 及愛滋相關議題的人,https://hackmd.io/@Ntwa8442Sl6UiFDk6420VQ/B1aUq2cQS,https://www.icloud.com/keynote/0ytJtnUYXWxdoeWofFKWE24cQ,,,https://youtu.be/tFrjzhoo9rM,李紫彤,,,,l.tzutung@gmail.com,,MIT,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,消防找水小幫手,消防栓、找水、google助理,願意動手惡搞的人,http://bit.ly/2ZPf2vh,http://bit.ly/2ZPf2vh,,,https://youtu.be/MCWpuAP4Jik,gavin,,,,http://bit.ly/2ZTrJFA,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,違章工廠舉報輔助器,違章工廠舉報,"前端工程師、後端工程師、設計師、關心違章工廠的人
+http://bit.ly/2HQrbdh",http://bit.ly/2YoQHQE,https://bit.ly/2lHh6Hk,,,https://youtu.be/d475JH7h8Ts,小海,,,,oriyaroriyar@cet-taiwan.org,,MIT,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,Kialo 台灣政治迷你維基百科,政治、維基、共筆,按讚、分享、共筆協作,https://g0v.hackpad.tw/Ptt--ctwZwU7BxcJ,https://hackmd.io/gsl4bSaJSX6_Lycv9_fK5g?view,,,https://youtu.be/-qI1COKzIcE,allenlinli,,,,allenlinli@gmail.om,,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,Ptt 不能亡：新使用者註冊驗證；社群機制重構與降低使用者進入門檻,沒有人要上Ptt、社群運作機制、簡單操作Ptt,系統規劃師、社群經營者、UXUI設計師、iOS工程師、Android工程師、前端工程師、後端工程師、有興趣提供Ptt怎麼進化的的各領域大大,https://g0v.hackpad.tw/Ptt--ctwZwU7BxcJ,https://drive.google.com/file/d/1_6YLk1Sb69xwC8sAOS7xg7aUFGKCEX8C/view?usp=sharing,,,https://youtu.be/DrnBwtlUPuM,祖儀、okcool,,,,zuyi.lin@gmail.com,,,CC-BY,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,g0v 考古學家暨基礎建設特攻隊,g0v 基礎建設、g0v 考古、專案復活,新手、不知道 g0v 有什麼專案的人、好奇以前有過什麼專案的人、資料蒐集小達人,"https://g0v.hackmd.io/@jothon/g0v-infrastructure, 
+https://g0v.hackmd.io/eC2vgApVTu2AT7UmHeLDEg ",https://docs.google.com/presentation/d/1KwpvbH1JwMGatRIIQicvPUI1n39gdNlBCBc4e4fYBJA/edit?usp=sharing,,,https://youtu.be/DxjKNTVcoQc,大助,,@daisuke,,,@daisuke1230,,CC0,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,連儂牆之外，我們還能怎麼撐香港？,香港、反送中,對香港運動有興趣、想支持的人,https://g0v.hackmd.io/4c9p3fRcRNeSerSFxW8xIA,,,,https://youtu.be/A1sLBZn2Dj0,chihao,,@chihao,,,,,CC BY-NC-SA 4.0 International,,大松,
+2019/9/7,36,g0v hackath36n | 台灣零時政府第參拾陸次開放台北市議會黑客松,要修憲了嗎？g0v 宣言修訂討論,g0v、,,https://g0v.hackmd.io/x-ngci7LQ1-UrAFKL5FLAQ,https://g0v.hackmd.io/A-1cfwDNTpWdzmwm4ru5ww,,,https://youtu.be/sOQd9MYdHKU,isabel,,,,,,,CC0,,大松,
