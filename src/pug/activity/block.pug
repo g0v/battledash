@@ -1,0 +1,53 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = false;
+  - ctrl.navtop.shown = false;
+block body
+
+  mixin act-card
+    .card.shadow(style="width:300px")&attributes(attributes)
+      .card-img-top.bg-dark(style="height:300px")
+      .card-body
+        h5.mb-0 華文永續報導獎
+        .text-sm.text-muted.mb-2 TVBS 信望愛基金會
+        .text-sm.text-muted 2019/12/01 ~ 2019/12/31 @ 台北小巨蛋
+
+  //- card display, shown in list
+  .w-100.h-100.position-relative
+    .position-absolute.card.m-4: .card-body
+      p 卡片式活動資訊。
+      ul
+        li 主要資訊：活動名稱、主辦單位、時間與地點
+        li 需要活動提供縮圖
+        li 點擊後進入活動主頁。
+        li: ul
+          li 還需要這些資訊:
+          li 開放提案中 / 活動已結束 ( banner 形式? )
+          li 提案數
+          li 總獎金?
+          li 報名狀況?
+          
+    .vertical-center: .w-100.text-center
+      +act-card.mx-auto
+
+  //- featuring activity
+  .w-100.h-100.bg-dark.text-white
+    .position-absolute.card.m-4.text-dark: .card-body
+      p 滿版式活動資訊。供主頁做活動精選，或者活動入口頁
+      ul
+        li 需要活動提供滿版大圖。
+        li 動作: 提案列表, 建立提案, 評選結果, 報名
+    .vertical-center: .w-100.text-center
+      h1.display-4.font-weight-bold 華文永續報導獎
+      .text-sm.mb-2 TVBS 信望愛基金會
+      .text-sm 2019/12/01 ~ 2019/12/31 @ 台北小巨蛋
+      .mt-4
+        .btn.btn-outline-light.mr-1 提案列表
+        .btn.btn-outline-light 我要提案
+  //- activities list
+  .w-100.h-100: .w-1200.rwd.mx-auto
+    .card.m-4: .card-body 活動列表。分頁式, 可搜尋.
+    .d-flex.flex-wrap.justify-content-center.w-100
+      each i in [1,2,3,4]
+        each i in [1,2,3,4]
+          +act-card.m-4

@@ -14,10 +14,10 @@ html
   body
     include modules/navtop.pug
     block body
-    block script
     +script(`${vars.root}/assets/bootstrap.native.4/2.0.26/bootstrap-native-v4.min.js`)
     +script(`${vars.root}/assets/ldui/ldui.min.js`)
     +script(`${vars.root}/assets/ldui-ext/index.js`)
     +script(`${vars.root}/assets/xfl/xfl.js`)
     +script(`${vars.root}/js/modules/core/navtop.js`)
     +script(`${vars.root}/js/base.js`)
+    block script
