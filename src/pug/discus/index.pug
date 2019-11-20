@@ -1,0 +1,33 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = false;
+  - ctrl.navtop.shown = false;
+block head
+  +css("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.4/dist/tagify.css")
+block body
+  .w-1024.rwd.mx-auto.p-4.m-4
+    mixin comment
+      .media.mb-4.pb-4
+        div.mr-2(style="width:48px"): .aspect-ratio.ratio-1by1.rounded.bg-dark.w-100
+        .media-body
+          .d-flex.align-items-end.mb-2
+            b.my-0(style="line-height:1em") 劉德華
+            .text-sm.text-muted.ml-1 ．g0v 揪松團
+            .text-sm.text-muted.ml-1 ．2019/08/10
+            .text-sm.text-muted.ml-1 ．回覆
+          block 
+
+    each i in [1,2,3,4,5,6,7]
+      +comment
+        if i < 3 || i > 3
+          p 若有待補充內容，請記得在今天（1/15）23:59 前補齊提案。
+        if i == 3
+          p Hi, Johnson 你好!
+          p 我也遇過要A給B，原來不只是我 XD
+          p 初步希望能把小幫手開發成Chrome Extension，不知是否可行。處理後的政府開放資料回應作為開放資料釋出
+          .btn.btn-sm.btn-outline-secondary 一個回覆
+
+
+    textarea.form-control.mb-2(rows="4")
+    .text-right
+      .btn.btn-outline-secondary 送出留言
