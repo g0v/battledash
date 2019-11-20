@@ -1,0 +1,71 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = false;
+  - ctrl.navtop.shown = false;
+block body
+
+  mixin act-card
+    .card.shadow(style="width:310px")&attributes(attributes)
+      .card-img-top.bg-dark(style="height:300px")
+      .card-body
+        h5 台灣開源義肢計劃
+        .text-sm.text-muted.mb-2 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
+        .text-sm.text-muted By #[a(href="#") 雨停兄]
+
+  mixin list
+    .w-1024.rwd.mx-auto.d-flex.flex-wrap.justify-content-between
+      each i in [1,2,3,4,5,6,7,8,9,10,11,12]
+        +act-card.mb-4
+    .w-1024.rwd.mx-auto.text-center.my-4.py-4
+      .btn-group.mx-auto
+        each i in [1,2,3,4,5,6]
+          .btn.btn-outline-secondary(class=(i==1?"active":"")) #{i}
+
+  .w-1024.rwd.mx-auto.mt-4.pt-4.mb-4
+
+    //.position-absolute.card.m-4: .card-body
+      p 提案列表.
+      ul
+        li 主要資訊：提案內容簡介, 縮圖, 連結; 活動名稱, 摘要.
+        li 分縮圖區塊式或文字摘要式
+        li 簡單搜尋功能: ( 依類型 / 搜標題 )
+        li 點擊後進入提案主頁。
+        li: ul
+          li 還需要其它資訊?
+          li 得獎狀況
+          li 屆數? ( 不一定需要? )
+
+    .w-100.text-light.bg-dark.mb-4.rounded(style="height:300px"): .vertical-center: .w-100.text-center
+      h3.font-weight-light 2019 公民科技創新獎助金
+      p.text-muted.text-sm.mb-4 g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
+      .btn.btn-outline-light 關於此計畫
+    .d-flex.w-100.justify-content-between.py-2
+      div
+        .btn-group
+          .btn.btn-outline-secondary 許願池
+          .btn.btn-outline-secondary 得獎提案
+          .btn.btn-outline-primary.active 全部提案 #[i.i-check]
+      div
+        .input-group
+          input.form-control(placeholder="搜尋提案...")
+          .input-group-append
+            .btn.btn-outline-secondary 搜尋 #[i.i-search]
+  +list
+
+  hr
+  .w-1024.rwd.mx-auto.mt-4.pt-4
+    .d-flex.align-items-end
+      .flex-grow-1
+        h3.font-weight-light 2019 公民科技創新獎助金
+        p.text-muted.text-sm.mb-0 g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
+      div: .input-group
+        input.form-control(placeholder="搜尋提案...")
+        .input-group-append
+          .btn.btn-outline-secondary 搜尋 #[i.i-search]
+    hr.mb-0
+  .text-center.p-4
+    .btn-group
+      .btn.btn-sm.btn-outline-secondary 許願池
+      .btn.btn-sm.btn-outline-secondary 得獎提案
+      .btn.btn-sm.btn-outline-primary.active 全部提案 #[i.i-check]
+  +list

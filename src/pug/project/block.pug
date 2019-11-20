@@ -31,6 +31,7 @@ block body
     .vertical-center: .w-100.text-center
       +act-card.mx-auto.text-left
 
+
   //- list display, shown in tiny space
   .w-100.h-100.position-relative
 
@@ -116,10 +117,9 @@ block body
               each i in [1,2,3,4,5,6,7,8,9,0]
                 .avatar.lg.mr-2.mb-2.has-tips: .hover-tip.bottom.tip-sm 路人#{i}號
               span ...
-      hr
       .row
         .col-md-2
-          .sticky
+          .sticky.pt-3
             .list-group
               .list-group-item.clickable(ld="switch",data-name="detail") 提案細節
               .list-group-item.clickable(ld="switch",data-name="note") 線上共筆
@@ -127,7 +127,7 @@ block body
               .btn.btn-outline-secondary.dropdown-toggle.btn-block(data-toggle="dropdown") 修改紀錄
 
         .col-md-10
-          .w-100.typeset.heading-contrast(ld="panel panel-detail")
+          .card.w-100.typeset.heading-contrast.shadow-sm(ld="panel panel-detail"): .card-body: .p-4
             h3 你需要多少錢？（30 ~ 50 萬之間）
             p 500000
 
