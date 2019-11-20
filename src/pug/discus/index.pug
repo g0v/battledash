@@ -5,6 +5,26 @@ block vars
 block head
   +css("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.4/dist/tagify.css")
 block body
+  .card.w-1024.rwd.mx-auto.m-4: .card-body
+    h4 討論、留言介面
+    p 提供會員間互動管道。基本要求
+    ul
+      li 可以留言。
+      li 留言可以用 markdown 排版。
+      li 摘要留言者的身份。
+      li 回覆特定留言。成串留言。
+      li 刪除 / 編輯留言
+      li
+        p 管理者:
+        ul
+          li 刪除留言 / 隱藏留言 / 編輯留言
+          li 鎖定討論串
+    p 其它可能要做的
+    ul
+      li 新留言通知
+      li 討論的 dashboard
+      li 全活動留言管理
+      li 留言狀況視覺化？
   .w-1024.rwd.mx-auto.p-4.m-4
     mixin comment
       .media.mb-4.pb-4
