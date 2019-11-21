@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" type="text/css" href="/assets/lib/flatpickr/flatpickr.min.css"><link rel="stylesheet" type="text/css" href="/assets/bootstrap/4.3.1/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/assets/ldui/ldui.min.css"><link rel="stylesheet" type="text/css" href="/css/index.css"></head><body><div class="typeset heading-contrast"><div class="w-1024 mx-auto rwd"><div class="card"><div class="card-body"><p>活動後台頁面</p><h5>入口:</h5><ul><li>個人檔案</li><li>活動資訊頁</li><li>活動提案列表</li></ul><h5>出口</h5><ul><li>活動提案列表</li><li>活動資訊頁</li><li>活動資訊頁編輯器</li></ul><h5>主要功能:</h5><ul><li>預覽活動</li><li>修改活動資訊</li><li><p>調整活動狀態</p><ul><li>開關報名 / 尚未開跑 / 活動中 / 活動結束</li><li>開關編輯 / 開關評論 / 開關評審</li><li>設定階段 ( 多階段活動用 )</li><li>發布活動 ( 發布時檢查所有資訊是否完整 )</li></ul></li><li><p>提案資訊</p><ul><li>提案數</li><li>評論狀況</li></ul></li><li>角色調整</li><li>刪除活動/隱藏活動</li></ul><p>活動 schema</p><div class="code-block">activity
+  description - text(300)
+  title - text(100)
+  slug - text(32) not null unique
+  key - int not null unique primary key
+  deleted - bool
+  visible - bool
+  detail: jsonb
+  createdtime - timestamp
+  modifiedtime - timestamp
+  orgnization - int foreign key(organization)
+  owner - int foreign key(user)
+  - index key, slug, createdtime</div></div></div></div></div><script type="text/javascript" src="/assets/lib/flatpickr/flatpickr.min.js"></script><script type="text/javascript" src="/assets/bootstrap.native.4/2.0.26/bootstrap-native-v4.min.js"></script><script type="text/javascript" src="/assets/ldui/ldui.min.js"></script><script type="text/javascript" src="/assets/ldui-ext/index.js"></script><script type="text/javascript" src="/assets/xfl/xfl.js"></script><script type="text/javascript" src="/js/modules/core/navtop.js"></script><script type="text/javascript" src="/js/base.js"></script></body></html>

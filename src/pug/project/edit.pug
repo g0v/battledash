@@ -5,6 +5,7 @@ block vars
 block head
   +css("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.4/dist/tagify.css")
 block body
+  include /edit/index.pug
   .w-1024.rwd.mx-auto.p-4
     .card: .card-body: .p-4
       h5 專案編輯介面
@@ -17,36 +18,11 @@ block body
         li img uploader
         li multiple choice
       p 所需欄位可參考 ldEditor 的設計, 使用一個 config object 來準備. 該 config 可用於前後端
-    mixin edit-multiple(opt)
-      +scope("multiple").edit.edit-multiple
-        .d-flex.justify-content-start
-        each v in opt.values
-          .btn.btn-outline-secondary.mr-2(ld="choice") #{v}
-    mixin edit-select(opt)
-      +scope("select").edit.edit-select
-        select.form-control(ld="select")
-          each v in opt.values
-            if Array.isArray(v)
-              option(value=v[1]) #{v[0]}
-            else
-              option(value=v) #{v}
-          if opt.other
-            option(value="") 其它
-        if opt.other
-          input.form-control.mt-1.d-none(ld="input",placeholder="請補充...")
-    mixin edit-text
-      +scope("text").edit.edit-text
-        .d-flex.justify-content-between
-          .mb-2.btn-group
-            .btn.btn-outline-secondary.btn-sm.active(ld="toggle edit") 編輯 #[i.i-pen]
-            .btn.btn-outline-secondary.btn-sm(ld="toggle preview") 預覽 #[i.i-eye]
-          div: a(href="https://markdown.tw/",target="_blank") Markdown 語法 #[i.i-question]
-        textarea.form-control(ld="panel panel-edit",rows="6",placeholder="使用 Markdown 語法... ")
-        .card.d-none(ld="panel panel-preview"): .card-body
+
     .typeset.headling-contrast
       .form-group.mb-4
         label 你需要多少錢？（30 ~ 50 萬之間）
-        .ldrs
+        +edit-slider
 
       -
         titles = [
@@ -58,19 +34,16 @@ block body
       each title in titles
         .form-group.mb-4
           label #{title}
-          +edit-text
+          +edit-richtext
       .form-group.mb-4
         label 請提供本活動所需的授權文件電子掃描檔。
-        div
-          .btn.btn-outline-dark.mr-2 #[i.i-link]
-          .btn.btn-upload.btn-outline-dark 上傳檔案 #[i.i-upload]#[input(type="upload")]
+        +edit-upload
       .form-group.mb-4
         label 請提供本計劃的示意圖或介面設計草圖
-        .w-100.rounded.bg-light(style="height:200px"): .vertical-center: .w-100.text-center
-          .btn.btn-upload.btn-outline-dark 上傳圖片 #[input(type="upload")]
+        +edit-image
       .form-group.mb-4
         label 相關的關鍵字或標籤
-        textarea.form-control.tagify(ld="panel panel-edit",rows="3")
+        +edit-tags
       .form-group.mb-4
         label 專案屬於哪一個子分類？
         - category = ["開放政府","新媒體","公共服務","開放資料","社會參與","基礎建設"]
@@ -84,48 +57,8 @@ block body
         - values = ["多元","協作","開放","分享"]
         +edit-multiple({values: values})
 
-
 block script
   +script("https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js")
   +script("https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.3/purify.min.js")
   +script("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.4/dist/tagify.min.js")
-  script: :lsc
-    lrds = new ldSlider root: '.ldrs', min: 30, max: 50, step: 0.01
-    ld$.find document, "[ld-scope=text]"
-      .map (root) ->
-        view = new ldView do
-          root: root
-          action: do
-            click: do
-              toggle: ->
-                view.getAll(\panel).map -> it.classList.add \d-none
-                view.getAll(\toggle).map -> it.classList.remove \active
-              edit: ->
-                view.get(\panel-edit).classList.remove \d-none
-                view.get(\edit).classList.add \active
-              preview: ->
-                view.get(\panel-preview).classList.remove \d-none
-                view.get(\preview).classList.add \active
-            input: do
-              "panel-edit": -> 
-                ret = DOMPurify.sanitize(marked(view.get(\panel-edit).value))
-                ld$.find(view.get(\panel-preview), '.card-body', 0).innerHTML = ret
-          handler:
-            panel: ->
-    ld$.find document, "[ld-scope=select]"
-      .map (root) ->
-        view = new ldView do
-          root: root
-          action: do
-            input: do
-              select: ({node}) ->
-                view.get(\input).classList.toggle \d-none, node.value
-    ld$.find document, "[ld-scope=multiple]"
-      .map (root) ->
-        view = new ldView do
-          root: root
-          action: do
-            click: do
-              choice: ({node}) ->
-                node.classList.toggle \active
-    new Tagify ld$.find(document, '.tagify',0)
+  +script("/js/edit.js")

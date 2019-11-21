@@ -7,6 +7,7 @@ block vars
 html
   head
     meta(charset="utf-8")
+    +css(`${vars.root}/assets/lib/flatpickr/flatpickr.min.css`)
     +css(`${vars.root}/assets/bootstrap/4.3.1/css/bootstrap.min.css`)
     +css(`${vars.root}/assets/ldui/ldui.min.css`)
     +css(`${vars.root}/css/index.css`)
@@ -14,6 +15,7 @@ html
   body
     include modules/navtop.pug
     block body
+    +script(`${vars.root}/assets/lib/flatpickr/flatpickr.min.js`)
     +script(`${vars.root}/assets/bootstrap.native.4/2.0.26/bootstrap-native-v4.min.js`)
     +script(`${vars.root}/assets/ldui/ldui.min.js`)
     +script(`${vars.root}/assets/ldui-ext/index.js`)

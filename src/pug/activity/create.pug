@@ -1,0 +1,33 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = false;
+  - ctrl.navtop.shown = false;
+block body
+  include /edit/index.pug
+  .typeset.headling-contrast
+    .w-640.rwd.mx-auto
+      .card: .card-body
+        p 活動需要的欄位包括：
+        ul
+          li 標題
+          li 摘要
+          li 時間
+          li 縮圖?
+        p 建立活動可以只填名稱跟代碼, 其它等發布前再完成即可。
+      +nbr(2)
+      .card.shadow-sm: .card-body: .p-4
+        h2 建立活動
+        hr.my-4
+        +edit-entry({title: "活動名稱"}): +edit-text
+        +edit-entry({title: "活動代碼"}): +edit-text
+        +edit-entry({title: "活動摘要"}): +edit-richtext
+        .row
+          .col-md: +edit-entry({title: "開始時間"}): +edit-date
+          .col-md: +edit-entry({title: "結束時間"}): +edit-date
+        +edit-entry({title: "活動滿版圖 ( 1200 x 800 px )"}): +edit-image
+        +edit-entry({title: "活動橫幅 ( 1200 x 200 px )"}): +edit-image
+        +edit-entry({title: "活動縮圖 ( 200 x 200 px )"}): +edit-image
+        hr.my-4
+        .btn.btn-primary 建立活動
+block script
+  +script("/js/edit.js")
