@@ -3,19 +3,24 @@ block vars
   - ctrl.navtop.placeholder = false;
   - ctrl.navtop.shown = false;
 block body
+  include data.pug
 
-  mixin act-card
+  mixin act-card(prj)
+    - if(!prj) prj = {}
     .card.shadow(style="width:310px")&attributes(attributes)
       .card-img-top.bg-dark(style="height:300px")
       .card-body
-        h5 台灣開源義肢計劃
-        .text-sm.text-muted.mb-2 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
-        .text-sm.text-muted By #[a(href="#") 雨停兄]
+        h5.text-truncate= prj.title
+        //-each p in (prj.desc || '').split('\\n')
+          p.text-sm.text-muted.mb-2 #{p}
+        p.text-sm.text-muted.mb-2 #{prj.desc.substring(0,54)} #{prj.desc.length > 54 ? '...' : ''}
+        .text-sm.text-muted By #[a(href="#")= prj.ownername]
 
   mixin list
     .w-1024.rwd.mx-auto.d-flex.flex-wrap.justify-content-between
-      each i in [1,2,3,4,5,6,7,8,9,10,11,12]
-        +act-card.mb-4
+      //-each i in [1,2,3,4,5,6,7,8,9,10,11,12]
+      each prj in db
+        +act-card(prj).mb-4
     .w-1024.rwd.mx-auto.text-center.my-4.py-4
       .btn-group.mx-auto
         each i in [1,2,3,4,5,6]
@@ -35,10 +40,19 @@ block body
           li 得獎狀況
           li 屆數? ( 不一定需要? )
 
-    .w-100.text-light.bg-dark.mb-4.rounded(style="height:300px"): .vertical-center: .w-100.text-center
+    //- 置中式
+    //-.w-100.text-light.bg-dark.mb-4.rounded(style="height:300px"): .vertical-center: .w-100.text-center
       h3.font-weight-light 2019 公民科技創新獎助金
       p.text-muted.text-sm.mb-4 g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
       .btn.btn-outline-light 關於此計畫
+
+    //- 靠左式
+    .w-100.text-light.bg-dark.mb-4.rounded(style="height:300px;background:url(/assets/img/dev/landing.jpg) center center no-repeat;background-size:cover")
+      .vertical-center: .w-50.text-left.ml-4.pl-4
+        h3.font-weight-light 2019 公民科技創新獎助金
+        p.text-sm.mb-4(style="opacity:.65") g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
+        .btn.btn-outline-light 關於此計畫
+
     .d-flex.w-100.justify-content-between.py-2
       div
         .btn-group
