@@ -1,0 +1,74 @@
+extends /base.pug
+block vars
+  - vars.root = "../"
+  - cls.nav = "navbar-light";
+  - ctrl.navgap = true
+block head
+  +css("css/landing/index.css")
+block body
+  +nbr(1)
+  div(style="height:100%")
+    .m-auto(style="width:1024px")
+      h1.mb-0 提案名稱
+      .mb-2: small.text-muted @第三十四屆公民科技獎助金
+      p
+        each i in [1,2,3,4,5,6,7,8,9]
+          span 提案簡述
+      .btn-group.mr-2
+        .btn.btn-outline-secondary.btn-sm 成果授權
+        .btn.btn-outline-secondary.btn-sm.text-muted: small CC-BY-NC-SA 4.0
+      .btn-group.mr-2
+        .btn.btn-outline-secondary.btn-sm 關鍵字
+        .btn.btn-outline-secondary.btn-sm #[.badge.badge-primary 提案系統] #[.badge.badge-primary 測試] #[.badge.badge-primary 隨便]
+      .btn-group.mr-2
+        .btn.btn-outline-secondary.btn-sm 徵求志工
+        .btn.btn-outline-secondary.btn-sm #[.badge.badge-primary 工程師] #[.badge.badge-primary 設計師] #[.badge.badge-primary 小編]
+      .float-right
+        .btn-group.mr-2
+          .btn.btn-outline-dark.btn-sm DEMO #[i.i-link]
+        .dropdown.d-inline-block
+          .btn.btn-outline-dark.btn-sm.dropdown-toggle(data-toggle="dropdown") 編輯紀錄 #[small.text-muted (4)]
+          .dropdown-menu
+            .dropdown-item 3 個月前
+            .dropdown-item 3 個月前
+            .dropdown-item 3 個月前
+            .dropdown-item 3 個月前
+      hr
+      .d-flex
+        .form-group.mr-4
+          label 提案人
+          div: .avatar.lg
+        .form-group.mr-4
+          label 參與者
+          div: each i in [1,2,3,4,5]
+            .avatar.lg.mr-2.mb-2
+        .form-group
+          label 關注者
+          div
+            each i in [1,2,3,4,5,6,7,8,9,0]
+              .avatar.lg.mr-2.mb-2
+            span ...
+
+    .card.shadow-sm.bg-light.m-auto(style="width:1024px;height:500px;position:relative")
+      iframe.card-body(src="https://hackmd.io/7C2mwjnpTiuW4tSgTz-XVw",style="border:0")
+      .btn.btn-lg.btn-success(style="position:absolute;bottom:10px;right:10px",
+      onclick="modal.ldcv.toggle()") 全屏幕開啟
+      //-.vertical-center(style="position:absolute;width:100%;height:100%;background:rgba(0,0,0,.1)",
+      //-onclick="modal.ldcv.toggle()")
+        h1.text-center(style="width:100%") 點擊看全部
+    .ldcv.lg: .base: .inner
+      iframe.m-auto.shadow-sm.bg-light(style="display:block;width:100%;border:0;height:100%",
+      src="https://hackmd.io/7C2mwjnpTiuW4tSgTz-XVw")
+    script.
+      var modal = {};
+      window.addEventListener("load", function() {
+      modal.ldcv = new ldCover({root: ".ldcv"});
+      });
+    .m-auto(style="width:1024px")
+      +nbr(3)
+      h3 留言區
+      .card.shadow-sm.bg-light(style="height:300px"): .card-body
+      +nbr(2)
+
+    .foot.p-4.w-100.bg-dark.text-light
+      h3 Battle Dash

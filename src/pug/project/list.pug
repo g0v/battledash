@@ -8,7 +8,7 @@ block body
   mixin act-card(prj)
     - if(!prj) prj = {}
     .card.shadow(style="width:310px")&attributes(attributes)
-      .card-img-top.bg-dark(style="height:300px")
+      .card-img-top.bg-light(style=`height:300px;background:url(https://grants.g0v.tw/${prj.cover}) center center no-repeat;background-size:cover`)
       .card-body
         h5.text-truncate= prj.title
         //-each p in (prj.desc || '').split('\\n')
