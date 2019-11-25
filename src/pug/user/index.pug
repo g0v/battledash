@@ -1,0 +1,39 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = false;
+  - ctrl.navtop.shown = true;
+  - ctrl.navtop.className = "navbar-light bg-semi-light";
+block body
+  include /project/mixin.pug
+
+  .w-100.h-100: .vertical-center: .w-100.text-center
+    .p-4.position-absolute 置中, 卡式用戶資訊
+    .card.mx-auto.shadow(style="font-family:arial;width:320px")
+      .card-body.p-4
+        .mx-auto.my-4(style="width:128px"): .rounded.bg-dark.aspect-ratio.ratio-1by1
+        .text-center
+          .text-lg.text-center: b Marrt Jane
+          .text-muted Designer
+          br
+          .text-muted.text-sm joined 2016/05
+          +nbr(2)
+  .w-1024.mx-auto.d-flex
+    .p-4
+      .sticky
+        .mx-auto.my-4(style="width:128px"): .rounded.bg-dark.aspect-ratio.ratio-1by1
+        .text-center
+          .text-lg.text-center: b Marrt Jane
+          .text-muted Designer
+          .text-muted.text-sm joined 2016/05
+          br
+          .list-group
+            .list-group-item 提案
+            .list-group-item 貢獻
+            .list-group-item 追蹤
+
+    .p-4
+      each n in ["提案","貢獻","追蹤"]
+        h5 #{n}
+        each i in [1,2,3,4,5,6]
+          +prj-list
+        +nbr(2)

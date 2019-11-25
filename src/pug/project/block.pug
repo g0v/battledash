@@ -6,15 +6,7 @@ block vars
     body { font-size: 18px }
     p { opacity: 0.75 }
 block body
-
-
-  mixin act-card
-    .card.shadow(style="width:300px")&attributes(attributes)
-      .card-img-top.bg-dark(style="height:300px")
-      .card-body
-        h5 台灣開源義肢計劃
-        .text-sm.text-muted.mb-2 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
-        .text-sm.text-muted By #[a(href="#") 雨停兄]
+  include mixin.pug
 
 
   //- card display, shown in list
@@ -32,7 +24,7 @@ block body
           li 屆數? ( 不一定需要? )
           
     .vertical-center: .w-100.text-center
-      +act-card.mx-auto.text-left
+      +prj-card.mx-auto.text-left
 
 
   //- list display, shown in tiny space
@@ -50,34 +42,6 @@ block body
           li 得獎狀況
 
     .vertical-center: .w-100.text-left
-
-      .w-640.mx-auto.my-4
-        .d-flex
-          div
-            .d-flex.align-items-end.mb-1
-              h5.mb-0.mr-1 台灣開源義肢計劃
-              .text-sm.text-muted By #[a(href="#") 雨停兄]
-            .text-sm.text-muted.w-100.text-truncate 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
-      hr
-      .w-640.mx-auto.my-4
-        .d-flex
-          .rounded.bg-dark.mr-1(style="width:3em;height:3em;flex:1 0 auto")
-          .text-truncate
-            .d-flex.align-items-end.mb-1
-              h5.mb-0.mr-1 台灣開源義肢計劃
-              .text-sm.text-muted By #[a(href="#") 雨停兄]
-            .text-sm.text-muted.w-100.text-truncate 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
-      hr
-      .mx-auto.my-4(style="width:480px")
-        .d-flex
-          .rounded.bg-dark.mr-1(style="width:3em;height:3em;flex:1 0 auto")
-          .text-truncate
-            .d-flex.align-items-end.mb-1
-              h5.mb-0.mr-1 台灣開源義肢計劃
-              .text-sm.text-muted By #[a(href="#") 雨停兄]
-            .text-sm.text-muted.w-100.text-truncate 這個是在較小顯示寬度時的樣子，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
-      hr
-
-      .mx-auto.w-640.my-4
-        .rounded.bg-dark.mr-1.mx-auto(style="width:3em;height:3em;flex:1 0 auto")
-        div ( 只有圖時 )
+      +prj-list
+      +prj-list-sm
+      +prj-thumb

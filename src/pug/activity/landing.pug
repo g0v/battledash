@@ -1,7 +1,8 @@
 extends /base.pug
 block vars
   - ctrl.navtop.placeholder = false;
-  - ctrl.navtop.shown = false;
+  - ctrl.navtop.shown = true;
+  - ctrl.navtop.className = "navbar-light bg-semi-light"
 block head
   style(type="text/css"): :stylus
     body { font-size: 18px }
