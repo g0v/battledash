@@ -2,7 +2,8 @@
 (function(){
   return ldc.register('ldcvmgr', [], function(){
     var error, ldcvmgr, covers, this$ = this;
-    error = function(e){
+    error = function(n, e){
+      n == null && (n = '');
       e == null && (e = {});
       if (n === 'error') {
         alert("something is wrong; please reload and try again");
@@ -72,7 +73,9 @@
             node: this$.covers[n],
             param: p
           });
-        })['catch'](error);
+        })['catch'](function(it){
+          return error(n, it);
+        });
       },
       getcover: function(n){
         var this$ = this;
@@ -104,7 +107,9 @@
           });
         }).then(function(){
           return this$.covers[n].get();
-        })['catch'](error);
+        })['catch'](function(it){
+          return error(n, it);
+        });
       }
     };
     Array.from(document.querySelectorAll('.ldcvmgr')).map(function(n){

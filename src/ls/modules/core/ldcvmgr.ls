@@ -1,6 +1,6 @@
 (->
   <- ldc.register \ldcvmgr, [], _
-  error = (e = {}) ->
+  error = (n = '', e = {}) ->
     if n == \error => alert "something is wrong; please reload and try again"
     else ldcvmgr.toggle \error
     console.log(e.message or e)
@@ -32,7 +32,7 @@
       @prepare(n)
         .then ~> @covers[n].toggle v
         .then ~> ldc.fire "ldcvmgr.#n.#{if @covers[n].is-on! => \on else \off}", {node: @covers[n], param: p}
-        .catch error
+        .catch -> error(n,it)
 
     getcover: (n) -> @prepare n .then ~> @covers[n]
     getdom: (n) -> @prepare n .then ~> @covers[n].root
@@ -43,7 +43,7 @@
       @prepare(n)
         .then ~> ldc.fire "ldcvmgr.#n.on", {node: @covers[n], param: p}
         .then ~> @covers[n].get!
-        .catch error
+        .catch -> error(n,it)
 
   Array.from(document.querySelectorAll('.ldcvmgr')).map (n) ~>
     # only keep the first, named ldcvmgr.

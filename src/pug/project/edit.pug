@@ -12,7 +12,7 @@ block head
 block body
   include /edit/index.pug
   .w-1024.rwd.mx-auto.p-4
-    .card: .card-body: .p-4
+    .ldcv.ldcvmgr(data-name="dev-note"): .base: .inner.card: .card-body: .p-4
       h5 專案編輯介面
       p 此頁包含了提案可能會用到的各種元件, 包括:
       ul
@@ -23,8 +23,25 @@ block body
         li img uploader
         li multiple choice
       p 所需欄位可參考 ldEditor 的設計, 使用一個 config object 來準備. 該 config 可用於前後端
-    +nbr(2)
-    hr
+    .ldcv.ldcvmgr(data-name="propose"): .base.w-480: .inner.card.shadow: .card-body
+      .d-flex.align-items-end.mb-1
+        h3.mb-0 我要提案
+        //-.text-muted.ml-2 / 我有個點子 ...
+      p.text-muted 提案小祕訣：你打算用什麼方法替什麼人解決什麼問題？
+      hr
+      .form-group.mb-4
+        label 提案名稱
+        +edit-text({name: "name"})
+      .form-group.mb-4
+        label 三個關鍵字
+        +edit-tags({name: "tag"})
+      .form-group.mb-4
+        label 類別
+        +edit-select({values: ["新媒體","開放政府","基礎建設"],name: "tag"})
+      .d-flex.justify-content-between.pt-2.align-items-center
+        .btn.btn-success 建立提案
+        .text-sm.text-muted 提案會放在第 37 屆黑客松中
+    .btn.btn-outline-dark(onclick="lda.ldcvmgr.toggle('propose')") 建立提案 #[i.i-plus]
     +nbr(2)
     .typeset.headling-contrast
       .row
@@ -71,7 +88,7 @@ block body
 
           .form-group
             label 你需要多少錢？（30 ~ 50 萬之間）
-            +edit-slider
+            +edit-slider({name: 'money'})
 
           -
             titles = [
@@ -80,31 +97,31 @@ block body
               "請簡述提案者在專案中的角色（例如：專案經理、全端工程師、顧問等）、專案成員與團隊背景介紹。（團隊現在有什麼人才？還需要什麼人才？）"
             ]
 
-          each title in titles
+          each title,$index in titles
             .form-group
               label #{title}
-              +edit-richtext
+              +edit-richtext({name: 'f' + $index})
           .form-group
             label 請提供本活動所需的授權文件電子掃描檔。
-            +edit-upload
+            +edit-upload({name: "authorize"})
           .form-group
             label 請提供本計劃的示意圖或介面設計草圖
-            +edit-image
+            +edit-image({name: "design"})
           .form-group
             label 相關的關鍵字或標籤
-            +edit-tags
+            +edit-tags({name: "tags"})
           .form-group
             label 專案屬於哪一個子分類？
             - category = ["開放政府","新媒體","公共服務","開放資料","社會參與","基礎建設"]
-            +edit-select({values: category, other: false})
+            +edit-select({values: category, other: false, name: "category"})
           .form-group
             label 專案使用什麼授權？
             - values = ["CC-BY","MIT","GPLv3","Apache V2","CC0"]
-            +edit-select({values: values, other: true})
+            +edit-select({values: values, other: true, name: "license"})
           .form-group
             label 專案符合哪些要素？
             - values = ["多元","協作","開放","分享"]
-            +edit-multiple({values: values})
+            +edit-multiple({values: values, name: "component"})
 
 block script
   +script("https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js")
