@@ -15,11 +15,16 @@ html
   body
     include modules/navtop.pug
     block body
+    .px-2.py-0.bg-dark.shadow-sm.border(onclick="lda.ldcvmgr.toggle('dev-note')",
+    style="position:fixed;bottom:0;right:10px;border-radius:5px 5px 0 0"): a.text-light(href="#") Dev Note
     +script(`${vars.root}/assets/lib/flatpickr/flatpickr.min.js`)
     +script(`${vars.root}/assets/bootstrap.native.4/2.0.26/bootstrap-native-v4.min.js`)
     +script(`${vars.root}/assets/ldui/ldui.min.js`)
     +script(`${vars.root}/assets/ldui-ext/index.js`)
     +script(`${vars.root}/assets/xfl/xfl.js`)
     +script(`${vars.root}/js/modules/core/navtop.js`)
+    +script(`${vars.root}/js/modules/core/ldcvmgr.js`)
+    +script(`${vars.root}/js/modules/core/base.js`)
     +script(`${vars.root}/js/base.js`)
+
     block script

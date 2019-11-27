@@ -1,4 +1,12 @@
 
+ld$.find document, "[ld-scope=image]"
+  .map (root) ->
+    ldf = new ldFile {root: ld$.find(root,'input',0)}
+    ldf.on \load, ->
+      url = URL.createObjectURL(it.0.file)
+      ld$.find(root, '[ld=preview]', 0).style.backgroundImage = "url(#url)"
+
+
 ld$.find document, "[ld-scope=slider]"
   .map (root) ->
     lrds = new ldSlider root: ld$.find(root, '.ldrs', 0), min: 30, max: 50, step: 0.01

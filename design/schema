@@ -1,0 +1,31 @@
+# DB Schema
+
+
+## project
+
+提案.
+
+ - key int primary key
+ - owner
+ - slug
+ - board
+ - title
+ - description
+ - detail 
+ - createdtime
+ - state ( limit state )
+ - deleted
+
+## board
+
+活動.
+
+ - key
+ - owner
+ - slug
+ - title
+ - description
+ - createdtime
+ - detail
+ - state ( limit state )
+ - deleted

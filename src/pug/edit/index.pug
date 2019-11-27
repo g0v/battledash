@@ -1,21 +1,23 @@
-
-
+//- module
 mixin edit-slider(opt)
   +scope("slider")
     .ldrs
 mixin edit-tags(opt)
   +scope("tags")
-    textarea.form-control.tagify(ld="panel panel-edit",rows="3")
+    textarea.form-control.tagify(name=opt.name,ld="panel panel-edit",rows="3")
 
 mixin edit-image(opt)
   +scope("image")
-    .w-100.rounded.bg-light(style="height:200px"): .vertical-center: .w-100.text-center
-      .btn.btn-upload.btn-outline-dark 上傳圖片 #[input(type="upload")]
+    .w-100.rounded.bg-light(ld="preview",
+    style="height:200px;background:center center;background-repeat:no-repeat;background-size:contain")
+      .vertical-center: .w-100.text-center
+        .btn.btn-upload.btn-outline-dark.bg-semi-light 上傳圖片 #[input(name=opt.name,type="file")]
+        .btn.btn-outline-dark.ml-2.bg-semi-light 先隨便
 
 mixin edit-upload(opt) 
   +scope("upload")
     .btn.btn-outline-dark.mr-2 #[i.i-link]
-    .btn.btn-upload.btn-outline-dark 上傳檔案 #[i.i-upload]#[input(type="upload")]
+    .btn.btn-upload.btn-outline-dark.bg-semi-light 上傳檔案 #[i.i-upload]#[input(type="file")]
 
 mixin edit-multiple(opt)
   +scope("multiple").edit.edit-multiple
@@ -24,7 +26,7 @@ mixin edit-multiple(opt)
       .btn.btn-outline-secondary.mr-2(ld="choice") #{v}
 mixin edit-select(opt)
   +scope("select").edit.edit-select
-    select.form-control(ld="select")
+    select.form-control(name=opt.name,ld="select")
       each v in opt.values
         if Array.isArray(v)
           option(value=v[1]) #{v[0]}
@@ -33,25 +35,32 @@ mixin edit-select(opt)
       if opt.other
         option(value="") 其它
     if opt.other
-      input.form-control.mt-1.d-none(ld="input",placeholder="請補充...")
-mixin edit-text
+      input.form-control.mt-1.d-none(name=opt.name + '-more',ld="input",placeholder="請補充...")
+mixin edit-text(opt)
   +scope("text").edit.edit-text
-    input.form-control(type="text")
-mixin edit-richtext
+    input.form-control(name=opt.name,type="text")
+mixin edit-moretext(opt)
+  +scope("text").edit.edit-text
+    textarea.form-control(rows="6",name=opt.name)
+mixin edit-richtext(opt)
   +scope("richtext").edit.edit-richtext
     .d-flex.justify-content-between
       .mb-2.btn-group
         .btn.btn-outline-secondary.btn-sm.active(ld="toggle edit") 編輯 #[i.i-pen]
         .btn.btn-outline-secondary.btn-sm(ld="toggle preview") 預覽 #[i.i-eye]
       div: a(href="https://markdown.tw/",target="_blank") Markdown 語法 #[i.i-question]
-    textarea.form-control(ld="panel panel-edit",rows="6",placeholder="使用 Markdown 語法... ")
+    textarea.form-control(name=opt.name,ld="panel panel-edit",rows="6",placeholder="使用 Markdown 語法... ")
     .card.d-none(ld="panel panel-preview"): .card-body
 
-mixin edit-date
+mixin edit-date(opt)
   +scope("date").edit.edit-date
-    input.form-control(type="date")
+    input.form-control(name=opt.name,type="date")
 
 mixin edit-entry(opt)
   .form-group.mb-4
     label #{opt.title}
     block
+ 
++script("https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js")
++script("https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.3/purify.min.js")
++script("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.6/dist/tagify.min.js")

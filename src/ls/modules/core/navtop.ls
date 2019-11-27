@@ -1,6 +1,7 @@
 (->
   ldc.register \navtop, <[]>, ({}) ->
     navbar = document.querySelector '#nav-top nav'
+    if !navbar => return
     # navtop change style if data-transition and data-transition-target is defined.
     # data-transition = "class1 class2 ...;class1 class2 ..." for before and after transition classs.
     # data-transition-target: node to monitor for visibility and thus reflect the whether state should be change.
