@@ -1,7 +1,8 @@
 //- module
 mixin edit-slider(opt)
   +scope("slider")
-    .ldrs
+    .d-flex
+      input.ldrs.flex-grow-1(data-class="form-control flex-grow-0 w-25 ml-4")
 mixin edit-tags(opt)
   +scope("tags")
     textarea.form-control.tagify(name=opt.name,ld="panel panel-edit",rows="3")
@@ -26,14 +27,15 @@ mixin edit-multiple(opt)
       .btn.btn-outline-secondary.mr-2(ld="choice") #{v}
 mixin edit-select(opt)
   +scope("select").edit.edit-select
-    select.form-control(name=opt.name,ld="select")
+    select.form-control(name=opt.name,ld="select",value="")
+      option(value="") 請選擇...
       each v in opt.values
         if Array.isArray(v)
           option(value=v[1]) #{v[0]}
         else
           option(value=v) #{v}
       if opt.other
-        option(value="") 其它
+        option(value="_other") 其它
     if opt.other
       input.form-control.mt-1.d-none(name=opt.name + '-more',ld="input",placeholder="請補充...")
 mixin edit-text(opt)
@@ -60,7 +62,7 @@ mixin edit-entry(opt)
   .form-group.mb-4
     label #{opt.title}
     block
- 
++css("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.6/dist/tagify.css") 
 +script("https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js")
 +script("https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.3/purify.min.js")
 +script("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.6/dist/tagify.min.js")

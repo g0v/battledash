@@ -9,7 +9,9 @@ ld$.find document, "[ld-scope=image]"
 
 ld$.find document, "[ld-scope=slider]"
   .map (root) ->
-    lrds = new ldSlider root: ld$.find(root, '.ldrs', 0), min: 30, max: 50, step: 0.01
+    ldrs = new ldSlider root: ld$.find(root, '.ldrs', 0), min: 30, max: 50, step: 0.01
+    ldrs.input.setAttribute \type, \text
+
 
 ld$.find document, "[ld-scope=date]"
   .map (root) -> flatpickr ld$.find(root, 'input', 0), {}
@@ -42,7 +44,7 @@ ld$.find document, "[ld-scope=select]"
       action: do
         input: do
           select: ({node}) ->
-            view.get(\input).classList.toggle \d-none, node.value
+            if view.get(\input) => that.classList.toggle \d-none, node.value == \_other
 ld$.find document, "[ld-scope=multiple]"
   .map (root) ->
     view = new ldView do
@@ -51,4 +53,6 @@ ld$.find document, "[ld-scope=multiple]"
         click: do
           choice: ({node}) ->
             node.classList.toggle \active
-new Tagify ld$.find(document, '.tagify',0)
+ld$.find document, "[ld-scope=tags]"
+  .map (root) ->
+    new Tagify ld$.find(root, 'textarea', 0)

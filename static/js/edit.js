@@ -11,13 +11,14 @@ ld$.find(document, "[ld-scope=image]").map(function(root){
   });
 });
 ld$.find(document, "[ld-scope=slider]").map(function(root){
-  var lrds;
-  return lrds = new ldSlider({
+  var ldrs;
+  ldrs = new ldSlider({
     root: ld$.find(root, '.ldrs', 0),
     min: 30,
     max: 50,
     step: 0.01
   });
+  return ldrs.input.setAttribute('type', 'text');
 });
 ld$.find(document, "[ld-scope=date]").map(function(root){
   return flatpickr(ld$.find(root, 'input', 0), {});
@@ -65,9 +66,11 @@ ld$.find(document, "[ld-scope=select]").map(function(root){
     action: {
       input: {
         select: function(arg$){
-          var node;
+          var node, that;
           node = arg$.node;
-          return view.get('input').classList.toggle('d-none', node.value);
+          if (that = view.get('input')) {
+            return that.classList.toggle('d-none', node.value === '_other');
+          }
         }
       }
     }
@@ -88,4 +91,6 @@ ld$.find(document, "[ld-scope=multiple]").map(function(root){
     }
   });
 });
-new Tagify(ld$.find(document, '.tagify', 0));
+ld$.find(document, "[ld-scope=tags]").map(function(root){
+  return new Tagify(ld$.find(root, 'textarea', 0));
+});

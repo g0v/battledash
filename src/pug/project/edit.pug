@@ -3,7 +3,6 @@ block vars
   - ctrl.navtop.placeholder = false;
   - ctrl.navtop.shown = false;
 block head
-  +css("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.4/dist/tagify.css")
   style: :stylus
     .form-group
       margin: 0 0 3rem
@@ -84,7 +83,7 @@ block body
                 each i in [1,2,3,4,5,6,7,8]
                   .step.rounded-circle.w-100.aspect-ratio.ratio-1by1(class=(i<5 ? 'active' : ''))
               span #[span.text-lg 5] / #[span.text-sm.text-muted 10]
-        .col-md-10
+        +scope("project-edit").col-md-10
 
           .form-group
             label 你需要多少錢？（30 ~ 50 萬之間）
@@ -122,9 +121,20 @@ block body
             label 專案符合哪些要素？
             - values = ["多元","協作","開放","分享"]
             +edit-multiple({values: values, name: "component"})
+          hr
+          .btn.btn-primary(ld="submit") 發表
 
 block script
-  +script("https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js")
-  +script("https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.3/purify.min.js")
-  +script("https://cdn.jsdelivr.net/npm/@yaireo/tagify@2.31.4/dist/tagify.min.js")
   +script("/js/edit.js")
+  script: :lsc
+    ldc.register \project-edit, <[]>, ->
+      form = new ldForm do
+        root: '[ld-scope=project-edit]'
+      handle = ->
+        console.log form.getfd!
+        
+      view = new ldView do
+        root: '[ld-scope=project-edit]'
+        action: click: do
+          submit: -> handle!
+    ldc.app \project-edit
