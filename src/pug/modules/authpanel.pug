@@ -1,9 +1,10 @@
 //- module
 mixin authpanel
-  .inner.card.shadow.mt-2.mx-a.p-0.border-0.authpanel.signup: .card-body.p-0
+  .inner.card.shadow.mt-2.mx-a.p-0.border-0.authpanel.signup(style="border-radius:10px;overflow:hidden"): .card-body.p-0
     .closebtn(data-ldcv-set="")
-    .vertical-center.p-4.info.position-absolute.h-100.w-50.bg-dark.text-light
-      .text-left
+    .vertical-center.p-4.info.position-absolute.h-100.w-50.text-light(style="background:url(/assets/img/dev/landing.jpg) center center no-repeat;background-size:cover;")
+      .position-absolute.w-100.h-100.bg-semi-dark(style="top:0;left:0")
+      .text-left.position-relative.z-float.text-shadow
         .d-none(data-info="failed")
           h2.mb-4.font-weight-bold Login Failed.
           p You might have signed up with another email / password before. please try:
@@ -17,10 +18,9 @@ mixin authpanel
           if block
             block
           else
-            h2.mb-4.font-weight-bold
-              | Battle Dash
-              img(src="/assets/img/c/logo/battledash.svg",style="width:32px;vertical-align:super")
-            p 在這裡建立屬於你的活動、提案
+            h3.mb-4.font-weight-bold(style="line-height:1em")
+              | 登入您的#[br]Battle Dash 帳號
+            p.text-sm 公民科技獎助金提案系統由 Battle Dash 提供。登入 Battle Dash 以建立提案。
 
       //-.position-absolute.text-sm(style="bottom:20px;right:20px")
         span Service Provided by Battle Dash
@@ -28,35 +28,35 @@ mixin authpanel
     .form.bg-white.w-50(style="margin-left:50%")
       ul.nav.nav-tabs.pt-2(
       onclick="this.parentNode.classList.toggle('login');this.parentNode.classList.toggle('signup')")
-        li.nav-item.ml-2: a.nav-link(data-action="signup") SIGNUP
-        li.nav-item: a.nav-link(data-action="login") LOGIN  
+        li.nav-item.ml-2: a.nav-link.active(data-action="signup") 註冊
+        li.nav-item: a.nav-link(data-action="login") 登入  
       .px-3.pb-4.pt-3.text-left
         .form-group
-          label Email
-          input.form-control.form-control-sm(name="email",placeholder="Email as Your Account Name")
+          label 電子郵件
+          input.form-control.form-control-sm(name="email",placeholder="電子郵件即您的帳號名稱")
           .invalid-feedback not a valid email
         .form-group(data-show="signup")
-          label Display Name
-          input.form-control.form-control-sm(name="displayname",placeholder="such as 'J. Doe'")
+          label 顯示名稱
+          input.form-control.form-control-sm(name="displayname",placeholder="例如：王小明")
           .invalid-feedback should not be empty
         .form-group
-          label Password
-          input.form-control.form-control-sm(name="passwd",placeholder="Password, at least 8 chars",type="password")
+          label 密碼
+          input.form-control.form-control-sm(name="passwd",placeholder="密碼，至少八個字元",type="password")
           .invalid-feedback invalid password
         .form-group
           .text-center.form-text.text-muted.small
-            | by signin you agree to our #[a(href="/tos/",target="_blank") Terms] & #[a(href="/privacy/",target="_blank") Privacy Policy]
+            | 登入即表示您同意我們的 #[a(href="/tos/",target="_blank") 用戶條款] 與 #[a(href="/privacy/",target="_blank") 隱私權政策]
         .btn.btn-success.btn-block.disabled.ld-ext-right(data-action="submit")
-          span(data-show="login") LOGIN
-          span(data-show="signup") SIGN UP
+          span(data-show="login") 登入
+          span(data-show="signup") 註冊
           .ld.ldld.bare.em-1
-        .float-right.small.mt-1: a(href="/auth/reset/") forget password? »
+        .float-right.small.mt-1: a(href="/auth/reset/") 忘記密碼？»
         .float-left.small.mt-1(data-show="signup")
           .form-check
             input.form-check-input(name="newsletter",type="checkbox")
-            label.form-check-label subscribe newsletter
+            label.form-check-label 訂閱電子報
         br
-        .sep.sep-text.my-4: span or login with
+        .sep.sep-text.my-4: span 或者用下列登入
         .row
           .col-sm: .btn.btn-primary.btn-block.btn-sm(onclick="lda.auth.fb()") #[i.i-fb] Facebook
           .col-sm: .btn.btn-outline-dark.btn-block.btn-sm(onclick="lda.auth.google()") #[i.i-google] Google
