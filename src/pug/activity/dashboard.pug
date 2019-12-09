@@ -1,53 +1,103 @@
 extends /base.pug
 block vars
-  - ctrl.navtop.placeholder = false;
-  - ctrl.navtop.shown = false;
+  - ctrl.navtop.placeholder = true;
+  - ctrl.navtop.shown = true;
 block body
-  .typeset.heading-contrast
-    .w-1024.mx-auto.rwd
-      .card: .card-body
-        p 活動後台頁面
-        h5 入口:
-        ul
-          li 個人檔案
-          li 活動資訊頁
-          li 活動提案列表
-        h5 出口
-        ul
-          li 活動提案列表
-          li 活動資訊頁
-          li 活動資訊頁編輯器
-        h5 主要功能:
-        ul
-          li 預覽活動
-          li 修改活動資訊
-          li
-            p 調整活動狀態
-            ul
-              li 開關報名 / 尚未開跑 / 活動中 / 活動結束
-              li 開關編輯 / 開關評論 / 開關評審
-              li 設定階段 ( 多階段活動用 )
-              li 發布活動 ( 發布時檢查所有資訊是否完整 )
-          li
-            p 提案資訊
-            ul
-              li 提案數
-              li 評論狀況
-          li 角色調整
-          li 刪除活動/隱藏活動
-        p 活動 schema
-        .code-block.
-          activity
-            description - text(300)
-            title - text(100)
-            slug - text(32) not null unique
-            key - int not null unique primary key
-            deleted - bool
-            visible - bool
-            detail: jsonb
-            createdtime - timestamp
-            modifiedtime - timestamp
-            orgnization - int foreign key(organization)
-            owner - int foreign key(user)
-            - index key, slug, createdtime
+  .ldcv.ldcvmgr.scroll(data-name="dev-note"): .base.w-768.rwd: .inner.card: .card-body
+    .typeset.heading-contrast
 
+      p 活動後台頁面
+      h5 入口:
+      ul
+        li 個人檔案
+        li 活動資訊頁
+        li 活動提案列表
+      h5 出口
+      ul
+        li 活動提案列表
+        li 活動資訊頁
+        li 活動資訊頁編輯器
+      h5 主要功能:
+      ul
+        li 預覽活動
+        li 修改活動資訊
+        li
+          p 調整活動狀態
+          ul
+            li 開關報名 / 尚未開跑 / 活動中 / 活動結束
+            li 開關編輯 / 開關評論 / 開關評審
+            li 設定階段 ( 多階段活動用 )
+            li 發布活動 ( 發布時檢查所有資訊是否完整 )
+        li
+          p 提案資訊
+          ul
+            li 提案數
+            li 評論狀況
+        li 角色調整
+        li 刪除活動/隱藏活動
+      p 活動 schema
+      .code-block.
+        activity
+          description - text(300)
+          title - text(100)
+          slug - text(32) not null unique
+          key - int not null unique primary key
+          deleted - bool
+          visible - bool
+          detail: jsonb
+          createdtime - timestamp
+          modifiedtime - timestamp
+          orgnization - int foreign key(organization)
+          owner - int foreign key(user)
+          - index key, slug, createdtime
+
+
+
+  .w-1200.mx-auto.d-flex
+    .p-4
+      .sticky
+        +act-card-sm
+
+        .text-center
+          br
+          .list-group.mb-4
+            .list-group-item 編輯主頁
+            .list-group-item 資訊分析
+            .list-group-item 活動設定
+
+    .p-4.flex-grow-1
+      .card.mb-4.shadow-sm: .card-body: .p-4
+        .d-flex
+          .form-group.mr-2
+            label 發布狀態
+            .btn-group.d-block
+              .btn.btn-outline-secondary 開啟
+              .btn.btn-outline-secondary 關閉
+          .form-group.mr-2
+            label 提案功能
+            .btn-group.d-block
+              .btn.btn-outline-secondary 開啟
+              .btn.btn-outline-secondary 關閉
+          .form-group
+            label 評論功能
+            .btn-group.d-block
+              .btn.btn-outline-secondary 開啟
+              .btn.btn-outline-secondary 關閉
+
+      +scope("board-create").card.shadow-sm: .card-body: .p-4
+        h2 編輯活動
+        hr.my-4
+        +edit-entry({title: "活動名稱"}): +edit-text({name: "title"})
+        +edit-entry({title: "活動代碼"}): +edit-text({name: "slug"})
+        +edit-entry({title: "活動摘要"}): +edit-moretext({name: "description"})
+        .row
+          .col-md: +edit-entry({title: "開始時間"}): +edit-date({name: "starttime"})
+          .col-md: +edit-entry({title: "結束時間"}): +edit-date({name: "endtime"})
+        //-+edit-entry({title: "活動滿版圖 ( 1200 x 800 px )"}): +edit-image({name:"fullimg"})
+        +edit-entry({title: "活動橫幅 ( 1200 x 200 px )"}): +edit-image({name:"banner"})
+        +edit-entry({title: "活動縮圖 ( 200 x 200 px )"}): +edit-image({name:"avatar"})
+        hr.my-4
+        .btn.btn-primary.disabled(ld="submit") 更新資料
+block script
+  +script("/js/edit.js")
+  +script("/js/modules/board/index.js")
