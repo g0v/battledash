@@ -4,36 +4,54 @@ block vars
   - ctrl.navtop.shown = true;
   - ctrl.navtop.className = "navbar-light bg-semi-light";
 block body
-  include /project/mixin.pug
+  .ldcv.ldcvmgr(data-name="dev-note"): .base.w-640: .inner.card: .card-body
+    p 分為兩種:
+    ul
+      li 置中, 卡式用戶資訊, 只摘要用戶的基本資訊。
+      li 詳細列出用戶的提案與追蹤清單
 
   .w-100.h-100: .vertical-center: .w-100.text-center
-    .p-4.position-absolute 置中, 卡式用戶資訊
-    .card.mx-auto.shadow(style="font-family:arial;width:320px")
+    .card.mx-auto.shadow(style="font-family:arial;width:300px")
       .card-body.p-4
-        .mx-auto.my-4(style="width:128px"): .rounded.bg-dark.aspect-ratio.ratio-1by1
+        .mx-auto.mb-4(style="margin-top:-25%;width:140px"): .rounded-circle.bg-secondary.aspect-ratio.ratio-1by1.ldlz.shadow.ldlz(data-src="/assets/img/misc/avatar.png")
         .text-center
-          .text-lg.text-center: b Marrt Jane
-          .text-muted Designer
-          br
-          .text-muted.text-sm joined 2016/05
-          +nbr(2)
+          .text-lg.text-center: b 許瑞德
+          .text-muted.mb-4
+            .my-2 Designer
+            .text-sm joined 2016/05
+            hr
+            p.text-sm.text-left: +lorem(50,'zh')
+            hr
+            .tags
+              each tag in ["設計","UX","插畫","自造者"]
+                .badge.badge-secondary.mr-1 #{tag}
   .w-1024.mx-auto.d-flex
     .p-4
       .sticky
-        .mx-auto.my-4(style="width:128px"): .rounded.bg-dark.aspect-ratio.ratio-1by1
+        .mx-auto.my-4(style="width:128px"): .rounded.bg-dark.aspect-ratio.ratio-1by1.ldlz(data-src="/assets/img/misc/avatar.png")
         .text-center
           .text-lg.text-center: b Marrt Jane
           .text-muted Designer
           .text-muted.text-sm joined 2016/05
           br
-          .list-group
+          .list-group.mb-4
             .list-group-item 提案
             .list-group-item 貢獻
             .list-group-item 追蹤
+          .list-group
+            a.list-group-item.text-dark(href="/user/") 我的頁面
+            a.list-group-item.text-dark(href="/user/settings.html") 我的設定
 
-    .p-4
-      each n in ["提案","貢獻","追蹤"]
+    .p-4.flex-grow-1
+      h5 提案
+      .d-flex.justify-content-between.flex-wrap
+        each i in [1,2,3]
+          +prj-card-sm.my-4
+      +nbr(2)
+
+      each n in ["貢獻","追蹤"]
         h5 #{n}
-        each i in [1,2,3,4,5,6]
-          +prj-list
+        .d-flex.flex-wrap
+          each i in [1,2,3,4,5,6]
+            .flex-grow-1: +prj-list-sm
         +nbr(2)

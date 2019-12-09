@@ -23,7 +23,7 @@ block body
     p.text-muted 30 - 50 萬獎金, 12.10 - 01.13 開放公開提案
     br
     div
-      .btn.btn-primary.mr-2 看提案
+      a.btn.btn-primary.mr-2(href="/project/list.html") 看提案
       .btn.btn-primary 歷屆成果
 
   .typeset.heading-contrast
@@ -356,3 +356,6 @@ block body
           a.d-block.mb-4.text-sm(href=`/assets/img/dev/power/${png[2]}`,download=png[2]) PNG / 長版亮色底
           img.w-100.shadow.bg-secondary.rounded(src=`/assets/img/dev/power/${png[3]}`)
           a.text-sm(href=`/assets/img/dev/power/${png[3]}`,download=png[3]) PNG / 長版暗色底
+  .w-100.h-50.rwd: .vertical-center: .w-100.text-center
+    .btn.btn-outline-dark.mr-2 看提案
+    .btn.btn-outline-dark 我要提案

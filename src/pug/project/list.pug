@@ -1,85 +1,79 @@
 extends /base.pug
 block vars
-  - ctrl.navtop.placeholder = false;
-  - ctrl.navtop.shown = false;
+  - ctrl.navtop.placeholder = true;
+  - ctrl.navtop.shown = true;
 block body
   include data.pug
+  include /activity/mixin.pug
+  include /project/create.pug
 
   mixin act-card(prj)
     - if(!prj) prj = {}
-    .card.shadow(style="width:310px")&attributes(attributes)
-      .card-img-top.bg-light(style=`height:300px;background:url(https://grants.g0v.tw/${prj.cover}) center center no-repeat;background-size:cover`)
-      .card-body
-        h5.text-truncate= prj.title
-        //-each p in (prj.desc || '').split('\\n')
-          p.text-sm.text-muted.mb-2 #{p}
-        p.text-sm.text-muted.mb-2 #{prj.desc.substring(0,54)} #{prj.desc.length > 54 ? '...' : ''}
-        .text-sm.text-muted By #[a(href="#")= prj.ownername]
+    a.text-dark(style="text-decoration:none",href="/project/")
+      .card.shadow-sm(style="width:310px")&attributes(attributes)
+        .card-img-top.bg-light.ldlz(
+        data-src=`https://grants.g0v.tw/${prj.cover}`,
+        style="box-shadow:inset 0 0 20px 0 rgba(0,0,0,.05);height:250px;" + 
+        `background-position:center center;background-size:cover`)
+        .card-body
+          h5.text-truncate= prj.title
+          //-each p in (prj.desc || '').split('\\n')
+            p.text-sm.text-muted.mb-2 #{p}
+          .text-sm.text-muted.mb-2 By #[a(href="#")= prj.ownername]
+          p.text-sm.text-muted.mb-2 #{prj.desc.substring(0,54)} #{prj.desc.length > 54 ? '...' : ''}
 
   mixin list
     .w-1024.rwd.mx-auto.d-flex.flex-wrap.justify-content-between
       //-each i in [1,2,3,4,5,6,7,8,9,10,11,12]
       each prj in db
-        +act-card(prj).mb-4
+        .pb-4: +act-card(prj).mb-4
     .w-1024.rwd.mx-auto.text-center.my-4.py-4
       .btn-group.mx-auto
         each i in [1,2,3,4,5,6]
           .btn.btn-outline-secondary(class=(i==1?"active":"")) #{i}
 
-  .w-1024.rwd.mx-auto.mt-4.pt-4.mb-4
+  .ldcv.ldcvmgr(data-name="dev-note"): .base.w-640: .inner.card: .card-body
+    p 提案列表.
+    ul
+      li 主要資訊：提案內容簡介, 縮圖, 連結; 活動名稱, 摘要.
+      li 分縮圖區塊式或文字摘要式
+      li 簡單搜尋功能: ( 依類型 / 搜標題 )
+      li 點擊後進入提案主頁。
+      li: ul
+        li 還需要其它資訊?
+        li 得獎狀況
+        li 屆數? ( 不一定需要? )
 
-    //.position-absolute.card.m-4: .card-body
-      p 提案列表.
-      ul
-        li 主要資訊：提案內容簡介, 縮圖, 連結; 活動名稱, 摘要.
-        li 分縮圖區塊式或文字摘要式
-        li 簡單搜尋功能: ( 依類型 / 搜標題 )
-        li 點擊後進入提案主頁。
-        li: ul
-          li 還需要其它資訊?
-          li 得獎狀況
-          li 屆數? ( 不一定需要? )
+  +scope("project-list")
+    .w-1024.rwd.mx-auto.my-4
+      .btn-group
+        .btn.btn-outline-dark.active(ld="style",data-value="center") 置中標頭
+        .btn.btn-outline-dark(ld="style",data-value="side") 靠左標頭
+        .btn.btn-outline-dark(ld="style",data-value="simple") 簡式標頭
 
-    //- 置中式
-    //-.w-100.text-light.bg-dark.mb-4.rounded(style="height:300px"): .vertical-center: .w-100.text-center
-      h3.font-weight-light 2019 公民科技創新獎助金
-      p.text-muted.text-sm.mb-4 g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
-      .btn.btn-outline-light 關於此計畫
+    .d-none(ld="panel center")
+      .w-1024.rwd.mx-auto.mt-4.pt-4.mb-4: +act-head-center
+      +list
 
-    //- 靠左式
-    .w-100.text-light.bg-dark.mb-4.rounded(style="height:300px;background:url(/assets/img/dev/landing.jpg) center center no-repeat;background-size:cover")
-      .vertical-center: .w-50.text-left.ml-4.pl-4
-        h3.font-weight-light 2019 公民科技創新獎助金
-        p.text-sm.mb-4(style="opacity:.65") g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
-        .btn.btn-outline-light 關於此計畫
+    .d-none(ld="panel side")
+      .w-1024.rwd.mx-auto.mt-4.pt-4.mb-4: +act-head-side
+      +list
 
-    .d-flex.w-100.justify-content-between.py-2
-      div
-        .btn-group
-          .btn.btn-outline-secondary 許願池
-          .btn.btn-outline-secondary 得獎提案
-          .btn.btn-outline-primary.active 全部提案 #[i.i-check]
-      div
-        .input-group
-          input.form-control(placeholder="搜尋提案...")
-          .input-group-append
-            .btn.btn-outline-secondary 搜尋 #[i.i-search]
-  +list
-
-  hr
-  .w-1024.rwd.mx-auto.mt-4.pt-4
-    .d-flex.align-items-end
-      .flex-grow-1
-        h3.font-weight-light 2019 公民科技創新獎助金
-        p.text-muted.text-sm.mb-0 g0v 公民科技創新獎助金 - 8 個月、每個專案 30 - 50 萬，2019/1/13 提案截止。
-      div: .input-group
-        input.form-control(placeholder="搜尋提案...")
-        .input-group-append
-          .btn.btn-outline-secondary 搜尋 #[i.i-search]
-    hr.mb-0
-  .text-center.p-4
-    .btn-group
-      .btn.btn-sm.btn-outline-secondary 許願池
-      .btn.btn-sm.btn-outline-secondary 得獎提案
-      .btn.btn-sm.btn-outline-primary.active 全部提案 #[i.i-check]
-  +list
+    .d-none(ld="panel simple")
+      .w-1024.rwd.mx-auto.mt-4.pt-4: +act-head-simple
+      +list
+block script
+  script: :lsc
+    ldc.register <[]>, ->
+      lc = {}
+      view = new ldView do
+        root: '[ld-scope=project-list]'
+        action: click: do
+          style: ({node}) ->
+            lc.type = type = node.getAttribute('data-value')
+            view.getAll(\style).map -> it.classList.remove \active
+            node.classList.add \active
+            view.render!
+        handler: do
+          panel: ({node}) ->
+            node.classList.toggle \d-none, !~node.getAttribute(\ld).indexOf(lc.type or 'center') 

@@ -1,33 +1,41 @@
 //- module
 
 mixin prj-list
-  .w-640.mx-auto.my-4
+  .w-640.my-4: a.text-dark.text-no-deco(href="/project/")
     .d-flex
       .rounded.bg-dark.mr-1(style="width:3em;height:3em;flex:1 0 auto")
       .text-truncate
         .d-flex.align-items-end.mb-1
           h5.mb-0.mr-1 台灣開源義肢計劃
-          .text-sm.text-muted By #[a(href="#") 雨停兄]
+          .text-sm.text-muted By #[a(href="/user/") 雨停兄]
         .text-sm.text-muted.w-100.text-truncate 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
 
 mixin prj-list-sm
-  .mx-auto.my-4(style="width:480px")
+  .my-4(style="width:320px"): a.text-dark.text-no-deco(href="/project/")
     .d-flex
       .rounded.bg-dark.mr-1(style="width:3em;height:3em;flex:1 0 auto")
       .text-truncate
         .d-flex.align-items-end.mb-1
           h5.mb-0.mr-1 台灣開源義肢計劃
-          .text-sm.text-muted By #[a(href="#") 雨停兄]
+          .text-sm.text-muted By #[a(href="/user/") 雨停兄]
         .text-sm.text-muted.w-100.text-truncate 這個是在較小顯示寬度時的樣子，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
 
 mixin prj-thumb
-  .rounded.bg-dark.mr-1.mx-auto(style="width:3em;height:3em;flex:1 0 auto")
+  a.rounded.bg-dark.mr-1(href="/project/",style="width:3em;height:3em;flex:1 0 auto")
 
 
 mixin prj-card
-  .card.shadow(style="width:300px")&attributes(attributes)
+  a.text-dark(href="/project/",style="text-decoration:none"): .card.shadow(style="width:300px")&attributes(attributes)
     .card-img-top.bg-dark(style="height:300px")
     .card-body
       h5 台灣開源義肢計劃
+      .text-sm.text-muted.mb-2 By #[a(href="/user/") 雨停兄]
       .text-sm.text-muted.mb-2 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...
-      .text-sm.text-muted By #[a(href="#") 雨停兄]
+
+mixin prj-card-sm
+  a.text-dark(href="/project/",style="text-decoration:none"): .card.shadow(style="width:250px")&attributes(attributes)
+    .card-img-top.bg-dark(style="height:200px")
+    .card-body
+      h5 台灣開源義肢計劃
+      .text-sm.text-muted.mb-2 By #[a(href="/user/") 雨停兄]
+      .text-sm.text-muted.mb-2 台灣神手致力發展適合台灣人的開源義肢，並將程式碼、3D檔案、電路佈局開源於”台灣神手開源義肢“網站 ...

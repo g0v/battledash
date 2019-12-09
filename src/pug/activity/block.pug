@@ -3,15 +3,7 @@ block vars
   - ctrl.navtop.placeholder = false;
   - ctrl.navtop.shown = false;
 block body
-
-  mixin act-card
-    .card.shadow(style="width:300px")&attributes(attributes)
-      .card-img-top.bg-dark(style="height:300px")
-      .card-body
-        h5.mb-0 華文永續報導獎
-        .text-sm.text-muted.mb-2 TVBS 信望愛基金會
-        .text-sm.text-muted 2019/12/01 ~ 2019/12/31 @ 台北小巨蛋
-
+  include mixin.pug
   //- card display, shown in list
   .w-100.h-100.position-relative
     .position-absolute.card.m-4: .card-body

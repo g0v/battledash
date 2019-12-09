@@ -1,0 +1,153 @@
+extends /base.pug
+block vars
+block head
+  +css("css/landing/index.css")
+block body
+  .landing.bg-dark.text-light
+    .row.w-75.m-auto.h-100
+      .col.vertical-center
+        div
+          h1 Battle Dash
+          p Your next hackathon proposal dashboard
+          br
+          .text-light.mb-4 近期推薦提案
+          each i in [1,2,3]
+            .mb-4
+              a.title.d-block.text-white(href="project/",style="text-decoration:none") 新聞大幫手 #[small.text-muted / 提案的簡單描述提案的簡單描述提案的簡單描述]
+              //-small.text-muted.mr-2 貢獻者
+              each j in [1,2,3,4,5]
+                .avatar.mr-2.md
+                //-small.mr-2.text-muted #[.avatar.em] Ronnywang
+
+      .col.vertical-center
+        .card.w-100: .card-body.text-dark
+          h3 我要提案 #[small.text-muted  / 我有個點子... ]
+          .form
+            .form-group
+              label 提案名稱
+              input.form-control
+            .form-group
+              label 三個關鍵字
+              input.form-control
+            .form-group
+              label 類別
+              select.form-control
+                option 開放資料
+                option 新媒體
+            br
+            .btn.btn-success 送出
+  br
+  .m-auto.p-4(style="width:1024px")
+    .row
+      .col
+        h3 關於獎助金
+        .card.bg-light(style="height:200px"): .card-body
+      .col
+        h3 最新消息
+        .card.bg-light(style="height:200px"): .card-body
+  +nbr(2)
+  .m-auto.p-4(style="width:1024px")
+    .form-inline.float-right(style="margin-top:0.5em")
+      .btn-group.mr-2
+        .btn.btn-outline-primary 獲獎提案
+        .btn.btn-outline-primary 決選入圍
+      .input-group
+        input.form-control
+        .input-group-append
+          .btn.btn-outline-dark Search
+    h1 進行中提案
+    hr
+  .project-list.m-auto.d-flex.flex-wrap(style="width:1024px")
+    each i in [1,2,3,4,5,6,7]
+      .card.flex-grow-1.mx-2.my-1.border-0(style="width:30%")
+        a.card-img-top.d-block.w-100(href="project/", style="background:#e6e7e8;height:200px")
+        .card-body.px-0
+          h5.card0title: a(href="project/") 提案名稱
+          p.card-text 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略...
+          each j in [1,2,3,4,5]
+            .avatar.lg.mr-2
+          +nbr(2)
+          p.card-text: small.text-muted last updated 3 mins ago
+
+      //-.card.m-2(style="flex:1 1 auto;width:48%")
+        .row.no-gutters
+          a.col-md-4(href="project/", style="background:#e6e7e8")
+          .col-md-8
+            .card-body
+              .float-right #[i.i-link.mr-2] #[i.i-heart]
+              h5.card-title: a(href="project/") 提案名稱
+              p.card-text 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略...
+              each j in [1,2,3,4,5]
+                .avatar.lg.mr-2
+              +nbr(2)
+              p.card-text: small.text-muted last updated 3 mins ago
+
+      //-.project.m-4(style="width:45%")
+         .d-inline-block.align-top.m-2(style="width:128px;height:128px;background:#eee;")
+         .d-inline-block.align-top.m-2
+           .title 提案名稱
+           hr
+           .desc 提案簡述
+           br
+           .btn.btn-primary.mr-2.btn-sm 關注
+           .btn.btn-primary.btn-sm 參與
+    .project.m-4.vertical-center.text-center(style="width:45%;height:205px")
+      .w-100
+        .text-center 想要看更多嗎？
+        .btn.btn-lg.btn-success.btn-block.mt-2(href="#") 更多提案由此去...
+  +nbr(3)
+  div.m-auto(style="width:1024px")
+    h1 提案注意事項
+    hr
+    p 以下三千字略
+  +nbr(4)
+  .foot.p-4
+    .w-1024.rwd.mx-auto.m-4
+      .row
+        .col-md-5: .vertical-bottom: .w-100
+          h2 #[span.text-sm 零時政府]#[small.semi-opaque.ml-2: span.text-sm / g0v]#[br]公民科技獎助金
+          .sep.sep-light.w-100.ml-0.my-4
+        .col-md-2: .vertical-bottom: .w-100
+          h5 深入專案
+          .sep.sep-light.w-100.ml-0.my-4
+        .col-md-2: .vertical-bottom: .w-100
+          h5 關於網站
+          .sep.sep-light.w-100.ml-0.my-4
+        .col-md-2: .vertical-bottom: .w-100
+          h5 認識 g0v 
+          .sep.sep-light.w-100.ml-0.my-4
+      .row
+        .col-md-5
+          p.semi-opaque 每一個公民科技好點子背後的創意與力量，都像是一隻輕拍翅膀的蝴蝶，若能導入持續開發、長期營運的人力與資源，就能引發蝴蝶效應，產生足以扭轉未來的成果。
+          .d-flex.align-items-center
+            .bg-danger.mr-2(style="width:4em;height:4em;border-radius:50%")
+            .mr-3 #[span.text-lg.font-weight-bold(style="line-height:1em") 223] #[.text-sm 累計提案]
+            .mr-3 #[span.text-lg.font-weight-bold(style="line-height:1em") 24] #[.text-sm 獲獎提案]
+            .mr-3 #[span.text-lg.font-weight-bold(style="line-height:1em") 11.2]#[b M] #[.text-sm 已發放獎金]
+            .mr-3 #[span.text-lg.font-weight-bold(style="line-height:1em") 200]#[b +] #[.text-sm 媒體報導]
+        .col-md-2
+          div 執行團隊
+          div 本專案收支細項
+          div 合作洽詢
+          div 常見問題
+          div 成果報告
+
+        .col-md-2
+          div 隱私權政策
+          div 使用條款
+          div 提案系統源碼
+          div 問題回報
+
+        .col-md-2
+          div 零時政府宣言
+          div 臉書後勤中心
+          div g0v Slack
+          .text-lg.my-2
+            i.i-fb.mr-2
+            i.i-twt.mx-2
+            i.i-link.mx-2
+      br
+      p.semi-opaque.text-sm * 獎助金支持的所有專案其專案成果、源碼等皆以開放授權釋出。
+
+  //-.foot.p-4.w-100.bg-dark.text-light
+    h3 Battle Dash

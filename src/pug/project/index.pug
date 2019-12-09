@@ -8,13 +8,14 @@ block vars
     body { font-size: 18px }
     p { opacity: 0.75 }
 block body
+  include /project/create.pug
 
   .w-100.position-relative
     .w-1024.h-100.rwd.mx-auto.typeset.heading-contrast.pt-4.my-3
       .d-flex.mb-4
         .rounded.bg-dark.mr-4.mt-4(style="width:9.25em;height:9.25em;flex:0 0 auto;background:url(https://grants.g0v.tw//uploads/e55fddeaaf3dfc01b750d433f108fdbc.jpg) center center no-repeat;background-size:cover")
         div
-          .text-muted.text-sm #[a(href="#") 第三十四屆公民科技獎助金] / 提案
+          .text-muted.text-sm #[a(href="/project/list.html") 第三十四屆公民科技獎助金] / 提案
           .d-flex.align-items-end.mt-1
             h2.mt-1.mb-0(style="line-height:1em") #{prj.title}
             .ml-2.flex-grow-1
@@ -38,12 +39,12 @@ block body
           .mr-4.flex-grow-1
             label.text-muted.mb-0 提案人
             .sep.my-3.sep-dark
-            div: .avatar.lg.has-tips: .hover-tip.bottom.tip-sm 予廷姨
+            +avatar-sm
           .mr-4.flex-grow-1
             label.text-muted.mb-0 參與者
             .sep.my-3.sep-dark
             div: each i in [1,2,3,4,5]
-              .avatar.lg.mr-2.has-tips: .hover-tip.bottom.tip-sm 小妹#{i}號
+              +avatar-sm.mr-2
           .mr-4.flex-grow-1
             label.text-muted.mb-0 徵求志工
             .sep.my-3.sep-dark
@@ -56,8 +57,7 @@ block body
             .sep.my-3.sep-dark
             div
               each i in [0,1,2,3,4,5,6,7,8,9]
-                .avatar.lg.mr-2.has-tips.ld.ld-float-rtl-in(style=`animation-delay:${i/20}s`)
-                  .hover-tip.bottom.tip-sm 路人#{i}號
+                +avatar-sm.mr-2
               span ...
 
   .w-100.bg-light.pt-4.border.border-top
@@ -68,9 +68,12 @@ block body
             .list-group
               a.list-group-item.clickable.text-secondary(href="#project-detail") 提案細節
               a.list-group-item.clickable.text-secondary(href="#project-note") 線上共筆
-              a.list-group-item.clickable.text-secondary(href="#project-discuss") 線上討論
-            .dropdown.mt-4
+              a.list-group-item.clickable.text-secondary(href="#project-discuss") 我有問題
+            .dropdown.my-4
               .btn.btn-outline-secondary.dropdown-toggle.btn-block(data-toggle="dropdown") 修改紀錄
+            a.btn.btn-primary.btn-block.text-white(onclick="lda.ldcvmgr.toggle('propose')")
+              | 我也要提案
+              img.ml-1(src="/assets/img/icon/fire.gif",style="width:1em;vertical-align:baseline")
 
         #project-detail.col-md-10(style="font-size:1.125em")
           style(type="text/css").
@@ -114,10 +117,11 @@ block body
           a#project-note
           h3 共筆
           .card.shadow-sm.bg-light.mx-auto(ld="panel panel-note",style="height:500px;position:relative")
-            iframe.card-body(src="https://hackmd.io/7C2mwjnpTiuW4tSgTz-XVw",style="border:0")
+            iframe.card-body.p-0(src="https://hackmd.io/7C2mwjnpTiuW4tSgTz-XVw",style="border:0")
             .btn.btn-lg.btn-success(style="position:absolute;bottom:10px;right:10px",
             onclick="modal.ldcv.toggle()") 全屏幕開啟
           a#project-discuss
           h3 討論
           .card.shadow: .card-body
             .text-center.text-muted 沒有內容 ...
+

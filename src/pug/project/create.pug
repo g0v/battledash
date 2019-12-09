@@ -1,0 +1,21 @@
+//- module
+include /edit/index.pug
+.ldcv.ldcvmgr(data-name="propose"): .base.w-480: .inner.card.shadow: .card-body
+  .d-flex.align-items-end.mb-1
+    h3.mb-0 我要提案
+    //-.text-muted.ml-2 / 我有個點子 ...
+  p.text-muted 提案小祕訣：你打算用什麼方法替什麼人解決什麼問題？
+  hr
+  .form-group.mb-4
+    label 提案名稱
+    +edit-text({name: "name"})
+  .form-group.mb-4
+    label 三個關鍵字
+    +edit-tags({name: "tag"})
+  .form-group.mb-4
+    label 類別
+    +edit-select({values: ["新媒體","開放政府","基礎建設"],name: "tag"})
+  .d-flex.justify-content-between.pt-2.align-items-center
+    a.btn.btn-success(href="/project/edit.html") 建立提案
+    .text-sm.text-muted 提案會放在第 37 屆黑客松中
+

@@ -1,7 +1,7 @@
 extends /base.pug
 block vars
-  - ctrl.navtop.placeholder = false;
-  - ctrl.navtop.shown = false;
+  - ctrl.navtop.placeholder = true;
+  - ctrl.navtop.shown = true;
 block head
   style: :stylus
     .form-group
@@ -10,7 +10,9 @@ block head
       width: 100%
 block body
   include /edit/index.pug
-  .w-1024.rwd.mx-auto.p-4
+  include /project/mixin.pug
+  include /project/create.pug
+  .w-1200.rwd.mx-auto.p-4
     .ldcv.ldcvmgr(data-name="dev-note"): .base: .inner.card: .card-body: .p-4
       h5 專案編輯介面
       p 此頁包含了提案可能會用到的各種元件, 包括:
@@ -22,29 +24,14 @@ block body
         li img uploader
         li multiple choice
       p 所需欄位可參考 ldEditor 的設計, 使用一個 config object 來準備. 該 config 可用於前後端
-    .ldcv.ldcvmgr(data-name="propose"): .base.w-480: .inner.card.shadow: .card-body
-      .d-flex.align-items-end.mb-1
-        h3.mb-0 我要提案
-        //-.text-muted.ml-2 / 我有個點子 ...
-      p.text-muted 提案小祕訣：你打算用什麼方法替什麼人解決什麼問題？
-      hr
-      .form-group.mb-4
-        label 提案名稱
-        +edit-text({name: "name"})
-      .form-group.mb-4
-        label 三個關鍵字
-        +edit-tags({name: "tag"})
-      .form-group.mb-4
-        label 類別
-        +edit-select({values: ["新媒體","開放政府","基礎建設"],name: "tag"})
-      .d-flex.justify-content-between.pt-2.align-items-center
-        .btn.btn-success 建立提案
-        .text-sm.text-muted 提案會放在第 37 屆黑客松中
-    .btn.btn-outline-dark(onclick="lda.ldcvmgr.toggle('propose')") 建立提案 #[i.i-plus]
-    +nbr(2)
+
+    //-.btn.btn-outline-dark(onclick="lda.ldcvmgr.toggle('propose')") 建立提案 #[i.i-plus]
     .typeset.headling-contrast
       .row
-        .col-md-2.text-center
+        .col-md-3.text-center
+          .pb-4.mb-4
+            +prj-card-sm.mb-2
+            .text-sm.semi-opaque 卡片預覽
           style: :stylus
             .step
               margin-bottom: 1em
@@ -83,8 +70,14 @@ block body
                 each i in [1,2,3,4,5,6,7,8]
                   .step.rounded-circle.w-100.aspect-ratio.ratio-1by1(class=(i<5 ? 'active' : ''))
               span #[span.text-lg 5] / #[span.text-sm.text-muted 10]
-        +scope("project-edit").col-md-10
+        +scope("project-edit").col-md-9
 
+          .form-group
+            label 你的提案名稱
+            +edit-text({name: 'title'})
+          .form-group
+            label 你的提案縮圖
+            +edit-image({name: 'thumbnail'})
           .form-group
             label 你需要多少錢？（30 ~ 50 萬之間）
             +edit-slider({name: 'money'})

@@ -1,0 +1,90 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = true;
+  - ctrl.navtop.shown = true;
+  - ctrl.navtop.className = "navbar-light bg-semi-light";
+block body
+  include /project/mixin.pug
+
+  .w-1024.mx-auto.d-flex
+    .p-4
+      .sticky
+        .mx-auto.my-4(style="width:128px"): .rounded.bg-dark.aspect-ratio.ratio-1by1
+        .text-center
+          .text-lg.text-center: b Marrt Jane
+          .text-muted Designer
+          .text-muted.text-sm joined 2016/05
+          br
+          .list-group.mb-4
+            .list-group-item 提案
+            .list-group-item 貢獻
+            .list-group-item 追蹤
+          .list-group
+            a.list-group-item.text-dark(href="/user/") 我的頁面
+            a.list-group-item.text-dark(href="/user/settings.html") 我的設定
+    .p-4.typeset.heading-contrast.flex-grow-1
+      h3 個人設定
+      br
+      .row
+        .col-md
+          .form-group
+            label 顯示名稱 #[span.ml-2.text-sm.semi-opaque / 任何人都看得到]
+            input.form-control(placeholder="顯示名稱")
+        .col-md
+          .form-group
+            .d-flex
+              label.flex-grow-1 帳號#[span.ml-2.text-sm.semi-opaque / email address]#[span.ml-2.text-sm.semi-opaque.text-danger / 未認證]
+              label: a.text-sm(href="#") 認證信箱位置
+            input.form-control(placeholder="e.g., your@mail.com")
+      .form-group
+        label 自我簡介
+        textarea.form-control(rows="5",placeholder="介紹一下你自己吧...")
+      .btn.btn-primary 更新資料
+
+      +nbr(3)
+      h3 更新密碼
+      br
+      .form(data-name="passwd")
+
+        .row
+          .col-8
+            .form-group
+              label 目前密碼
+              input.form-control(name="oldpasswd",type="password")
+              .invalid-feedback 密碼不正確
+          .col-4
+            .form-group
+              label 忘記了嗎？
+              .btn.btn-outline-dark.btn-block(ld="sendResetLink") #[i.i-mail] 發送密碼重設信
+        .row
+          .col-8
+            .form-group
+              label 新密碼
+              input.form-control(name="newpasswd1",type="password")
+              .invalid-feedback 密碼太弱，容易被破
+          .col-4
+            .form-group(data-node="passwd-bar1")
+              label.text-capitalize &nbsp;
+              .progress(style="height:36px"): .progress-bar.progress-bar-striped(style="width:0%")
+        .row
+          .col-8
+            .form-group
+              label 新密碼 ( 再次確認 )
+              input.form-control(name="newpasswd2",type="password")
+              .invalid-feedback 密碼不一樣
+            .btn.btn-primary.btn-block.mb-4.disabled.ld-ext-right(ld="update-password") 更新密碼 #[.ld.ldld.bare.em-1]
+
+            .text-muted: small
+              p 好的密碼至少要有一定長度 ( 比方說、10 個字元 ) 。請不要用你的個人資訊做為密碼，包括你的 email 、電話號碼或生日等等。請參考 #[a(href="https://zh.wikipedia.org/wiki/%E5%AF%86%E7%A0%81%E5%BC%BA%E5%BA%A6",target="_blank") 密碼強度] 一文來了解如何設定良好的密碼。
+
+          .col-4 &nbsp;
+
+
+
+
+    //-.p-4
+      each n in ["提案","貢獻","追蹤"]
+        h5 #{n}
+        each i in [1,2,3,4,5,6]
+          +prj-list
+        +nbr(2)

@@ -1,0 +1,151 @@
+extends /base.pug
+block vars
+block head
+  +css("css/landing/index.css")
+block body
+  include /project/mixin.pug
+  include /activity/mixin.pug
+  .w-100.h-100.bg-dark.text-dark(
+  style="background:url(/assets/img/c/bg/fluid.svg) center center no-repeat;background-size:cover;")
+    .row.h-100.w-100.no-gutters
+      .col-md-6: .vertical-center: .w-100
+        .pb-4.pl-4.w-75.mx-auto
+          h1.display-4.font-weight-bold Battle Dash
+          p.semi-opaque.mb-4 獎助金 / 黑客松 / 競賽提案系統
+          .btn.btn-outline-dark.mr-2 建立活動
+          .btn.btn-outline-dark 了解更多
+      .col-md-6: .vertical-center: .w-100.text-center
+        .text-light.mb-4 近期活動
+        .d-flex.w-100.rwd.justify-content-center.text-dark.mb-4.pb-4
+          +act-card-sm.m-2
+          +act-card-sm.m-2
+
+  .w-100
+    .text-center.mb-4.pb-4
+      h2.font-weight-bold.mt-4 簡單地建立您的活動網站
+      p.text-muted 不需費時的開發與高昂的費用，馬上就能開始接受報名與提案
+    .card.mx-auto.shadow(style="width:640px;height:300px;border-radius:10px 10px 0 0"): .card-body
+  .w-100.bg-dark.p-4.text-white: .m-4.p-4
+    .row
+      .col-md: .vertical-center: .w-100
+        .text-left
+          .card.shadow(style="width:480px;height:320px"): .card-body
+      .col-md: .vertical-center: .w-100
+        h2.font-weight-bold.mt-4 先進的評選系統
+        .sep.sep-light
+        p Battle Dash 採用 #[a(href="https://zh.wikipedia.org/wiki/%E5%AD%94%E5%A4%9A%E5%A1%9E%E6%8A%95%E7%A5%A8%E6%B3%95") Condorcet 排名演算法]，評審可自由地依自己喜好的方式評分，Battle Dash 自動地整合所有分數、並依相對優劣的方式確保最終名次為正確結果。主辦單位不再須費心計算。
+  .w-100.bg-light.p-4.text-dark: .m-4.p-4
+    .row
+      .col-md: .vertical-center: .w-100
+        h2.font-weight-bold.mt-4 協作式提案編輯
+        hr
+        p Battle Dash 採用 Collaborative Editing 技術，支援提案即時共同編輯，無論是單人提案或多人組隊的活動，都能帶給參與者最好的使用體驗。
+      .col-md: .vertical-center: .w-100
+        .text-right
+          .card.shadow(style="width:480px;height:320px"): .card-body
+  .w-1200.rwd.mx-auto.p-4: .m-4.p-4
+    .text-center.my-4
+      h2.font-weight-bold.mb-0 實用案例
+      p.text-muted 不確定嗎？來看看別人怎麼用
+    .d-flex.justify-content-center.flex-wrap
+      each i in [1,2,3,4,5,6]
+        +act-card-sm.m-4
+
+  .landing.bg-dark.text-light
+    .row.w-75.m-auto.h-100
+      .col.vertical-center
+        div
+          h1 Battle Dash
+          p Your next hackathon proposal dashboard
+          br
+          .text-light.mb-4 近期推薦提案
+          each i in [1,2,3]
+            .mb-4
+              a.title.d-block.text-white(href="project/",style="text-decoration:none") 新聞大幫手 #[small.text-muted / 提案的簡單描述提案的簡單描述提案的簡單描述]
+              //-small.text-muted.mr-2 貢獻者
+              each j in [1,2,3,4,5]
+                .avatar.mr-2.md
+                //-small.mr-2.text-muted #[.avatar.em] Ronnywang
+
+      .col.vertical-center
+        .card.w-100: .card-body.text-dark
+          h3 我要提案 #[small.text-muted  / 我有個點子... ]
+          .form
+            .form-group
+              label 提案名稱
+              input.form-control
+            .form-group
+              label 三個關鍵字
+              input.form-control
+            .form-group
+              label 類別
+              select.form-control
+                option 開放資料
+                option 新媒體
+            br
+            .btn.btn-success 送出
+  br
+  .m-auto.p-4(style="width:1024px")
+    .row
+      .col
+        h3 關於獎助金
+        .card.bg-light(style="height:200px"): .card-body
+      .col
+        h3 最新消息
+        .card.bg-light(style="height:200px"): .card-body
+  +nbr(2)
+  .m-auto.p-4(style="width:1024px")
+    .form-inline.float-right(style="margin-top:0.5em")
+      .btn-group.mr-2
+        .btn.btn-outline-primary 獲獎提案
+        .btn.btn-outline-primary 決選入圍
+      .input-group
+        input.form-control
+        .input-group-append
+          .btn.btn-outline-dark Search
+    h1 進行中提案
+    hr
+  .project-list.m-auto.d-flex.flex-wrap(style="width:1024px")
+    each i in [1,2,3,4,5,6,7]
+      .card.flex-grow-1.mx-2.my-1.border-0(style="width:30%")
+        a.card-img-top.d-block.w-100(href="project/", style="background:#e6e7e8;height:200px")
+        .card-body.px-0
+          h5.card0title: a(href="project/") 提案名稱
+          p.card-text 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略...
+          each j in [1,2,3,4,5]
+            .avatar.lg.mr-2
+          +nbr(2)
+          p.card-text: small.text-muted last updated 3 mins ago
+
+      //-.card.m-2(style="flex:1 1 auto;width:48%")
+        .row.no-gutters
+          a.col-md-4(href="project/", style="background:#e6e7e8")
+          .col-md-8
+            .card-body
+              .float-right #[i.i-link.mr-2] #[i.i-heart]
+              h5.card-title: a(href="project/") 提案名稱
+              p.card-text 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略... 提案簡述以下一兩敗字略略略...
+              each j in [1,2,3,4,5]
+                .avatar.lg.mr-2
+              +nbr(2)
+              p.card-text: small.text-muted last updated 3 mins ago
+
+      //-.project.m-4(style="width:45%")
+         .d-inline-block.align-top.m-2(style="width:128px;height:128px;background:#eee;")
+         .d-inline-block.align-top.m-2
+           .title 提案名稱
+           hr
+           .desc 提案簡述
+           br
+           .btn.btn-primary.mr-2.btn-sm 關注
+           .btn.btn-primary.btn-sm 參與
+    .project.m-4.vertical-center.text-center(style="width:45%;height:205px")
+      .w-100
+        .text-center 想要看更多嗎？
+        .btn.btn-lg.btn-success.btn-block.mt-2(href="#") 更多提案由此去...
+  +nbr(3)
+  div.m-auto(style="width:1024px")
+    h1 提案注意事項
+    hr
+    p 以下三千字略
+  +nbr(4)
