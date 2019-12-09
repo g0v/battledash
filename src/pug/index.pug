@@ -13,14 +13,14 @@ block body
           h1.display-4.font-weight-bold Battle Dash
           p.semi-opaque.mb-4 獎助金 / 黑客松 / 競賽提案系統
           .btn.btn-outline-dark.mr-2 建立活動
-          .btn.btn-outline-dark 了解更多
+          .btn.btn-outline-dark(data-scrollto="#learn-more") 了解更多
       .col-md-6: .vertical-center: .w-100.text-center
         .text-light.mb-4 近期活動
         .d-flex.w-100.rwd.justify-content-center.text-dark.mb-4.pb-4
           +act-card-sm.m-2
           +act-card-sm.m-2
 
-  .w-100.pt-4(style="background:url(/assets/img/c/bg/valley.svg) center 300px no-repeat;background-size:cover")
+  #learn-more.w-100.pt-4(style="background:url(/assets/img/c/bg/valley.svg) center 300px no-repeat;background-size:cover")
     .text-center.mb-4.pb-4
       h2.font-weight-bold.mt-4 簡單地建立您的活動網站
       p.text-muted 不需費時的開發與高昂的費用，馬上就能開始接受報名與提案
@@ -65,5 +65,8 @@ block body
             label 活動簡介
             textarea.form-control(rows="5",placeholder="用 50 ~ 100 字介紹一下這個活動是在做什麼吧！")
           .form-group
-            a.btn.btn-success(href="/activity/create.html") 建立活動
+            a.btn.btn-success(href="/activity/dashboard.html") 建立活動
 
+block script
+  script: :lsc
+    smoothScroll!
