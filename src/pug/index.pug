@@ -1,5 +1,9 @@
 extends /base.pug
 block vars
+  - ctrl.navtop.shown = true
+  - ctrl.navtop.placeholder = false
+  - ctrl.navtop.navroot = true
+  - ctrl.navtop.className = "navbar-dark text-dark"
 block head
   +css("css/landing/index.css")
 block body

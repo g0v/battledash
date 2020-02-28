@@ -1,0 +1,27 @@
+doctype html
+include /../../static/assets/ldui/pug/ldui.pug
+- var vars = {root: ""}
+html
+  head
+    +css(`${vars.root}/assets/bootstrap/4.3.1/css/bootstrap.min.css`)
+    +css(`${vars.root}/assets/ldui/ldui.min.css`)
+  body
+    .paper.shadow.typeset.heading-contrast
+      .text-center
+        .m-4
+          h3.mb-0 2018 年
+          h2.mt-0 公民科技創新獎助金
+          h1 決選名單
+
+      hr
+      .text-center.mb-4 獲選專案
+      ul.text-left
+        li 智慧型植物辨識圖鑑 app - 大安森林公園花卉篇
+        li 台電30億敦親睦鄰金追追追(立委篇)
+        li 無家者小幫手Homeless
+        li ChhoeTaigi：台語文數位詞庫、辭典補完計畫
+        li 勞工守護神
+        li 台灣路更平
+      hr
+      span 評選委員簽名
+

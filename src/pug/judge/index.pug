@@ -1,0 +1,49 @@
+extends /base.pug
+block head
+  +css("https://cdn.jsdelivr.net/npm/handsontable@6.2.2/dist/handsontable.min.css")
+  style(type="text/css"): :stylus
+    .handsontable
+      font-size: 14px
+      td, th
+        vertical-align: middle
+        text-align: center
+block body
+  .p-4.h-100.w-100
+    .d-flex.flex-column.h-100.w-100
+      .d-flex.align-items-center.mb-2
+        h3.my-0.mr-4.flex-grow-1 評選表 / 王小明委員
+        .d-flex.align-items-center
+          .d-inline-block.mr-2: .progress(style="width:200px"): .progress-bar(style="width:50%")
+          .btn.btn-outline-primary 提交
+      .d-flex.flex-grow-1.w-100.h-100
+        .position-relative.border.bg-dark.h-100(style="flex:3 0 auto")
+          #example.w-100.h-100.position-absolute(style="overflow:scroll")
+        .ml-4.h-100(style="flex:1 0 auto")
+          .card.border.shadow.w-100.h-100: .card-body.p-0
+            iframe.border-0.w-100.h-100(src="https://battledash.dev/project/")
+   
+  block script
+    +script("https://cdn.jsdelivr.net/npm/handsontable@6.2.2/dist/handsontable.min.js")
+    script: :lsc
+      data = [
+         ['編號', '提案', '簡述', '分類', '影響力', '可重覆', '可行性', '完成度', '總分', '排名', '預審', '評論'],
+         ['2017', 10, 11, 12, 13],
+         ['2018', 20, 11, 14, 13],
+         ['2019', 30, 15, 12, 13]
+
+
+      ];
+      dom = ld$.find document, '#example', 0
+      hot = new Handsontable dom, {
+        data: data
+        rowHeaders: true
+        colHeaders: true
+        filters: true
+        dropdownMenu: true
+        stretchH: \all
+        rowHeights: 25
+        minRows: 50
+        minCols: 15
+        colWidths: 60
+      }
+

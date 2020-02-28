@@ -1,0 +1,47 @@
+extends /base.pug
+block head
+  +css("https://cdn.jsdelivr.net/npm/handsontable@6.2.2/dist/handsontable.min.css")
+  style(type="text/css"): :stylus
+    .handsontable
+      font-size: 14px
+      td, th
+        vertical-align: middle
+        text-align: center
+block body
+  .p-4.h-100.w-100
+    .d-flex.flex-column.h-100.w-100
+      .d-flex.align-items-center.mb-2
+        h3.my-0.mr-4.flex-grow-1 評選總表
+      .d-flex.flex-grow-1.w-100.h-100
+        .position-relative.border.bg-dark.h-100(style="flex:3 0 auto")
+          #example.w-100.h-100.position-absolute(style="overflow:scroll")
+        .ml-4.h-100(style="flex:1 0 auto")
+          .card.border.shadow.w-100.h-100: .card-body.p-0
+            iframe.border-0.w-100.h-100(src="https://battledash.dev/project/")
+   
+  block script
+    +script("https://cdn.jsdelivr.net/npm/handsontable@6.2.2/dist/handsontable.min.js")
+    script: :lsc
+      data = [
+         ['編號', '提案', '王小明', '', '黃小華', '', '張大千', '', '孔多塞', '決選', '優勝'],
+         ['', '', '分數', '排名',  '分數', '排名', '分數', '排名', '排名', '註記', '註記']
+         ['2017', 'middle2 開放 PaaS 平台', 11, 12, 13, 11, 12, 13, 11, '', ''],
+         ['2018', '實習透視鏡', 11, 14, 13, 11, 14, 13, 11, 'O', 'O'],
+         ['2019', '線上讀書會', 15, 12, 13, 15, 12, 13, 15, 'O', '']
+
+
+      ];
+      dom = ld$.find document, '#example', 0
+      hot = new Handsontable dom, {
+        data: data
+        rowHeaders: true
+        colHeaders: true
+        filters: true
+        dropdownMenu: true
+        stretchH: \all
+        rowHeights: 25
+        minRows: 50
+        minCols: 15
+        colWidths: 60
+      }
+
