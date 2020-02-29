@@ -1,0 +1,56 @@
+extends /base.pug
+block vars
+  - ctrl.navtop.placeholder = true;
+  - ctrl.navtop.shown = true;
+  - ctrl.navtop.className = "navbar-light bg-semi-light";
+  style.
+    body { font-size: 18px }
+    p { opacity: 0.75 }
+block body
+  include ../activity/mixin.pug
+  .w-1024.mx-auto.rwd.typeset.heading-contrast
+    .navbar.navbar-expand-lg.navbar-light.mb-4.border.shadow-sm.rounded
+      a.navbar-brand(href="#") 零時政府揪松團
+      button.navbar-toggler(data-toggle="colapse",data-target="#main-menu"): span.navbar-toggler-icon
+      .collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item: a.nav-link(href="#") 基本資訊
+          li.nav-item: a.nav-link(href="#") 設定
+          li.nav-item: a.nav-link(href="#") 權限
+          li.nav-item: a.nav-link(href="#") 主頁設計
+    mixin field(name)
+      .row.form-group
+        .col-md-3: .vertical-center: .w-100
+          label.mb-0 #{name}
+        .col-md-9: .vertical-center: .w-100
+          block
+
+
+    .card.w-100.mb-4: .card-body
+      .form
+        +field("組織名稱")
+          input.form-control(placeholder="組織名稱")
+        +field("簡介")
+          textarea.form-control(rows="4")
+        +field("網址")
+          input.form-control
+
+    .card.w-100.mb-4: .card-body
+      h3 權限設定
+      p 權限設定讓您指派特定用戶來協助您管理維護您的組織、活動與用戶提案。我們已經預建了數種不同的角色，您可以依需求指派用戶到這些角色之中。
+      //-.d-flex.align-items-center
+        .mr-2(style="width:48px"): .aspect-ratio.ratio-1by1.bg-dark.rounded
+        .font-weight-bold.flex-grow-1 Kirby Wu
+        .dropdown
+          .btn.btn-outline-secondary 管理員
+          .dropdown-menu
+      br
+      .d-flex.flex-wrap.justify-content-between
+        each i in [1,2,3,4,5]
+          .d-flex.align-items-center.mr-4.mb-4.pr-4
+            .mr-2(style="width:64px"): .aspect-ratio.ratio-1by1.bg-dark.rounded
+            div
+              b Kirby Wu
+              .text-muted.dropdown-toggle 管理員
+      .btn.btn-outline-primary 新增 .. 
+

@@ -1,0 +1,11 @@
+//- pug
+mixin person(name,title,id,shownick)
+  .media.mb-4.pb-4
+    img.mr-4.rounded(src=`/assets/img/dev/avatar/${id}.jpg`,style="width:96px")
+    .media-body.pt-2
+      h4
+        | #{name}
+        if shownick
+          span.text-sm.text-muted.ml-2 / #{id}
+        span.text-sm.text-muted.ml-2 / #{title}
+      block

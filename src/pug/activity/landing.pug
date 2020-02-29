@@ -205,17 +205,6 @@ block body
 
     .w-100.bg-light.text-dark.py-4
       .w-1024.rwd.mx-auto.py-4
-        mixin person(name,title,id,shownick)
-          .media.mb-4.pb-4
-            img.mr-4.rounded(src=`/assets/img/dev/avatar/${id}.jpg`,style="width:96px")
-            .media-body.pt-2
-              h4
-                | #{name}
-                if shownick
-                  span.text-sm.text-muted.ml-2 / #{id}
-                span.text-sm.text-muted.ml-2 / #{title}
-              block
-
         h2 評選委員
         +nbr(2)
         +person("王向榮","李慕約公司共同創辦人","ronnywang")

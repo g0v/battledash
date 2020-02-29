@@ -61,30 +61,78 @@ block body
         .text-center
           br
           .list-group.mb-4
-            .list-group-item 編輯主頁
+            .list-group-item(href="/org/") 所屬組織
+            .list-group-item(href="/activity/") 活動主頁
             .list-group-item 資訊分析
-            .list-group-item 活動設定
 
     .p-4.flex-grow-1
-      .card.mb-4.shadow-sm: .card-body: .p-4
-        .d-flex
-          .form-group.mr-2
-            label 發布狀態
-            .btn-group.d-block
-              .btn.btn-outline-secondary 開啟
-              .btn.btn-outline-secondary 關閉
-          .form-group.mr-2
-            label 提案功能
-            .btn-group.d-block
-              .btn.btn-outline-secondary 開啟
-              .btn.btn-outline-secondary 關閉
-          .form-group
-            label 評論功能
-            .btn-group.d-block
-              .btn.btn-outline-secondary 開啟
-              .btn.btn-outline-secondary 關閉
 
-      +scope("board-create").card.shadow-sm: .card-body: .p-4
+      .navbar.navbar-expand-lg.navbar-light.mb-4.border.shadow-sm.rounded.sticky.z-fixed.bg-white
+        a.navbar-brand(href="#") 活動頁面
+        button.navbar-toggler(data-toggle="colapse",data-target="#main-menu"): span.navbar-toggler-icon
+        .collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item: a.nav-link(href="#") 基本資訊
+            li.nav-item: a.nav-link(href="#") 設定
+            li.nav-item: a.nav-link(href="#") 權限
+            li.nav-item: a.nav-link(href="#") 主頁設計
+            li.nav-item: a.nav-link(href="#") 統計分析
+          ul.navbar-nav.ml-auto
+            li.nav-item: a.nav-link(href="/org/dashboard.html") 組織設定
+
+
+      .card.mb-4.shadow-sm: .card-body: .p-4
+        ul.nav.nav-tabs.mb-4
+          li.nav-item: a.nav-link.active 預設
+          li.nav-item: a.nav-link 提案期
+          li.nav-item: a.nav-link 審查期
+          li.nav-item: a.nav-link 決選發表
+          li.nav-item: a.nav-link.text-muted 新增 #[i.i-plus]
+        .row.mb-4.pb-4
+          .col-md
+            label 起始時段
+            .d-flex
+              input.form-control.mr-2(type="date")
+              input.form-control(type="time")
+          .col-md
+            label 結束時段
+            .d-flex
+              input.form-control.mr-2(type="date")
+              input.form-control(type="time")
+
+        .d-flex
+          .form-group.mr-2.flex-grow-1
+            label 活動公開
+            .btn-group.d-block.d-flex
+              .btn.btn-outline-secondary ON
+              .btn.btn-outline-secondary OFF
+          .form-group.mr-2.flex-grow-1
+            label 提案功能
+            .btn-group.d-block.d-flex
+              .btn.btn-outline-secondary ON
+              .btn.btn-outline-secondary OFF
+          .form-group.mr-2.flex-grow-1
+            label 評論功能
+            .btn-group.d-block.d-flex
+              .btn.btn-outline-secondary ON
+              .btn.btn-outline-secondary OFF
+          .form-group.mr-2.flex-grow-1
+            label 修改提案
+            .btn-group.d-block.d-flex
+              .btn.btn-outline-secondary ON
+              .btn.btn-outline-secondary OFF
+          .form-group.mr-2.flex-grow-1
+            label 修改評論
+            .btn-group.d-block.d-flex
+              .btn.btn-outline-secondary ON
+              .btn.btn-outline-secondary OFF
+          .form-group.mr-2.flex-grow-1
+            label 評審功能
+            .btn-group.d-block.d-flex
+              .btn.btn-outline-secondary ON
+              .btn.btn-outline-secondary OFF
+
+      +scope("board-create").card.shadow-sm.mb-4: .card-body: .p-4
         h2 編輯活動
         hr.my-4
         +edit-entry({title: "活動名稱"}): +edit-text({name: "title"})
@@ -98,6 +146,47 @@ block body
         +edit-entry({title: "活動縮圖 ( 200 x 200 px )"}): +edit-image({name:"avatar"})
         hr.my-4
         .btn.btn-primary.disabled(ld="submit") 更新資料
+
+
+      .card.w-100.mb-4: .card-body
+        h3 權限設定
+        p 權限設定讓您指派特定用戶來協助您管理維護您的組織、活動與用戶提案。我們已經預建了數種不同的角色，您可以依需求指派用戶到這些角色之中。
+        //-.d-flex.align-items-center
+          .mr-2(style="width:48px"): .aspect-ratio.ratio-1by1.bg-dark.rounded
+          .font-weight-bold.flex-grow-1 Kirby Wu
+          .dropdown
+            .btn.btn-outline-secondary 管理員
+            .dropdown-menu
+        br
+        .d-flex.flex-wrap.justify-content-between
+          each i in [1,2,3,4,5]
+            .d-flex.align-items-center.mr-4.mb-4.pr-4
+              .mr-2(style="width:64px"): .aspect-ratio.ratio-1by1.bg-dark.rounded
+              div
+                b Kirby Wu
+                .text-muted.dropdown-toggle 管理員
+        .btn.btn-outline-primary 新增 .. 
+        +nbr(2)
+        .typeset
+          h4 管理員
+          hr.my-2
+          p 擁有管理此活動的所有權限，包含設定權限、更改任何設定等。
+          h4 工作人員
+          hr.my-2
+          p 可以設定活動資訊，審核留言與提案。
+          h4 協作
+          hr.my-2
+          p 留言會被特別標註。
+          h4 黑名單
+          hr.my-2
+          p 帳號鎖定，無法留言、提案或任何其它互動。
+      .card.w-100.mb-4: .card-body
+        .d-flex.w-50.ml-auto
+          input.form-control.mr-2(type="date")
+          input.form-control(type="date")
+        img(src="/assets/img/c/chart/line.svg")
+
+
 block script
   +script("/js/edit.js")
   +script("/js/modules/board/index.js")
