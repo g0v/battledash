@@ -47,7 +47,7 @@
     "ldColor": "git+https://github.com/loadingio/ldColor.git",
     "lderror": "github:loadingio/ldError",
     "marked": "^0.7.0",
-    "moment": "=2.19.3",
+    "moment": "=2.29.2",
     "moment-timezone": "=0.5.13",
     "nodemailer": "^6.3.0",
     "nodemailer-mailgun-transport": "^1.4.0",
