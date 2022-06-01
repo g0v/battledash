@@ -64,7 +64,7 @@
     "request": "^2.88.0",
     "require-reload": "=0.2.2",
     "shaderlib": "github:zbryikt/shaderlib",
-    "sharp": "^0.23.0",
+    "sharp": "^0.30.5",
     "stylus": "=0.54.5",
     "svgo": "^1.2.0",
     "uglify-js": "=3.2.0",
